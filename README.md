@@ -1,3 +1,3 @@
-# https-india-banking
+# httpswatch
 
-Track reports related to bad HTTPS configuration on Indian banking sites.
+Track usage and HTTPS configuration of websites that are expected to be secure.
