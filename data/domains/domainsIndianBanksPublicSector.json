@@ -1,0 +1,1838 @@
+{
+  "industry": "Indian Banks (Public sector)",
+  "organizations": [
+    {
+      "organization": "Allahabad Bank",
+      "hosts": [
+        {
+          "host": "www.allahabadbank.in",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "allahabadbank.in",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "alhluck01.allahabadbank.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "alhluck02.allahabadbank.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "alhluckgw.allahabadbank.in",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "alhmum01.allahabadbank.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "alhmum02.allahabadbank.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "alhmum03.allahabadbank.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "alhmumgw01.allahabadbank.in",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "alhmumgw02.allahabadbank.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "www.allmobile.allahabadbank.in",
+          "hostPurpose": "Mobile Banking",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "allmobile.allahabadbank.in",
+          "hostPurpose": "Mobile Banking"
+        },
+        {
+          "host": "allmobileuat.allahabadbank.in",
+          "hostPurpose": "[Testing] Mobile Banking",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "www.cpps.allahabadbank.in",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "econnect.allahabadbank.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "ibuat.allahabadbank.in",
+          "hostPurpose": "[Testing] Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "recruitment.allahabadbank.in",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "www.allbankcare.in",
+          "hostPurpose": "Portal",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "allbankcare.in",
+          "hostPurpose": "Portal"
+        },
+        {
+          "host": "www.allbankkbs.in",
+          "hostPurpose": "Kiosk Banking",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "allbankkbs.in",
+          "hostPurpose": "Kiosk Banking"
+        },
+        {
+          "host": "www.allbankonline.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "www.allbankonline.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)"
+        }
+      ]
+    },
+    {
+      "organization": "Andhra Bank",
+      "hosts": [
+        {
+          "host": "www.andhrabank.in",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "andhrabank.in",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "customer.andhrabank.in",
+          "hostPurpose": "Loans",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "e-gyan.andhrabank.in",
+          "hostPurpose": "E-learning",
+          "httpsBehavior": "HTTP and HTTPS. No redirect. Different content"
+        },
+        {
+          "host": "ibuat.andhrabank.in",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "onlinecreditcards.andhrabank.in",
+          "hostPurpose": "Credit Cards",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "onlineprepaidcards.andhrabank.in",
+          "hostPurpose": "Prepaid Cards",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "prepaidcards.andhrabank.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "www.onlineandhrabank.net.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "onlineandhrabank.net.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)"
+        },
+        {
+          "host": "www.safet.onlineandhrabank.net.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "safet.onlineandhrabank.net.in"
+        }
+      ]
+    },
+    {
+      "organization": "Bank of Baroda",
+      "hosts": [
+        {
+          "host": "www.bankofbaroda.co.in",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP and HTTPS. No redirect"
+        },
+        {
+          "host": "bankofbaroda.co.in",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "barodaeacademy.bankofbaroda.co.in",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "barodanetacademy.bankofbaroda.co.in",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "im.bankofbaroda.co.in",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "www.intranet.bankofbaroda.co.in",
+          "hostPurpose": "Intranet"
+        },
+        {
+          "host": "intranet.bankofbaroda.co.in",
+          "hostPurpose": "Intranet",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "www.lendquick.bankofbaroda.co.in",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "mail.bankofbaroda.co.in",
+          "hostPurpose": "Webmail",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "mx2.bankofbaroda.co.in",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "www.bobibanking.com",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "bobibanking.com",
+          "hostPurpose": "Internet Banking (Personal + Corporate)"
+        },
+        {
+          "host": "www.intl.bobibanking.com",
+          "hostPurpose": "Internet Banking (NRI)"
+        },
+        {
+          "host": "intl.bobibanking.com",
+          "hostPurpose": "Internet Banking (NRI)",
+          "httpsBehavior": "HTTP and HTTPS. No redirect"
+        }
+      ]
+    },
+    {
+      "organization": "Bank of India",
+      "hosts": [
+        {
+          "host": "www.bankofindia.co.in",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "bankofindia.co.in",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "cas.bankofindia.co.in",
+          "hostPurpose": "Webmail",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "hrms.bankofindia.co.in",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "m.bankofindia.co.in",
+          "hostPurpose": "Mobile Banking",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "mxserv.bankofindia.co.in",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "mxserv3.bankofindia.co.in",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "starcms.bankofindia.co.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "www.bankofindia.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "bankofindia.com",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "boieazypay.bankofindia.com",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "cas.bankofindia.com",
+          "hostPurpose": "Webmail",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "dealersapplication.bankofindia.com",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "istarconnect.bankofindia.com",
+          "hostPurpose": "Home page - New Zealand",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "mobile.bankofindia.com",
+          "hostPurpose": "Mobile Banking",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "mxserv.bankofindia.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "mxserv2.bankofindia.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "ng.st.bankofindia.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "ola.bankofindia.com",
+          "hostPurpose": "Loans",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "staralumni.bankofindia.com",
+          "httpsBehavior": "HTTP and HTTPS. No redirect. HTTPS serving different content"
+        },
+        {
+          "host": "starconnectcbs.bankofindia.com",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "starvpn.bankofindia.com:9443",
+          "httpsBehavior": "HTTP and HTTPS. No redirect. HTTPS serving different content"
+        }
+      ]
+    },
+    {
+      "organization": "Bank of Maharashtra",
+      "hosts": [
+        {
+          "host": "www.bankofmaharashtra.in",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "bankofmaharashtra.in",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "mahakiosk.bankofmaharashtra.in",
+          "hostPurpose": "Kiosk",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "solutions.bankofmaharashtra.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "www.mahaconnect.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "mahaconnect.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)"
+        },
+        {
+          "host": "mail.mahaconnect.in",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        }
+      ]
+    },
+    {
+      "organization": "Bharatiya Mahila Bank",
+      "hosts": [
+        {
+          "host": "www.bmb.co.in",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP only",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/7"
+        },
+        {
+          "host": "bmb.co.in",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "bmbmail.bmb.co.in",
+          "hostPurpose": "Webmail",
+          "httpsBehavior": "HTTP and HTTPS. No redirect. HTTPS serving different content"
+        },
+        {
+          "host": "mail.bmb.co.in",
+          "httpsBehavior": "HTTP and HTTPS. No redirect"
+        },
+        {
+          "host": "webmail.bmb.co.in",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "www.bmbsmartbanking.co.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)"
+        },
+        {
+          "host": "bmbsmartbanking.co.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTPS only",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/1"
+        }
+      ]
+    },
+    {
+      "organization": "Canara Bank",
+      "hosts": [
+        {
+          "host": "www.canarabank.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "canarabank.com",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "hrms.canarabank.com",
+          "httpsBehavior": "HTTP and HTTPS. No redirect. HTTPS serving different content"
+        },
+        {
+          "host": "www.canarabankcsis.in"
+        },
+        {
+          "host": "canarabankcsis.in",
+          "httpsBehavior": "HTTP and HTTPS. No redirect"
+        },
+        {
+          "host": "www.canarabank.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "canarabank.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)"
+        },
+        {
+          "host": "canepaycustoms.canarabank.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "canepaydirecttax.canarabank.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "epayment.canarabank.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "fikiosk.canarabank.in",
+          "hostPurpose": "Kiosk",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "mobile.canarabank.in",
+          "hostPurpose": "Mobile Banking",
+          "httpsBehavior": "HTTP and HTTPS. No redirect. HTTPS serving different content"
+        },
+        {
+          "host": "netbanking.canarabank.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "remitmoney.canarabank.in",
+          "httpsBehavior": "HTTPS only"
+        }
+      ]
+    },
+    {
+      "organization": "Central Bank of India",
+      "hosts": [
+        {
+          "host": "www.centralbankofindia.co.in",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/9"
+        },
+        {
+          "host": "centralbankofindia.co.in",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "ccard.centralbankofindia.co.in",
+          "hostPurpose": "Credit Cards",
+          "httpsBehavior": "HTTPS only",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/12"
+        },
+        {
+          "host": "credit.centralbankofindia.co.in",
+          "hostPurpose": "Loans",
+          "httpsBehavior": "HTTPS only",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/11"
+        },
+        {
+          "host": "www.centralbank.net.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/8"
+        },
+        {
+          "host": "centralbank.net.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": ""
+        },
+        {
+          "host": "cms.centralbank.org.in",
+          "httpsBehavior": "HTTPS only",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/10"
+        }
+      ]
+    },
+    {
+      "organization": "Corporation Bank",
+      "hosts": [
+        {
+          "host": "www.corpbank.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "corpbank.com",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "corp2.corpbank.com",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "m.corpbank.com",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "www.corpbank.biz",
+          "hostPurpose": "Internet Banking (Corporate)",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "corpbank.biz",
+          "hostPurpose": "Internet Banking (Corporate)"
+        },
+        {
+          "host": "www.corpretail.com",
+          "hostPurpose": "Internet Banking (Personal)",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "corpretail.com",
+          "hostPurpose": "Internet Banking (Personal)"
+        }
+      ]
+    },
+    {
+      "organization": "Dena Bank",
+      "hosts": [
+        {
+          "host": "www.denabank.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "denabank.com",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "www.denaiconnect.co.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "denaiconnect.co.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)"
+        },
+        {
+          "host": "webmail.denabank.co.in"
+        },
+        {
+          "host": "denabank.co.in"
+        },
+        {
+          "host": "webserver1.denabank.co.in"
+        },
+        {
+          "host": "webserver1.denabank.co.in:4545"
+        },
+        {
+          "host": "webserver1.denabank.co.in:2015"
+        },
+        {
+          "host": "webserver2.denabank.co.in:6565"
+        },
+        {
+          "host": "webserver1.denabank.co.in:8686"
+        },
+        {
+          "host": "webserver1.denabank.co.in:3366"
+        },
+        {
+          "host": "webserver1.denabank.co.in:3367"
+        },
+        {
+          "host": "webserver1.denabank.co.in:6565"
+        },
+        {
+          "host": "smtp1.denabank.co.in"
+        },
+        {
+          "host": "smtp2.denabank.co.in"
+        },
+        {
+          "host": "smtp3.denabank.co.in"
+        },
+        {
+          "host": "bis.denabank.co.in"
+        },
+        {
+          "host": "vc.denabank.co.in"
+        },
+        {
+          "host": "vcse.vc.denabank.co.in"
+        },
+        {
+          "host": "www.denabank.co.in"
+        }
+      ]
+    },
+    {
+      "organization": "IDBI Bank",
+      "hosts": [
+        {
+          "host": "www.idbi.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "idbi.com",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "mail.idbi.com"
+        },
+        {
+          "host": "talk2us.idbi.com"
+        },
+        {
+          "host": "corp.idbibank.co.in",
+          "hostPurpose": "Internet Banking (Corporate)",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "etax.idbibank.co.in"
+        },
+        {
+          "host": "fikiosk.idbibank.co.in"
+        },
+        {
+          "host": "icash.idbibank.co.in"
+        },
+        {
+          "host": "inet.idbibank.co.in",
+          "hostPurpose": "Internet Banking (Personal)",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "m.idbibank.co.in"
+        },
+        {
+          "host": "mailgw1.idbibank.co.in"
+        },
+        {
+          "host": "mailgw2.idbibank.co.in"
+        },
+        {
+          "host": "mremit.idbibank.co.in"
+        },
+        {
+          "host": "samriddhigsec.idbibank.co.in"
+        },
+        {
+          "host": "share.idbibank.co.in"
+        },
+        {
+          "host": "webmail.idbibank.co.in"
+        },
+        {
+          "host": "www.idbibank.com"
+        },
+        {
+          "host": "idbibank.com"
+        },
+        {
+          "host": "email1.idbibank.com"
+        },
+        {
+          "host": "email2.idbibank.com"
+        },
+        {
+          "host": "email3.idbibank.com"
+        },
+        {
+          "host": "email4.idbibank.com"
+        },
+        {
+          "host": "email5.idbibank.com"
+        },
+        {
+          "host": "email6.idbibank.com"
+        },
+        {
+          "host": "email7.idbibank.com"
+        },
+        {
+          "host": "email8.idbibank.com"
+        },
+        {
+          "host": "email9.idbibank.com"
+        },
+        {
+          "host": "ftp.idbibank.com"
+        },
+        {
+          "host": "idbibank.com:8443"
+        },
+        {
+          "host": "m.idbibank.com"
+        },
+        {
+          "host": "mailgw1.idbibank.com"
+        },
+        {
+          "host": "mailgw2.idbibank.com"
+        },
+        {
+          "host": "secureonline.idbibank.com"
+        },
+        {
+          "host": "smtp1.idbibank.com"
+        },
+        {
+          "host": "smtp2.idbibank.com"
+        },
+        {
+          "host": "smtp3.idbibank.com"
+        },
+        {
+          "host": "smtp4.idbibank.com"
+        },
+        {
+          "host": "smtp5.idbibank.com"
+        },
+        {
+          "host": "smtp6.idbibank.com"
+        },
+        {
+          "host": "smtp7.idbibank.com"
+        },
+        {
+          "host": "smtp8.idbibank.com"
+        },
+        {
+          "host": "www.idbi.co.in"
+        },
+        {
+          "host": "idbi.co.in"
+        },
+        {
+          "host": "drsmtp1.idbi.co.in"
+        },
+        {
+          "host": "drsmtp2.idbi.co.in"
+        },
+        {
+          "host": "drwebmail.idbi.co.in"
+        },
+        {
+          "host": "emailgw1.idbi.co.in"
+        },
+        {
+          "host": "emailgw2.idbi.co.in"
+        },
+        {
+          "host": "mailgw1.idbi.co.in"
+        },
+        {
+          "host": "mailgw2.idbi.co.in"
+        },
+        {
+          "host": "mailgw3.idbi.co.in"
+        },
+        {
+          "host": "mailgw4.idbi.co.in"
+        },
+        {
+          "host": "mailgw5.idbi.co.in"
+        },
+        {
+          "host": "mailgw6.idbi.co.in"
+        },
+        {
+          "host": "mailgw7.idbi.co.in"
+        },
+        {
+          "host": "mailgw8.idbi.co.in"
+        },
+        {
+          "host": "mailgw9.idbi.co.in"
+        },
+        {
+          "host": "mailgwout.idbi.co.in"
+        },
+        {
+          "host": "www.portal.esa.idbi.co.in"
+        },
+        {
+          "host": "portal.esa.idbi.co.in"
+        },
+        {
+          "host": "smtp1.idbi.co.in"
+        },
+        {
+          "host": "smtp2.idbi.co.in"
+        },
+        {
+          "host": "smtp3.idbi.co.in"
+        },
+        {
+          "host": "smtp4.idbi.co.in"
+        },
+        {
+          "host": "smtp5.idbi.co.in"
+        },
+        {
+          "host": "smtp6.idbi.co.in"
+        },
+        {
+          "host": "smtp7.idbi.co.in"
+        },
+        {
+          "host": "smtp8.idbi.co.in"
+        },
+        {
+          "host": "webmail.idbi.co.in"
+        },
+        {
+          "host": "www.idbiintech.com"
+        },
+        {
+          "host": "idbiintech.com"
+        },
+        {
+          "host": "drsmtp1.idbiintech.com"
+        },
+        {
+          "host": "drsmtp2.idbiintech.com"
+        },
+        {
+          "host": "drwebmail.idbiintech.com"
+        },
+        {
+          "host": "ftp.idbiintech.com"
+        },
+        {
+          "host": "mailgw1.idbiintech.com"
+        },
+        {
+          "host": "mailgw2.idbiintech.com"
+        },
+        {
+          "host": "webmail.idbiintech.com"
+        }
+      ]
+    },
+    {
+      "organization": "Indian Bank",
+      "hosts": [
+        {
+          "host": "www.indian-bank.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "indian-bank.com",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "www.indianbank.net.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "indianbank.net.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)"
+        }
+      ]
+    },
+    {
+      "organization": "Indian Overseas Bank",
+      "hosts": [
+        {
+          "host": "www.iob.in",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "iob.in",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "webmail.iob.in"
+        },
+        {
+          "host": "webmail1.iob.in"
+        },
+        {
+          "host": "webmail2.iob.in"
+        },
+        {
+          "host": "webmail3.iob.in"
+        },
+        {
+          "host": "www.iobnet.co.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "iobrelay.iobnet.co.in"
+        },
+        {
+          "host": "mailiob2.iobnet.co.in"
+        },
+        {
+          "host": "mailiob3.iobnet.co.in"
+        },
+        {
+          "host": "mailiob4.iobnet.co.in"
+        },
+        {
+          "host": "mailiob5.iobnet.co.in"
+        }
+      ]
+    },
+    {
+      "organization": "Oriental Bank of Commerce",
+      "hosts": [
+        {
+          "host": "www.obcindia.co.in",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "obcindia.co.in",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "mail.obcindia.co.in"
+        },
+        {
+          "host": "www.demo.obcindia.co.in"
+        },
+        {
+          "host": "demo.obcindia.co.in"
+        },
+        {
+          "host": "www.elearning.obcindia.co.in"
+        },
+        {
+          "host": "elearning.obcindia.co.in"
+        },
+        {
+          "host": "www.obconline.co.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTP and HTTPS. No redirect"
+        },
+        {
+          "host": "obconline.co.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)"
+        }
+      ]
+    },
+    {
+      "organization": "Punjab & Sind Bank",
+      "hosts": [
+        {
+          "host": "www.psbindia.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "psbindia.com",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "www.psbonline.co.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "psbonline.co.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)"
+        }
+      ]
+    },
+    {
+      "organization": "Punjab National Bank",
+      "hosts": [
+        {
+          "host": "www.pnbindia.in",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/2"
+        },
+        {
+          "host": "pnbindia.in",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "internetbanking.netpnb.com",
+          "hostPurpose": "Internet Banking (Corporate)",
+          "httpsBehavior": "HTTP and HTTPS. No redirect",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/3"
+        },
+        {
+          "host": "netbanking.netpnb.com",
+          "hostPurpose": "Internet Banking (Personal)",
+          "httpsBehavior": "HTTPS only",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/4"
+        },
+        {
+          "host": "mobile.netpnb.com",
+          "hostPurpose": "Mobile Banking",
+          "httpsBehavior": "HTTPS only",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/5"
+        },
+        {
+          "host": "gateway.netpnb.com",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "www.netpnb.com",
+          "hostPurpose": "Internet banking home page",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/6"
+        },
+        {
+          "host": "netpnb.com",
+          "hostPurpose": "Internet banking home page"
+        }
+      ]
+    },
+    {
+      "organization": "State Bank of Bikaner & Jaipur",
+      "hosts": [
+        {
+          "host": "www.sbbjbank.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "sbbjbank.com",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "www.sbbjonline.com"
+        },
+        {
+          "host": "sbbjonline.com"
+        },
+        {
+          "host": "corp.sbbjonline.com",
+          "hostPurpose": "Internet Banking (Corporate)",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "merchant.sbbjonline.com"
+        },
+        {
+          "host": "oaa.sbbjonline.com"
+        },
+        {
+          "host": "retail.sbbjonline.com",
+          "hostPurpose": "Internet Banking (Personal)",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        }
+      ]
+    },
+    {
+      "organization": "State Bank of Hyderabad",
+      "hosts": [
+        {
+          "host": "www.sbhyd.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "sbhyd.com",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "mail.sbhyd.com"
+        },
+        {
+          "host": "www.onlinesbh.com"
+        },
+        {
+          "host": "onlinesbh.com"
+        },
+        {
+          "host": "corp.onlinesbh.com",
+          "hostPurpose": "Internet Banking (Corporate)",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "merchant.onlinesbh.com"
+        },
+        {
+          "host": "oaa.onlinesbh.com"
+        },
+        {
+          "host": "retail.onlinesbh.com",
+          "hostPurpose": "Internet Banking (Personal)",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        }
+      ]
+    },
+    {
+      "organization": "State Bank of India",
+      "hosts": [
+        {
+          "host": "www.sbi.co.in",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "sbi.co.in",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "aspirations.sbi.co.in"
+        },
+        {
+          "host": "auto.sbi.co.in"
+        },
+        {
+          "host": "cchyd.sbi.co.in"
+        },
+        {
+          "host": "demat.sbi.co.in"
+        },
+        {
+          "host": "dir.sbi.co.in"
+        },
+        {
+          "host": "www.dwp.sbi.co.in"
+        },
+        {
+          "host": "dwp.sbi.co.in"
+        },
+        {
+          "host": "ems.sbi.co.in"
+        },
+        {
+          "host": "ems1.sbi.co.in"
+        },
+        {
+          "host": "ems10.sbi.co.in"
+        },
+        {
+          "host": "ems11.sbi.co.in"
+        },
+        {
+          "host": "ems12.sbi.co.in"
+        },
+        {
+          "host": "ems13.sbi.co.in"
+        },
+        {
+          "host": "ems14.sbi.co.in"
+        },
+        {
+          "host": "ems15.sbi.co.in"
+        },
+        {
+          "host": "ems16.sbi.co.in"
+        },
+        {
+          "host": "ems17.sbi.co.in"
+        },
+        {
+          "host": "ems18.sbi.co.in"
+        },
+        {
+          "host": "ems19.sbi.co.in"
+        },
+        {
+          "host": "ems2.sbi.co.in"
+        },
+        {
+          "host": "ems20.sbi.co.in"
+        },
+        {
+          "host": "ems21.sbi.co.in"
+        },
+        {
+          "host": "ems22.sbi.co.in"
+        },
+        {
+          "host": "ems23.sbi.co.in"
+        },
+        {
+          "host": "ems24.sbi.co.in"
+        },
+        {
+          "host": "ems25.sbi.co.in"
+        },
+        {
+          "host": "ems26.sbi.co.in"
+        },
+        {
+          "host": "ems27.sbi.co.in"
+        },
+        {
+          "host": "ems28.sbi.co.in"
+        },
+        {
+          "host": "ems29.sbi.co.in"
+        },
+        {
+          "host": "ems3.sbi.co.in"
+        },
+        {
+          "host": "ems30.sbi.co.in"
+        },
+        {
+          "host": "ems31.sbi.co.in"
+        },
+        {
+          "host": "ems32.sbi.co.in"
+        },
+        {
+          "host": "ems4.sbi.co.in"
+        },
+        {
+          "host": "ems5.sbi.co.in"
+        },
+        {
+          "host": "ems6.sbi.co.in"
+        },
+        {
+          "host": "ems7.sbi.co.in"
+        },
+        {
+          "host": "ems8.sbi.co.in"
+        },
+        {
+          "host": "ems9.sbi.co.in"
+        },
+        {
+          "host": "emsc.sbi.co.in"
+        },
+        {
+          "host": "emsm.sbi.co.in"
+        },
+        {
+          "host": "hrsaksham.sbi.co.in"
+        },
+        {
+          "host": "im.sbi.co.in"
+        },
+        {
+          "host": "imap.sbi.co.in"
+        },
+        {
+          "host": "mab.sbi.co.in"
+        },
+        {
+          "host": "mail.sbi.co.in"
+        },
+        {
+          "host": "mobile1.sbi.co.in"
+        },
+        {
+          "host": "mobile2.sbi.co.in"
+        },
+        {
+          "host": "mobile3.sbi.co.in"
+        },
+        {
+          "host": "mobile4.sbi.co.in"
+        },
+        {
+          "host": "msb.sbi.co.in"
+        },
+        {
+          "host": "mx1.sbi.co.in"
+        },
+        {
+          "host": "mx10.sbi.co.in"
+        },
+        {
+          "host": "mx11.sbi.co.in"
+        },
+        {
+          "host": "mx12.sbi.co.in"
+        },
+        {
+          "host": "mx2.sbi.co.in"
+        },
+        {
+          "host": "mx3.sbi.co.in"
+        },
+        {
+          "host": "mx4.sbi.co.in"
+        },
+        {
+          "host": "mx5.sbi.co.in"
+        },
+        {
+          "host": "mx6.sbi.co.in"
+        },
+        {
+          "host": "mx7.sbi.co.in"
+        },
+        {
+          "host": "mx8.sbi.co.in"
+        },
+        {
+          "host": "mx9.sbi.co.in"
+        },
+        {
+          "host": "mybanklearning.sbi.co.in"
+        },
+        {
+          "host": "ndcblk01.sbi.co.in"
+        },
+        {
+          "host": "ndcsot01.sbi.co.in"
+        },
+        {
+          "host": "ndmsot01.sbi.co.in"
+        },
+        {
+          "host": "ns2.lp.sbi.co.in"
+        },
+        {
+          "host": "www.onlineapply.sbi.co.in"
+        },
+        {
+          "host": "onlineapply.sbi.co.in"
+        },
+        {
+          "host": "pass.sbi.co.in"
+        },
+        {
+          "host": "pop.sbi.co.in"
+        },
+        {
+          "host": "qckc1.sbi.co.in"
+        },
+        {
+          "host": "qckc2.sbi.co.in"
+        },
+        {
+          "host": "qckm1.sbi.co.in"
+        },
+        {
+          "host": "qckm2.sbi.co.in"
+        },
+        {
+          "host": "sbiapp.sbi.co.in"
+        },
+        {
+          "host": "sbiforsme.sbi.co.in"
+        },
+        {
+          "host": "sms2.sbi.co.in"
+        },
+        {
+          "host": "smtp.sbi.co.in"
+        },
+        {
+          "host": "social.sbi.co.in"
+        },
+        {
+          "host": "stmclu01.sbi.co.in"
+        },
+        {
+          "host": "vijaypath.sbi.co.in"
+        },
+        {
+          "host": "www.statebank.com"
+        },
+        {
+          "host": "statebank.com"
+        },
+        {
+          "host": "ems1.statebank.com"
+        },
+        {
+          "host": "mail.statebank.com"
+        },
+        {
+          "host": "ns2.lp.statebank.com"
+        },
+        {
+          "host": "www.onlinesbi.com"
+        },
+        {
+          "host": "onlinesbi.com"
+        },
+        {
+          "host": "acs.onlinesbi.com"
+        },
+        {
+          "host": "cmp.onlinesbi.com"
+        },
+        {
+          "host": "cms.onlinesbi.com"
+        },
+        {
+          "host": "corp.onlinesbi.com",
+          "hostPurpose": "Internet Banking (Corporate)",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "etradedemo.onlinesbi.com"
+        },
+        {
+          "host": "etradesbi.onlinesbi.com"
+        },
+        {
+          "host": "freedom.onlinesbi.com"
+        },
+        {
+          "host": "global.onlinesbi.com"
+        },
+        {
+          "host": "hrms.onlinesbi.com"
+        },
+        {
+          "host": "kiosk.onlinesbi.com"
+        },
+        {
+          "host": "m.hrms.onlinesbi.com"
+        },
+        {
+          "host": "m.onlinesbi.com"
+        },
+        {
+          "host": "merchant.onlinesbi.com"
+        },
+        {
+          "host": "mobile.onlinesbi.com"
+        },
+        {
+          "host": "mpi.onlinesbi.com"
+        },
+        {
+          "host": "newuat.onlinesbi.com"
+        },
+        {
+          "host": "oaa.onlinesbi.com"
+        },
+        {
+          "host": "onlinesbi.com"
+        },
+        {
+          "host": "pg.onlinesbi.com"
+        },
+        {
+          "host": "prepaid.onlinesbi.com"
+        },
+        {
+          "host": "remit.onlinesbi.com"
+        },
+        {
+          "host": "retail.onlinesbi.com",
+          "hostPurpose": "Internet Banking (Personal)",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "sbieforex.onlinesbi.com"
+        },
+        {
+          "host": "usa.onlinesbi.com"
+        }
+      ]
+    },
+    {
+      "organization": "State Bank of Mysore",
+      "hosts": [
+        {
+          "host": "www.statebankofmysore.co.in",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "statebankofmysore.co.in",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "text.statebankofmysore.co.in"
+        },
+        {
+          "host": "www.onlinesbm.com"
+        },
+        {
+          "host": "onlinesbm.com"
+        },
+        {
+          "host": "corp.onlinesbm.com",
+          "hostPurpose": "Internet Banking (Corporate)",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "oaa.onlinesbm.com"
+        },
+        {
+          "host": "retail.onlinesbm.com",
+          "hostPurpose": "Internet Banking (Personal)",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        }
+      ]
+    },
+    {
+      "organization": "State Bank of Patiala",
+      "hosts": [
+        {
+          "host": "www.sbp.co.in",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "sbp.co.in",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "www.hindi.sbp.co.in"
+        },
+        {
+          "host": "hindi.sbp.co.in"
+        },
+        {
+          "host": "m.sbp.co.in"
+        },
+        {
+          "host": "mybanklearning.sbp.co.in"
+        },
+        {
+          "host": "webmail.sbp.co.in"
+        },
+        {
+          "host": "www.onlinesbp.com"
+        },
+        {
+          "host": "onlinesbp.com"
+        },
+        {
+          "host": "corp.onlinesbp.com",
+          "hostPurpose": "Internet Banking (Corporate)",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "merchant.onlinesbp.com"
+        },
+        {
+          "host": "oaa.onlinesbp.com"
+        },
+        {
+          "host": "retail.onlinesbp.com",
+          "hostPurpose": "Internet Banking (Personal)",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        }
+      ]
+    },
+    {
+      "organization": "State Bank of Travancore",
+      "hosts": [
+        {
+          "host": "www.statebankoftravancore.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "statebankoftravancore.com",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "new.statebankoftravancore.com"
+        },
+        {
+          "host": "www.sbtonline.in"
+        },
+        {
+          "host": "sbtonline.in"
+        },
+        {
+          "host": "corp.sbtonline.in",
+          "hostPurpose": "Internet Banking (Corporate)",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "merchant.sbtonline.in"
+        },
+        {
+          "host": "oaa.sbtonline.in"
+        },
+        {
+          "host": "remit.sbtonline.in"
+        },
+        {
+          "host": "retail.sbtonline.in",
+          "hostPurpose": "Internet Banking (Personal)",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        }
+      ]
+    },
+    {
+      "organization": "Syndicate Bank",
+      "hosts": [
+        {
+          "host": "www.syndicatebank.in",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "syndicatebank.in",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "dirdoc.syndicatebank.in"
+        },
+        {
+          "host": "epassbook.syndicatebank.in"
+        },
+        {
+          "host": "fikiosk.syndicatebank.in"
+        },
+        {
+          "host": "gss1.syndicatebank.in"
+        },
+        {
+          "host": "gss2.syndicatebank.in"
+        },
+        {
+          "host": "lapsonline.syndicatebank.in"
+        },
+        {
+          "host": "mbkgussd.syndicatebank.in"
+        },
+        {
+          "host": "netbanking.syndicatebank.in"
+        },
+        {
+          "host": "pfms.syndicatebank.in"
+        },
+        {
+          "host": "syndaadhar.syndicatebank.in"
+        },
+        {
+          "host": "syndprotect.syndicatebank.in"
+        },
+        {
+          "host": "tab.syndicatebank.in"
+        },
+        {
+          "host": "www.syndonline.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "syndonline.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)"
+        }
+      ]
+    },
+    {
+      "organization": "UCO Bank",
+      "hosts": [
+        {
+          "host": "www.ucobank.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "ucobank.com",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "www.ucoebanking.com",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "ucoebanking.com",
+          "hostPurpose": "Internet Banking (Personal + Corporate)"
+        },
+        {
+          "host": "customergrievance.ucobank.com"
+        },
+        {
+          "host": "hindi.ucobank.com"
+        },
+        {
+          "host": "m.ucobank.com"
+        },
+        {
+          "host": "msme.ucobank.com"
+        },
+        {
+          "host": "onlineaccount.ucobank.com"
+        }
+      ]
+    },
+    {
+      "organization": "Union Bank of India",
+      "hosts": [
+        {
+          "host": "www.unionbankofindia.co.in",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "unionbankofindia.co.in",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "epay.unionbankofindia.co.in"
+        },
+        {
+          "host": "eremit.unionbankofindia.co.in"
+        },
+        {
+          "host": "icmt.unionbankofindia.co.in"
+        },
+        {
+          "host": "mail.unionbankofindia.co.in"
+        },
+        {
+          "host": "uchat.unionbankofindia.co.in"
+        },
+        {
+          "host": "www.unionbankonline.co.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "unionbankonline.co.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)"
+        },
+        {
+          "host": "mylang.unionbankonline.co.in"
+        },
+        {
+          "host": "www.unionbankofindia.com"
+        },
+        {
+          "host": "unionbankofindia.com"
+        },
+        {
+          "host": "mail.unionbankofindia.com"
+        },
+        {
+          "host": "mail1.unionbankofindia.com"
+        }
+      ]
+    },
+    {
+      "organization": "United Bank of India",
+      "hosts": [
+        {
+          "host": "www.unitedbankofindia.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "unitedbankofindia.com",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "account.unitedbankofindia.com"
+        },
+        {
+          "host": "ebank.unitedbankofindia.com",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "gcms.unitedbankofindia.com"
+        },
+        {
+          "host": "m.unitedbankofindia.com"
+        }
+      ]
+    },
+    {
+      "organization": "Vijaya Bank",
+      "hosts": [
+        {
+          "host": "www.vijayabank.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "vijayabank.com",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "mail.vijayabank.com"
+        },
+        {
+          "host": "www.vijayabankonline.in:82",
+          "hostPurpose": "Internet Banking (Corporate)",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "www.vijayabankonline.in",
+          "hostPurpose": "Internet Banking (Personal)",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "www.mobile.vijayabankonline.in"
+        },
+        {
+          "host": "mobile.vijayabankonline.in"
+        },
+        {
+          "host": "www.payments.vijayabankonline.in"
+        },
+        {
+          "host": "payments.vijayabankonline.in"
+        }
+      ]
+    }
+  ]
+}

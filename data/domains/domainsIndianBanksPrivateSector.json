@@ -1,0 +1,2462 @@
+{
+  "industry": "Indian Banks (Private sector)",
+  "organizations": [
+    {
+      "organization": "Axis Bank",
+      "hosts": [
+        {
+          "host": "www.axisforexonline.com"
+        },
+        {
+          "host": "www.axisbank.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP and HTTPS. No redirect"
+        },
+        {
+          "host": "axisbank.com",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "abr.axisbank.com",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "aps.axisbank.com",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "campaign.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "colodb1.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "colonlb.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "coloweb1.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "coloweb2.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "coloweb3.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "communication.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "creditcards.axisbank.com",
+          "hostPurpose": "Credit cards",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "drsmtpout.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "edgerewards.axisbank.com",
+          "hostPurpose": "Rewards program",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "ftps.axisbank.com",
+          "hostPurpose": "File transfer service",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "www.hindi.axisbank.com",
+          "hostPurpose": "Home page in hindi"
+        },
+        {
+          "host": "hindi.axisbank.com",
+          "hostPurpose": "Home page in hindi",
+          "httpsBehavior": "HTTP and HTTPS. No redirect. Different content"
+        },
+        {
+          "host": "imagedebitcard.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "loans.axisbank.com",
+          "hostPurpose": "Loans",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "m.axisbank.com",
+          "httpsBehavior": "HTTP and HTTPS. No redirect. Different content"
+        },
+        {
+          "host": "myconnect.axisbank.com",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/22"
+        },
+        {
+          "host": "mymail.axisbank.com",
+          "hostPurpose": "Webmail",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "mytraveller.axisbank.com",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "nri.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "nsmtpbm.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "nsmtpbm1.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "nsmtpbm2.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "nsmtpbm3.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "nsmtpbm4.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "nsmtpbm5.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "nsmtpin.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "nsmtpin1.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "nsmtpinpn1.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "nsmtpinpn2.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "nsmtpoutpn1.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "oas.axisbank.com",
+          "hostPurpose": "Online approvals",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "preownedgaadi.axisbank.com",
+          "hostPurpose": "Used cars",
+          "httpsBehavior": "HTTPS redirected to HTTP"
+        },
+        {
+          "host": "prepaid.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "progress.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "secure.axisbank.com",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "smtp.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "smtpbm.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "smtpbm2.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "smtpds.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "smtpin.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "smtpout.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "srilanka.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "test.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "traveller.axisbank.com",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "traveller1.axisbank.com",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "vpn.axisbank.com",
+          "hostPurpose": "VPN",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "web1.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "web2.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "web3.axisbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "www.iconnect.co.in",
+          "hostPurpose": "Internet Banking (Corporate)",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "www.axisbank.co.in",
+          "hostPurpose": "Internet Banking (Personal)",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "allpay.axisbank.co.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "analytics.axisbank.co.in",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/33"
+        },
+        {
+          "host": "axispay.axisbank.co.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "axisremit.axisbank.co.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "caslite.axisbank.co.in",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/32"
+        },
+        {
+          "host": "cms.axisbank.co.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "cmspay.axisbank.co.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "directremit.axisbank.co.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "easypay.axisbank.co.in",
+          "httpsBehavior": "HTTPS only",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/21"
+        },
+        {
+          "host": "etendering.axisbank.co.in",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/29"
+        },
+        {
+          "host": "imtpay.axisbank.co.in",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/35"
+        },
+        {
+          "host": "ips.axisbank.co.in",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/37"
+        },
+        {
+          "host": "lms.axisbank.co.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "m.axisbank.co.in",
+          "hostPurpose": "Mobile banking",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "mobile.axisbank.co.in",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "msaleslive.axisbank.co.in",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/34"
+        },
+        {
+          "host": "mtp.axisbank.co.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "pragati.axisbank.co.in",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/28"
+        },
+        {
+          "host": "prepaidcards.axisbank.co.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "qamcorp.axisbank.co.in",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/30"
+        },
+        {
+          "host": "regulatorycompliance.axisbank.co.in",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/27"
+        },
+        {
+          "host": "retail.axisbank.co.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "shikharview.axisbank.co.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "travelcard.axisbank.co.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "uat-etendering.axisbank.co.in",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/31"
+        },
+        {
+          "host": "webcms.axisbank.co.in",
+          "httpsBehavior": "HTTPS only"
+        }
+      ]
+    },
+    {
+      "organization": "Bandhan Bank",
+      "hosts": [
+        {
+          "host": "www.bandhanbank.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "bandhanbank.com",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "antispam.bandhanbank.com",
+          "httpsBehavior": "Not used for HTTP/ HTTPS"
+        },
+        {
+          "host": "www.bandhanbankonline.com",
+          "hostPurpose": "Internet Banking (Personal + Corporate)"
+        },
+        {
+          "host": "bandhanbankonline.com",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTPS only"
+        }
+      ]
+    },
+    {
+      "organization": "Catholic Syrian Bank Ltd.",
+      "hosts": [
+        {
+          "host": "www.csb.co.in",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "csb.co.in",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "mail.csb.co.in",
+          "hostPurpose": "Webmail",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "online.csb.co.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "www.csbnet.co.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "csbnet.co.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)"
+        }
+      ]
+    },
+    {
+      "organization": "City Union Bank Ltd.",
+      "hosts": [
+        {
+          "host": "www.cityunionbank.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "cityunionbank.com",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "lic.cityunionbank.com",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "mail.cityunionbank.com",
+          "hostPurpose": "Webmail",
+          "httpsBehavior": "HTTP and HTTPS. No redirect"
+        },
+        {
+          "host": "www.onlinecub.net",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "onlinecub.net",
+          "hostPurpose": "Internet Banking (Personal + Corporate)"
+        },
+        {
+          "host": "cms.onlinecub.net",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        }
+      ]
+    },
+    {
+      "organization": "DCB Bank Ltd.",
+      "hosts": [
+        {
+          "host": "www.dcbbank.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP and HTTPS. No redirect",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/15"
+        },
+        {
+          "host": "bib.dcbbank.com",
+          "hostPurpose": "Internet Banking (Corporate)",
+          "httpsBehavior": "HTTPS only",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/14"
+        },
+        {
+          "host": "careers.dcbbank.com",
+          "hostPurpose": "Employment",
+          "httpsBehavior": "HTTP and HTTPS. No redirect. HTTPS serving different content",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/16"
+        },
+        {
+          "host": "cmspay.dcbbank.com",
+          "httpsBehavior": "HTTPS only",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/19"
+        },
+        {
+          "host": "financialplanner.dcbbank.com",
+          "httpsBehavior": "HTTPS only",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/20"
+        },
+        {
+          "host": "mail.dcbbank.com",
+          "hostPurpose": "Webmail",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/18"
+        },
+        {
+          "host": "mb.dcbbank.com",
+          "hostPurpose": "Mobile banking",
+          "httpsBehavior": "HTTPS only",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/17"
+        },
+        {
+          "host": "pib.dcbbank.com",
+          "hostPurpose": "Internet Banking (Personal)",
+          "httpsBehavior": "HTTPS only",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/15"
+        }
+      ]
+    },
+    {
+      "organization": "Dhanlaxmi Bank Ltd.",
+      "hosts": [
+        {
+          "host": "dhanbank.com",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "www.dhanbank.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "www.m.dhanbank.com",
+          "hostPurpose": "Mobile Banking"
+        },
+        {
+          "host": "m.dhanbank.com",
+          "hostPurpose": "Mobile Banking",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "www.dhanbank.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "dhanbank.in"
+        },
+        {
+          "host": "netbank.dhanbank.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "cpts.dhanbank.in",
+          "httpsBehavior": "HTTP only"
+        }
+      ]
+    },
+    {
+      "organization": "Federal Bank Ltd.",
+      "hosts": [
+        {
+          "host": "www.federalbank.co.in",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP and HTTPS. No redirect"
+        },
+        {
+          "host": "federalbank.co.in",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "accountopen.federalbank.co.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "careers.federalbank.co.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "drisya.federalbank.co.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "epay.federalbank.co.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "esos.federalbank.co.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "fblapp.federalbank.co.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "fedcampus.federalbank.co.in",
+          "httpsBehavior": "HTTP and HTTPS. No redirect. HTTPS serves different content"
+        },
+        {
+          "host": "fedfast.federalbank.co.in",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "fedvconnect.federalbank.co.in:8080",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "healthcare.federalbank.co.in",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "mobile.federalbank.co.in",
+          "hostPurpose": "Mobile Banking",
+          "httpsBehavior": "HTTP and HTTPS. No redirect. HTTPS serves different content"
+        },
+        {
+          "host": "mymail.federalbank.co.in",
+          "hostPurpose": "Webmail",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "nreaccount.federalbank.co.in:9080",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "www.fednetbank.com",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "fednetbank.com",
+          "hostPurpose": "Internet Banking (Personal + Corporate)"
+        },
+        {
+          "host": "pay.fednetbank.com",
+          "httpsBehavior": "HTTPS only"
+        }
+      ]
+    },
+    {
+      "organization": "HDFC Bank Ltd.",
+      "hosts": [
+        {
+          "host": "www.hdfcbank.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP and HTTPS. No redirect"
+        },
+        {
+          "host": "hdfcbank.com",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "accessuat.hdfcbank.com"
+        },
+        {
+          "host": "apply.hdfcbank.com"
+        },
+        {
+          "host": "aps.hdfcbank.com"
+        },
+        {
+          "host": "bcpdp1.hdfcbank.com"
+        },
+        {
+          "host": "bcpdp2.hdfcbank.com"
+        },
+        {
+          "host": "ca.hdfcbank.com"
+        },
+        {
+          "host": "campaign.hdfcbank.com"
+        },
+        {
+          "host": "cms.hdfcbank.com"
+        },
+        {
+          "host": "cmsdisb.hdfcbank.com"
+        },
+        {
+          "host": "collections.hdfcbank.com"
+        },
+        {
+          "host": "corporate.hdfcbank.com"
+        },
+        {
+          "host": "corpssl.hdfcbank.com"
+        },
+        {
+          "host": "dividend.hdfcbank.com"
+        },
+        {
+          "host": "dncdedupe.hdfcbank.com"
+        },
+        {
+          "host": "drm.hdfcbank.com"
+        },
+        {
+          "host": "enetbanking.hdfcbank.com"
+        },
+        {
+          "host": "enetconnect.hdfcbank.com"
+        },
+        {
+          "host": "etreasury.hdfcbank.com"
+        },
+        {
+          "host": "fesipo.hdfcbank.com"
+        },
+        {
+          "host": "flexatsup.hdfcbank.com"
+        },
+        {
+          "host": "flexattest.hdfcbank.com"
+        },
+        {
+          "host": "flexattest2.hdfcbank.com"
+        },
+        {
+          "host": "flexatuat.hdfcbank.com"
+        },
+        {
+          "host": "getprepaidcard.hdfcbank.com"
+        },
+        {
+          "host": "hbchabsmss2.hdfcbank.com"
+        },
+        {
+          "host": "hbchadp10.hdfcbank.com"
+        },
+        {
+          "host": "hbchadp11.hdfcbank.com"
+        },
+        {
+          "host": "hbchadp13.hdfcbank.com"
+        },
+        {
+          "host": "hbchadp14.hdfcbank.com"
+        },
+        {
+          "host": "hbchadp15.hdfcbank.com"
+        },
+        {
+          "host": "hbchadp17.hdfcbank.com"
+        },
+        {
+          "host": "hbchadp18.hdfcbank.com"
+        },
+        {
+          "host": "hbchadp20.hdfcbank.com"
+        },
+        {
+          "host": "hbchadp7.hdfcbank.com"
+        },
+        {
+          "host": "hbchaha10.hdfcbank.com"
+        },
+        {
+          "host": "hbchaha20.hdfcbank.com"
+        },
+        {
+          "host": "hdfcbank.com"
+        },
+        {
+          "host": "ideabank.hdfcbank.com"
+        },
+        {
+          "host": "ifms.hdfcbank.com"
+        },
+        {
+          "host": "ilinkddstatus.hdfcbank.com"
+        },
+        {
+          "host": "ilinkpremium.hdfcbank.com"
+        },
+        {
+          "host": "ilinkpremiumtest.hdfcbank.com"
+        },
+        {
+          "host": "imaging.hdfcbank.com"
+        },
+        {
+          "host": "imgrepository.hdfcbank.com"
+        },
+        {
+          "host": "imps.hdfcbank.com"
+        },
+        {
+          "host": "indialink.hdfcbank.com"
+        },
+        {
+          "host": "leads.hdfcbank.com"
+        },
+        {
+          "host": "los.hdfcbank.com"
+        },
+        {
+          "host": "m.enet.hdfcbank.com"
+        },
+        {
+          "host": "m.flexatuat.hdfcbank.com"
+        },
+        {
+          "host": "m.hdfcbank.com"
+        },
+        {
+          "host": "m.netbanking.hdfcbank.com"
+        },
+        {
+          "host": "mail1.hdfcbank.com"
+        },
+        {
+          "host": "mailer.hdfcbank.com"
+        },
+        {
+          "host": "mdcs.hdfcbank.com"
+        },
+        {
+          "host": "mobilebanking.hdfcbank.com"
+        },
+        {
+          "host": "www.mobileoffers.smartbuy.hdfcbank.com"
+        },
+        {
+          "host": "mobileoffers.smartbuy.hdfcbank.com"
+        },
+        {
+          "host": "mofpi.hdfcbank.com"
+        },
+        {
+          "host": "netbanking.hdfcbank.com",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "netsafe.hdfcbank.com"
+        },
+        {
+          "host": "netsafeuat.hdfcbank.com"
+        },
+        {
+          "host": "nriapply.hdfcbank.com"
+        },
+        {
+          "host": "nwdev.hdfcbank.com"
+        },
+        {
+          "host": "nwquality.hdfcbank.com"
+        },
+        {
+          "host": "www.offers.smartbuy.hdfcbank.com"
+        },
+        {
+          "host": "offers.smartbuy.hdfcbank.com"
+        },
+        {
+          "host": "oneview.hdfcbank.com"
+        },
+        {
+          "host": "onlineccredemption.hdfcbank.com"
+        },
+        {
+          "host": "ourworld.hdfcbank.com"
+        },
+        {
+          "host": "prepaid.hdfcbank.com"
+        },
+        {
+          "host": "relay.hdfcbank.com"
+        },
+        {
+          "host": "relay1.hdfcbank.com"
+        },
+        {
+          "host": "relay10.hdfcbank.com"
+        },
+        {
+          "host": "relay11.hdfcbank.com"
+        },
+        {
+          "host": "relay12.hdfcbank.com"
+        },
+        {
+          "host": "relay13.hdfcbank.com"
+        },
+        {
+          "host": "relay14.hdfcbank.com"
+        },
+        {
+          "host": "relay15.hdfcbank.com"
+        },
+        {
+          "host": "relay16.hdfcbank.com"
+        },
+        {
+          "host": "relay17.hdfcbank.com"
+        },
+        {
+          "host": "relay18.hdfcbank.com"
+        },
+        {
+          "host": "relay19.hdfcbank.com"
+        },
+        {
+          "host": "relay2.hdfcbank.com"
+        },
+        {
+          "host": "relay20.hdfcbank.com"
+        },
+        {
+          "host": "relay21.hdfcbank.com"
+        },
+        {
+          "host": "relay22.hdfcbank.com"
+        },
+        {
+          "host": "relay3.hdfcbank.com"
+        },
+        {
+          "host": "relay4.hdfcbank.com"
+        },
+        {
+          "host": "relay5.hdfcbank.com"
+        },
+        {
+          "host": "relay6.hdfcbank.com"
+        },
+        {
+          "host": "relay7.hdfcbank.com"
+        },
+        {
+          "host": "relay8.hdfcbank.com"
+        },
+        {
+          "host": "relay9.hdfcbank.com"
+        },
+        {
+          "host": "www.smartbuy.hdfcbank.com"
+        },
+        {
+          "host": "smartbuy.hdfcbank.com"
+        },
+        {
+          "host": "sme.hdfcbank.com"
+        },
+        {
+          "host": "stpbrk.corporate.hdfcbank.com"
+        },
+        {
+          "host": "stpbrk.uat.corporate.hdfcbank.com"
+        },
+        {
+          "host": "stpenet.corporate.hdfcbank.com"
+        },
+        {
+          "host": "stpenet.uat.corporate.hdfcbank.com"
+        },
+        {
+          "host": "stpepi.corporate.hdfcbank.com"
+        },
+        {
+          "host": "stpepi.uat.corporate.hdfcbank.com"
+        },
+        {
+          "host": "stpfcc.enetbanking.hdfcbank.com"
+        },
+        {
+          "host": "stpfcc.uat.enetbanking.hdfcbank.com"
+        },
+        {
+          "host": "testca.hdfcbank.com"
+        },
+        {
+          "host": "testmailer.hdfcbank.com"
+        },
+        {
+          "host": "tradefinance.hdfcbank.com"
+        },
+        {
+          "host": "traveler.hdfcbank.com"
+        },
+        {
+          "host": "traveler2.hdfcbank.com"
+        },
+        {
+          "host": "traveler3.hdfcbank.com"
+        },
+        {
+          "host": "usedcar.hdfcbank.com"
+        },
+        {
+          "host": "www.wallet.smartbuy.hdfcbank.com"
+        },
+        {
+          "host": "wallet.smartbuy.hdfcbank.com"
+        },
+        {
+          "host": "webchat.hdfcbank.com"
+        },
+        {
+          "host": "webintellectprod.hdfcbank.com"
+        },
+        {
+          "host": "webmail.hdfcbank.com"
+        },
+        {
+          "host": "webstchat.hdfcbank.com"
+        },
+        {
+          "host": "www.smartbuy.hdfcbank.com"
+        },
+        {
+          "host": "smartbuy.hdfcbank.com"
+        },
+        {
+          "host": "www2.hdfcbank.com"
+        }
+      ]
+    },
+    {
+      "organization": "ICICI Bank",
+      "hosts": [
+        {
+          "host": "www.icicibank.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "icicibank.com",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "360degreefeedback.icicibank.com"
+        },
+        {
+          "host": "3dsecure.icicibank.com"
+        },
+        {
+          "host": "acs.icicibank.com"
+        },
+        {
+          "host": "agriasset.icicibank.com",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/26"
+        },
+        {
+          "host": "aol.icicibank.com"
+        },
+        {
+          "host": "aps.icicibank.com"
+        },
+        {
+          "host": "apsweb.icicibank.com"
+        },
+        {
+          "host": "www.b2.icicibank.com"
+        },
+        {
+          "host": "b2.icicibank.com"
+        },
+        {
+          "host": "caps.icicibank.com"
+        },
+        {
+          "host": "chat.icicibank.com"
+        },
+        {
+          "host": "cib.icicibank.com",
+          "hostPurpose": "Internet Banking (Corporate)",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "cms.icicibank.com"
+        },
+        {
+          "host": "cmsweb.icicibank.com"
+        },
+        {
+          "host": "colluatmobile.icicibank.com"
+        },
+        {
+          "host": "custcomm.icicibank.com"
+        },
+        {
+          "host": "dbt.icicibank.com"
+        },
+        {
+          "host": "dnc.icicibank.com"
+        },
+        {
+          "host": "dnssecba.icicibank.com"
+        },
+        {
+          "host": "dofw.icicibank.com"
+        },
+        {
+          "host": "dreamdeposits-sso.icicibank.com:8443"
+        },
+        {
+          "host": "eazypay.icicibank.com"
+        },
+        {
+          "host": "ebusiness.icicibank.com"
+        },
+        {
+          "host": "esos.icicibank.com"
+        },
+        {
+          "host": "fastaglogin.icicibank.com"
+        },
+        {
+          "host": "finncollmobile.icicibank.com"
+        },
+        {
+          "host": "fx-online.icicibank.com"
+        },
+        {
+          "host": "fxonline.icicibank.com"
+        },
+        {
+          "host": "home.icicibank.com"
+        },
+        {
+          "host": "hydexmail01.icicibank.com"
+        },
+        {
+          "host": "hydexmail02.icicibank.com"
+        },
+        {
+          "host": "hydisec1.icicibank.com"
+        },
+        {
+          "host": "hydisec2.icicibank.com"
+        },
+        {
+          "host": "hydmail03.icicibank.com"
+        },
+        {
+          "host": "hydmail1.icicibank.com"
+        },
+        {
+          "host": "hydmail10.icicibank.com"
+        },
+        {
+          "host": "hydmail11.icicibank.com"
+        },
+        {
+          "host": "hydmail12.icicibank.com"
+        },
+        {
+          "host": "hydmail13.icicibank.com"
+        },
+        {
+          "host": "hydmail14.icicibank.com"
+        },
+        {
+          "host": "hydmail15.icicibank.com"
+        },
+        {
+          "host": "hydmail16.icicibank.com"
+        },
+        {
+          "host": "hydmail2.icicibank.com"
+        },
+        {
+          "host": "hydmail3.icicibank.com"
+        },
+        {
+          "host": "hydmail4.icicibank.com"
+        },
+        {
+          "host": "hydmail5.icicibank.com"
+        },
+        {
+          "host": "hydmail6.icicibank.com"
+        },
+        {
+          "host": "hydmail7.icicibank.com"
+        },
+        {
+          "host": "hydmail8.icicibank.com"
+        },
+        {
+          "host": "hydmail9.icicibank.com"
+        },
+        {
+          "host": "ibizz.icicibank.com"
+        },
+        {
+          "host": "ibox-vsts.icicibank.com"
+        },
+        {
+          "host": "infinity.icicibank.com",
+          "hostPurpose": "Internet Banking (Personal)",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "inrprepaid.icicibank.com"
+        },
+        {
+          "host": "ipay.icicibank.com"
+        },
+        {
+          "host": "ipaylive.icicibank.com"
+        },
+        {
+          "host": "iprepaid.icicibank.com"
+        },
+        {
+          "host": "isfms.icicibank.com"
+        },
+        {
+          "host": "ispeed.icicibank.com"
+        },
+        {
+          "host": "istudiovc.icicibank.com"
+        },
+        {
+          "host": "itreasury.icicibank.com"
+        },
+        {
+          "host": "iwealth.icicibank.com"
+        },
+        {
+          "host": "iwish.icicibank.com"
+        },
+        {
+          "host": "jprexmail01.icicibank.com"
+        },
+        {
+          "host": "jprexmail02.icicibank.com"
+        },
+        {
+          "host": "jprmail1.icicibank.com"
+        },
+        {
+          "host": "jprmail10.icicibank.com"
+        },
+        {
+          "host": "jprmail2.icicibank.com"
+        },
+        {
+          "host": "jprmail3.icicibank.com"
+        },
+        {
+          "host": "jprmail4.icicibank.com"
+        },
+        {
+          "host": "jprmail5.icicibank.com"
+        },
+        {
+          "host": "jprmail6.icicibank.com"
+        },
+        {
+          "host": "jprmail7.icicibank.com"
+        },
+        {
+          "host": "jprmail8.icicibank.com"
+        },
+        {
+          "host": "jprmail9.icicibank.com"
+        },
+        {
+          "host": "loans.icicibank.com"
+        },
+        {
+          "host": "m.icicibank.com"
+        },
+        {
+          "host": "m2imobiletest.icicibank.com"
+        },
+        {
+          "host": "mail1.icicibank.com"
+        },
+        {
+          "host": "mail2.icicibank.com"
+        },
+        {
+          "host": "mail3.icicibank.com"
+        },
+        {
+          "host": "mail5.icicibank.com"
+        },
+        {
+          "host": "mail6.icicibank.com"
+        },
+        {
+          "host": "mail7.icicibank.com"
+        },
+        {
+          "host": "mail8.icicibank.com"
+        },
+        {
+          "host": "mail9.icicibank.com"
+        },
+        {
+          "host": "maps.icicibank.com"
+        },
+        {
+          "host": "mas.icicibank.com"
+        },
+        {
+          "host": "mas.icicibank.com:444"
+        },
+        {
+          "host": "mlxisec1.icicibank.com"
+        },
+        {
+          "host": "mlxisec2.icicibank.com"
+        },
+        {
+          "host": "mlxmail1.icicibank.com"
+        },
+        {
+          "host": "mlxmail10.icicibank.com"
+        },
+        {
+          "host": "mlxmail2.icicibank.com"
+        },
+        {
+          "host": "mlxmail3.icicibank.com"
+        },
+        {
+          "host": "mlxmail4.icicibank.com"
+        },
+        {
+          "host": "mlxmail5.icicibank.com"
+        },
+        {
+          "host": "mlxmail6.icicibank.com"
+        },
+        {
+          "host": "mlxmail7.icicibank.com"
+        },
+        {
+          "host": "mobile.icicibank.com"
+        },
+        {
+          "host": "mobileaps.icicibank.com"
+        },
+        {
+          "host": "mobiletest.icicibank.com"
+        },
+        {
+          "host": "mpay.icicibank.com"
+        },
+        {
+          "host": "mpayuat.icicibank.com"
+        },
+        {
+          "host": "mprepaid.icicibank.com"
+        },
+        {
+          "host": "mta.retail.icicibank.com"
+        },
+        {
+          "host": "mtreasury.icicibank.com"
+        },
+        {
+          "host": "mymoneysso.icicibank.com"
+        },
+        {
+          "host": "ns1.icicibank.com"
+        },
+        {
+          "host": "ns2.icicibank.com"
+        },
+        {
+          "host": "payments.icicibank.com"
+        },
+        {
+          "host": "payseal.icicibank.com"
+        },
+        {
+          "host": "perspectives.icicibank.com"
+        },
+        {
+          "host": "prepaid.icicibank.com"
+        },
+        {
+          "host": "privatebank.icicibank.com"
+        },
+        {
+          "host": "research.icicibank.com"
+        },
+        {
+          "host": "salescrm.icicibank.com"
+        },
+        {
+          "host": "sdc.icicibank.com"
+        },
+        {
+          "host": "serviceportal.icicibank.com"
+        },
+        {
+          "host": "shopping.icicibank.com"
+        },
+        {
+          "host": "speed.icicibank.com"
+        },
+        {
+          "host": "speeduat.icicibank.com"
+        },
+        {
+          "host": "sslvpn.icicibank.com"
+        },
+        {
+          "host": "synch.icicibank.com"
+        },
+        {
+          "host": "treasury-research.icicibank.com"
+        },
+        {
+          "host": "universeonthemove.icicibank.com"
+        },
+        {
+          "host": "vpn.icicibank.com"
+        },
+        {
+          "host": "www.vsts.icicibank.com"
+        },
+        {
+          "host": "vsts.icicibank.com"
+        },
+        {
+          "host": "webcts.icicibank.com"
+        },
+        {
+          "host": "webcustody.icicibank.com"
+        },
+        {
+          "host": "www.3dsecure.icicibank.com"
+        },
+        {
+          "host": "www.b2.icicibank.com"
+        },
+        {
+          "host": "www.icicibank.com"
+        },
+        {
+          "host": "www.sme.icicibank.com"
+        },
+        {
+          "host": "sme.icicibank.com"
+        }
+      ]
+    },
+    {
+      "organization": "IDFC Bank Ltd.",
+      "hosts": [
+        {
+          "host": "www.idfcbank.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "idfcbank.com",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "bxp.idfcbank.com",
+          "hostPurpose": "Internet Banking (Corporate)",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "my.idfcbank.com",
+          "hostPurpose": "Internet Banking (Personal)",
+          "httpsBehavior": "HTTPS only"
+        }
+      ]
+    },
+    {
+      "organization": "ING Vysya Bank",
+      "hosts": [
+        {
+          "host": "ebankingingvysya.kotak.com",
+          "hostPurpose": "Internet Banking (Corporate)",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "www.forextravelcardingvysya.kotak.com"
+        },
+        {
+          "host": "forextravelcardingvysya.kotak.com"
+        },
+        {
+          "host": "www.ingvysya.kotak.com",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "ingvysya.kotak.com",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "livechatingvysya.kotak.com"
+        },
+        {
+          "host": "m.ingvysya.kotak.com"
+        },
+        {
+          "host": "onlineingvysya.kotak.com",
+          "hostPurpose": "Internet Banking (Personal)",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "wealthmanagementingvysya.kotak.com"
+        }
+      ]
+    },
+    {
+      "organization": "IndusInd Bank Ltd.",
+      "hosts": [
+        {
+          "host": "www.indusind.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP and HTTPS. No redirect"
+        },
+        {
+          "host": "indusind.com",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "cards.indusind.com"
+        },
+        {
+          "host": "cfdmis.indusind.com"
+        },
+        {
+          "host": "creditcards.indusind.com"
+        },
+        {
+          "host": "customerservice.indusind.com"
+        },
+        {
+          "host": "dns1.indusind.com"
+        },
+        {
+          "host": "email.indusind.com"
+        },
+        {
+          "host": "iblmail.indusind.com"
+        },
+        {
+          "host": "iblpace.indusind.com"
+        },
+        {
+          "host": "indulge.indusind.com"
+        },
+        {
+          "host": "indusnet.indusind.com",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "indusonline.indusind.com"
+        },
+        {
+          "host": "industea.indusind.com"
+        },
+        {
+          "host": "indusups.indusind.com"
+        },
+        {
+          "host": "loan.indusind.com"
+        },
+        {
+          "host": "loans.indusind.com"
+        },
+        {
+          "host": "m.indusind.com"
+        },
+        {
+          "host": "mail.indusind.com"
+        },
+        {
+          "host": "mail10.indusind.com"
+        },
+        {
+          "host": "mobilebanking.indusind.com"
+        },
+        {
+          "host": "mx2.indusind.com"
+        },
+        {
+          "host": "myaccount.indusind.com"
+        },
+        {
+          "host": "nrolap.indusind.com"
+        },
+        {
+          "host": "prepaid.indusind.com"
+        },
+        {
+          "host": "quickpay.indusind.com"
+        },
+        {
+          "host": "smtp.indusind.com"
+        },
+        {
+          "host": "smtp1.indusind.com"
+        },
+        {
+          "host": "smtp2.indusind.com"
+        },
+        {
+          "host": "smtp4.indusind.com"
+        },
+        {
+          "host": "smtp5.indusind.com"
+        },
+        {
+          "host": "spamcheck.indusind.com"
+        },
+        {
+          "host": "speedremit.indusind.com"
+        },
+        {
+          "host": "survey.indusind.com"
+        },
+        {
+          "host": "video-branch.indusind.com"
+        },
+        {
+          "host": "vpn.indusind.com"
+        },
+        {
+          "host": "vpn2.indusind.com"
+        },
+        {
+          "host": "webcms.indusind.com"
+        },
+        {
+          "host": "webmail.indusind.com"
+        },
+        {
+          "host": "websiteapps.indusind.com"
+        }
+      ]
+    },
+    {
+      "organization": "Jammu & Kashmir Bank Ltd.",
+      "hosts": [
+        {
+          "host": "www.jkbank.net",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTPS redirects to HTTP"
+        },
+        {
+          "host": "jkbank.net",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "fi.jkbank.net",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/23"
+        },
+        {
+          "host": "mail.jkbank.net"
+        },
+        {
+          "host": "mobile.jkbank.net"
+        },
+        {
+          "host": "www.jkbank.in"
+        },
+        {
+          "host": "jkbank.in"
+        },
+        {
+          "host": "ns1.jkbank.in"
+        },
+        {
+          "host": "ns2.jkbank.in"
+        },
+        {
+          "host": "www.jkbankonline.com",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "jkbankonline.com",
+          "hostPurpose": "Internet Banking (Personal + Corporate)"
+        }
+      ]
+    },
+    {
+      "organization": "Karnataka Bank",
+      "hosts": [
+        {
+          "host": "www.karnatakabank.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP and HTTPS. No redirect"
+        },
+        {
+          "host": "karnatakabank.com",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "www.karnatakabank.co.in"
+        },
+        {
+          "host": "karnatakabank.co.in"
+        },
+        {
+          "host": "www.ktkbank.com"
+        },
+        {
+          "host": "ktkbank.com"
+        },
+        {
+          "host": "m.ktkbank.com"
+        },
+        {
+          "host": "mail.ktkbank.com"
+        },
+        {
+          "host": "moneyclick.karnatakabank.co.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "msme.ktkbank.com"
+        },
+        {
+          "host": "mx1.ktkbank.com"
+        }
+      ]
+    },
+    {
+      "organization": "Karur Vysya Bank Ltd.",
+      "hosts": [
+        {
+          "host": "www.kvb.co.in",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP and HTTPS. No redirect"
+        },
+        {
+          "host": "kvb.co.in",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "careers.kvb.co.in"
+        },
+        {
+          "host": "ilogin.kvb.co.in"
+        },
+        {
+          "host": "mail.kvb.co.in"
+        },
+        {
+          "host": "www.prepaid.kvb.co.in"
+        },
+        {
+          "host": "prepaid.kvb.co.in"
+        },
+        {
+          "host": "www.kvbnet.co.in"
+        },
+        {
+          "host": "kvbnet.co.in"
+        },
+        {
+          "host": "www.kvbin.com",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "kvbin.com",
+          "hostPurpose": "Internet Banking (Personal + Corporate)"
+        }
+      ]
+    },
+    {
+      "organization": "Kotak Mahindra Bank Ltd.",
+      "hosts": [
+        {
+          "host": "www.kotak.com",
+          "hostPurpose": "Home page, Internet Banking (Personal + Corporate), Home page for ING Vysya Bank",
+          "httpsBehavior": "HTTP and HTTPS. No redirect"
+        },
+        {
+          "host": "kotak.com",
+          "hostPurpose": "Home page, Internet Banking (Personal + Corporate), Home page for ING Vysya Bank"
+        },
+        {
+          "host": "www.aboutus.kotak.com"
+        },
+        {
+          "host": "aboutus.kotak.com"
+        },
+        {
+          "host": "www.agri.kotak.com"
+        },
+        {
+          "host": "agri.kotak.com"
+        },
+        {
+          "host": "alerts.kotak.com"
+        },
+        {
+          "host": "www.alerts1.kotak.com"
+        },
+        {
+          "host": "alerts1.kotak.com"
+        },
+        {
+          "host": "www.alerts10.kotak.com"
+        },
+        {
+          "host": "alerts10.kotak.com"
+        },
+        {
+          "host": "www.alerts11.kotak.com"
+        },
+        {
+          "host": "alerts11.kotak.com"
+        },
+        {
+          "host": "www.alerts12.kotak.com"
+        },
+        {
+          "host": "alerts12.kotak.com"
+        },
+        {
+          "host": "www.alerts13.kotak.com"
+        },
+        {
+          "host": "alerts13.kotak.com"
+        },
+        {
+          "host": "www.alerts14.kotak.com"
+        },
+        {
+          "host": "alerts14.kotak.com"
+        },
+        {
+          "host": "www.alerts15.kotak.com"
+        },
+        {
+          "host": "alerts15.kotak.com"
+        },
+        {
+          "host": "www.alerts16.kotak.com"
+        },
+        {
+          "host": "alerts16.kotak.com"
+        },
+        {
+          "host": "www.alerts17.kotak.com"
+        },
+        {
+          "host": "alerts17.kotak.com"
+        },
+        {
+          "host": "www.alerts18.kotak.com"
+        },
+        {
+          "host": "alerts18.kotak.com"
+        },
+        {
+          "host": "www.alerts2.kotak.com"
+        },
+        {
+          "host": "alerts2.kotak.com"
+        },
+        {
+          "host": "www.alerts3.kotak.com"
+        },
+        {
+          "host": "alerts3.kotak.com"
+        },
+        {
+          "host": "www.alerts4.kotak.com"
+        },
+        {
+          "host": "alerts4.kotak.com"
+        },
+        {
+          "host": "www.alerts5.kotak.com"
+        },
+        {
+          "host": "alerts5.kotak.com"
+        },
+        {
+          "host": "www.alerts6.kotak.com"
+        },
+        {
+          "host": "alerts6.kotak.com"
+        },
+        {
+          "host": "www.alerts7.kotak.com"
+        },
+        {
+          "host": "alerts7.kotak.com"
+        },
+        {
+          "host": "www.alerts8.kotak.com"
+        },
+        {
+          "host": "alerts8.kotak.com"
+        },
+        {
+          "host": "www.alerts9.kotak.com"
+        },
+        {
+          "host": "alerts9.kotak.com"
+        },
+        {
+          "host": "and-prx-005.bank.kotak.com"
+        },
+        {
+          "host": "www.app.kotak.com"
+        },
+        {
+          "host": "app.kotak.com"
+        },
+        {
+          "host": "www.appc.kotak.com"
+        },
+        {
+          "host": "appc.kotak.com"
+        },
+        {
+          "host": "www.apply.kotak.com"
+        },
+        {
+          "host": "apply.kotak.com"
+        },
+        {
+          "host": "www.assetmanagement.kotak.com"
+        },
+        {
+          "host": "assetmanagement.kotak.com"
+        },
+        {
+          "host": "atm.kotak.com"
+        },
+        {
+          "host": "bank-branch.kotak.com"
+        },
+        {
+          "host": "bank.kotak.com"
+        },
+        {
+          "host": "www.carloan.kotak.com"
+        },
+        {
+          "host": "carloan.kotak.com"
+        },
+        {
+          "host": "www.corp.kotak.com"
+        },
+        {
+          "host": "corp.kotak.com"
+        },
+        {
+          "host": "www.doingmybit.kotak.com"
+        },
+        {
+          "host": "doingmybit.kotak.com"
+        },
+        {
+          "host": "www.dralerts1.kotak.com"
+        },
+        {
+          "host": "dralerts1.kotak.com"
+        },
+        {
+          "host": "www.dralerts2.kotak.com"
+        },
+        {
+          "host": "dralerts2.kotak.com"
+        },
+        {
+          "host": "www.dralerts3.kotak.com"
+        },
+        {
+          "host": "dralerts3.kotak.com"
+        },
+        {
+          "host": "www.dralerts4.kotak.com"
+        },
+        {
+          "host": "dralerts4.kotak.com"
+        },
+        {
+          "host": "www.einsurance.kotak.com"
+        },
+        {
+          "host": "einsurance.kotak.com"
+        },
+        {
+          "host": "www.emm.kotak.com"
+        },
+        {
+          "host": "emm.kotak.com",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/24"
+        },
+        {
+          "host": "exch01.kotak.com"
+        },
+        {
+          "host": "www.filesecure.bank.kotak.com"
+        },
+        {
+          "host": "filesecure.bank.kotak.com"
+        },
+        {
+          "host": "www.insurance.kotak.com"
+        },
+        {
+          "host": "insurance.kotak.com"
+        },
+        {
+          "host": "www.investindia.kotak.com"
+        },
+        {
+          "host": "investindia.kotak.com"
+        },
+        {
+          "host": "www.investmentbank.kotak.com"
+        },
+        {
+          "host": "investmentbank.kotak.com"
+        },
+        {
+          "host": "www.ir.kotak.com"
+        },
+        {
+          "host": "ir.kotak.com"
+        },
+        {
+          "host": "kapps.kotak.com"
+        },
+        {
+          "host": "kc2k3bombkh10.kotak.com"
+        },
+        {
+          "host": "www.kie.kotak.com"
+        },
+        {
+          "host": "kie.kotak.com"
+        },
+        {
+          "host": "klirelay.kotak.com"
+        },
+        {
+          "host": "kmccsr000005.kotak.com"
+        },
+        {
+          "host": "kotakntmum01.kotak.com"
+        },
+        {
+          "host": "kotakntmum02.kotak.com"
+        },
+        {
+          "host": "www.kotakntmum03.kotak.com"
+        },
+        {
+          "host": "kotakntmum03.kotak.com"
+        },
+        {
+          "host": "ks2k3bomnir03.kotak.com"
+        },
+        {
+          "host": "ks2k3bomnir05.kotak.com"
+        },
+        {
+          "host": "ks2k3bomnir50.kotak.com"
+        },
+        {
+          "host": "ks2k3bomnir58.kotak.com"
+        },
+        {
+          "host": "ksmailrelay.kotak.com"
+        },
+        {
+          "host": "www.ksmailrelay1.kotak.com"
+        },
+        {
+          "host": "ksmailrelay1.kotak.com"
+        },
+        {
+          "host": "ksmailrelay10.kotak.com"
+        },
+        {
+          "host": "ksmailrelay2.kotak.com"
+        },
+        {
+          "host": "www.ksmailrelay3.kotak.com"
+        },
+        {
+          "host": "ksmailrelay3.kotak.com"
+        },
+        {
+          "host": "ksmailrelay4.kotak.com"
+        },
+        {
+          "host": "ksmailrelay5.kotak.com"
+        },
+        {
+          "host": "ksmailrelay6.kotak.com"
+        },
+        {
+          "host": "ksmailrelay7.kotak.com"
+        },
+        {
+          "host": "ksmailrelay8.kotak.com"
+        },
+        {
+          "host": "www.m.kotak.com"
+        },
+        {
+          "host": "m.kotak.com"
+        },
+        {
+          "host": "mail1.kotak.com"
+        },
+        {
+          "host": "www.mb.uat.kotak.com"
+        },
+        {
+          "host": "mb.uat.kotak.com"
+        },
+        {
+          "host": "www.mmv.kotak.com"
+        },
+        {
+          "host": "mmv.kotak.com"
+        },
+        {
+          "host": "www.mobile.kotak.com"
+        },
+        {
+          "host": "mobile.kotak.com"
+        },
+        {
+          "host": "www.mutualfund.kotak.com"
+        },
+        {
+          "host": "mutualfund.kotak.com"
+        },
+        {
+          "host": "new.kotak.com"
+        },
+        {
+          "host": "www.nri.kotak.com"
+        },
+        {
+          "host": "nri.kotak.com"
+        },
+        {
+          "host": "www.outbound2.kotak.com"
+        },
+        {
+          "host": "outbound.kotak.com"
+        },
+        {
+          "host": "outbound2.kotak.com"
+        },
+        {
+          "host": "www.prepaidtravel.kotak.com"
+        },
+        {
+          "host": "prepaidtravel.kotak.com"
+        },
+        {
+          "host": "www.privateequityfund.kotak.com"
+        },
+        {
+          "host": "privateequityfund.kotak.com"
+        },
+        {
+          "host": "www.privyleague.kotak.com"
+        },
+        {
+          "host": "privyleague.kotak.com"
+        },
+        {
+          "host": "www.rcasprod.kotak.com"
+        },
+        {
+          "host": "rcasprod.kotak.com",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/25"
+        },
+        {
+          "host": "www.realtyfund.kotak.com"
+        },
+        {
+          "host": "realtyfund.kotak.com"
+        },
+        {
+          "host": "www.sso.kotak.com"
+        },
+        {
+          "host": "sso.kotak.com"
+        },
+        {
+          "host": "www.vpn.kotak.com"
+        },
+        {
+          "host": "vpn.kotak.com"
+        },
+        {
+          "host": "www.wealthmanagement.kotak.com"
+        },
+        {
+          "host": "wealthmanagement.kotak.com"
+        },
+        {
+          "host": "www.fxlive.kotak.com"
+        },
+        {
+          "host": "fxlive.kotak.com"
+        },
+        {
+          "host": "www.fxliveuat.kotak.com"
+        },
+        {
+          "host": "fxliveuat.kotak.com"
+        },
+        {
+          "host": "www.prepaidtravel.kotak.com"
+        }
+      ]
+    },
+    {
+      "organization": "Lakshmi Vilas Bank Ltd",
+      "hosts": [
+        {
+          "host": "www.lvbank.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP and HTTPS. No redirect"
+        },
+        {
+          "host": "www.lvbankonline.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "lvbankonline.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)"
+        }
+      ]
+    },
+    {
+      "organization": "Nainital Bank Ltd.",
+      "hosts": [
+        {
+          "host": "www.nainitalbank.co.in",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "nainitalbank.co.in",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "netbanking.nainitalbank.co.in:9998",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTPS only"
+        }
+      ]
+    },
+    {
+      "organization": "Ratnakar Bank",
+      "hosts": [
+        {
+          "host": "www.rblbank.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "rblbank.com",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "cards.rblbank.com"
+        },
+        {
+          "host": "careers.rblbank.com"
+        },
+        {
+          "host": "cashpoint.rblbank.com"
+        },
+        {
+          "host": "collections.rblbank.com"
+        },
+        {
+          "host": "debitcardoffers.rblbank.com"
+        },
+        {
+          "host": "m.rblbank.com"
+        },
+        {
+          "host": "mail4in.rblbank.com"
+        },
+        {
+          "host": "mb.rblbank.com"
+        },
+        {
+          "host": "muat.rblbank.com"
+        },
+        {
+          "host": "mx1.rblbank.com"
+        },
+        {
+          "host": "mx2.rblbank.com"
+        },
+        {
+          "host": "mx3.rblbank.com"
+        },
+        {
+          "host": "netbanking.rblbank.com",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "rewards.rblbank.com"
+        },
+        {
+          "host": "smtp.rblbank.com",
+          "hostPurpose": "Mail server",
+          "httpsBehavior": "N/A"
+        },
+        {
+          "host": "smtp.ratnakarbank.in"
+        }
+      ]
+    },
+    {
+      "organization": "South Indian Bank",
+      "hosts": [
+        {
+          "host": "www.southindianbank.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "southindianbank.com",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "sibernet.southindianbank.com",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTPS only"
+        }
+      ]
+    },
+    {
+      "organization": "Tamilnad Mercantile Bank Ltd.",
+      "hosts": [
+        {
+          "host": "www.tmb.in",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "tmb.in",
+          "hostPurpose": "Home page"
+        },
+        {
+          "host": "beta.tmb.in"
+        },
+        {
+          "host": "career.tmb.in"
+        },
+        {
+          "host": "india.tmb.in"
+        },
+        {
+          "host": "www.tmbnet.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "tmbnet.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)"
+        },
+        {
+          "host": "www.prepaid.tmbnet.in"
+        },
+        {
+          "host": "prepaid.tmbnet.in"
+        }
+      ]
+    },
+    {
+      "organization": "Yes Bank",
+      "hosts": [
+        {
+          "host": "www.yesbank.in",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "yesbank.in",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
+        },
+        {
+          "host": "accountopening.yesbank.in"
+        },
+        {
+          "host": "aof.yesbank.in"
+        },
+        {
+          "host": "branch.yesbank.in"
+        },
+        {
+          "host": "enterpriseapplications.yesbank.in"
+        },
+        {
+          "host": "irm.yesbank.in"
+        },
+        {
+          "host": "link.mail.yesbank.in"
+        },
+        {
+          "host": "mail.yesbank.in"
+        },
+        {
+          "host": "mlrly.mail.yesbank.in"
+        },
+        {
+          "host": "mlrly1.mail.yesbank.in"
+        },
+        {
+          "host": "mlrly2.mail.yesbank.in"
+        },
+        {
+          "host": "mlrly3.mail.yesbank.in"
+        },
+        {
+          "host": "mlrly4.mail.yesbank.in"
+        },
+        {
+          "host": "mx.yesbank.in"
+        },
+        {
+          "host": "mx1.yesbank.in"
+        },
+        {
+          "host": "mx2.yesbank.in"
+        },
+        {
+          "host": "mx3.yesbank.in"
+        },
+        {
+          "host": "talentacquisition.yesbank.in"
+        },
+        {
+          "host": "webmail.yesbank.in"
+        },
+        {
+          "host": "wfh.yesbank.in"
+        },
+        {
+          "host": "yessenmdm1.yesbank.in"
+        },
+        {
+          "host": "yesvspmdm2.yesbank.in"
+        },
+        {
+          "host": "www.yesbank.co.in"
+        },
+        {
+          "host": "netbanking.yesbank.co.in",
+          "hostPurpose": "Internet Banking (Personal + Corporate)",
+          "httpsBehavior": "HTTPS only"
+        },
+        {
+          "host": "prepaid.yesbank.co.in"
+        },
+        {
+          "host": "stage.yesbank.co.in"
+        },
+        {
+          "host": "yesmoney.yesbank.co.in"
+        }
+      ]
+    }
+  ]
+}

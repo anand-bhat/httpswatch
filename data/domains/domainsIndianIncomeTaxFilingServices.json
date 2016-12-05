@@ -1,0 +1,670 @@
+{
+  "industry": "Indian Income Tax Filing Services",
+  "organizations": [
+    {
+      "organization": "ClearTax",
+      "hosts": [
+        {
+          "host": "cleartax.in",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP redirected to HTTPS"
+        },
+        {
+          "host": "www.cleartax.in",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP redirected to HTTPS"
+        },
+        {
+          "host": "blog.cleartax.in",
+          "hostPurpose": "Blog",
+          "httpsBehavior": "HTTP redirected to HTTPS"
+        },
+        {
+          "host": "c.updates-1.cleartax.in",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
+        },
+        {
+          "host": "email.cleartax.in",
+          "httpsBehavior": "HTTP and HTTPS redirect to sendgrid.com"
+        },
+        {
+          "host": "o5.email.cleartax.in",
+          "httpsBehavior": "Unable to connect over HTTP and HTTPS"
+        },
+        {
+          "host": "taxcloudindia.com",
+          "hostPurpose": "Home page (has login)",
+          "httpsBehavior": "HTTP redirected to HTTPS"
+        },
+        {
+          "host": "www.taxcloudindia.com",
+          "hostPurpose": "Home page (has login)",
+          "httpsBehavior": "HTTP redirected to HTTPS"
+        },
+        {
+          "host": "cleartds.com",
+          "hostPurpose": "TDS filing (has login)",
+          "httpsBehavior": "HTTP redirected to HTTPS"
+        },
+        {
+          "host": "www.cleartds.com",
+          "hostPurpose": "TDS filing (has login)",
+          "httpsBehavior": "HTTP redirected to HTTPS"
+        },
+        {
+          "host": "tds.taxcloudindia.com",
+          "httpsBehavior": "HTTP redirected to HTTPS"
+        }
+      ]
+    },
+    {
+      "organization": "H&R Block India",
+      "hosts": [
+        {
+          "host": "hrblock.in",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP redirected to HTTPS",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/55"
+        },
+        {
+          "host": "www.hrblock.in",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP redirected to HTTPS",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/56"
+        },
+        {
+          "host": "blog.hrblock.in",
+          "hostPurpose": "Blog",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS version has mixed content",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/57"
+        },
+        {
+          "host": "cx.hrblock.in",
+          "hostPurpose": "Forum (unused)",
+          "httpsBehavior": "HTTP redirected to HTTPS"
+        },
+        {
+          "host": "myblock.hrblock.in",
+          "hostPurpose": "Login",
+          "httpsBehavior": "HTTP redirected to HTTPS",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/58"
+        },
+        {
+          "host": "o1.em.hrblock.in",
+          "httpsBehavior": "Unable to connect over HTTP and HTTPS"
+        },
+        {
+          "host": "sendy.hrblock.in",
+          "hostPurpose": "Login",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "sendy2.hrblock.in",
+          "hostPurpose": "Login",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "tax.hrblock.in",
+          "hostPurpose": "Login",
+          "httpsBehavior": "HTTP redirected to HTTPS"
+        },
+        {
+          "host": "test.hrblock.in",
+          "hostPurpose": "Testing environment",
+          "httpsBehavior": "HTTP redirected to HTTPS",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/60"
+        },
+        {
+          "host": "ustaxes.hrblock.in",
+          "hostPurpose": "US tax filing from India enquiry form",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/59"
+        }
+      ]
+    },
+    {
+      "organization": "HamaraTax",
+      "hosts": [
+        {
+          "host": "hamaratax.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP redirected to HTTPS",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/54"
+        },
+        {
+          "host": "www.hamaratax.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP redirected to HTTPS"
+        }
+      ]
+    },
+    {
+      "organization": "myITreturn",
+      "hosts": [
+        {
+          "host": "myitreturn.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP redirected to HTTPS",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/50"
+        },
+        {
+          "host": "www.myitreturn.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP redirected to HTTPS",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/51"
+        },
+        {
+          "host": "auth.myitreturn.com",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "www.auth.myitreturn.com",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
+        },
+        {
+          "host": "blog.myitreturn.com",
+          "hostPurpose": "Blog",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "www.blog.myitreturn.com",
+          "hostPurpose": "Blog (supposed to be)",
+          "httpsBehavior": "HTTP redirected to https://myitreturn.com (Production); HTTPS does not show same content as blog.myitreturn.com"
+        },
+        {
+          "host": "chat.myitreturn.com",
+          "hostPurpose": "Chat",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "www.chat.myitreturn.com",
+          "httpsBehavior": "HTTP redirected to https://myitreturn.com (Production); HTTPS does not show same content as chat.myitreturn.com"
+        },
+        {
+          "host": "devlive.myitreturn.com",
+          "hostPurpose": "Testing environment",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "www.devlive.myitreturn.com",
+          "hostPurpose": "Testing environment",
+          "httpsBehavior": "HTTP redirected to https://myitreturn.com (Production); HTTPS works"
+        },
+        {
+          "host": "downloads.myitreturn.com",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "www.downloads.myitreturn.com",
+          "httpsBehavior": "HTTP redirected to https://myitreturn.com (Production); HTTPS works"
+        },
+        {
+          "host": "help.myitreturn.com",
+          "hostPurpose": "Support",
+          "httpsBehavior": "HTTP redirected to HTTPS"
+        },
+        {
+          "host": "www.help.myitreturn.com",
+          "hostPurpose": "Support (supposed to be)",
+          "httpsBehavior": "HTTP redirected to https://myitreturn.com (Production); HTTPS does not show same content as help.myitreturn.com"
+        },
+        {
+          "host": "m.myitreturn.com",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "www.m.myitreturn.com",
+          "httpsBehavior": "HTTP redirected to https://myitreturn.com (Production); HTTPS works"
+        },
+        {
+          "host": "uat.myitreturn.com",
+          "hostPurpose": "Testing environment",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "www.uat.myitreturn.com",
+          "hostPurpose": "Testing environment",
+          "httpsBehavior": "HTTP redirected to https://myitreturn.com (Production); HTTPS works"
+        },
+        {
+          "host": "uatui.myitreturn.com",
+          "hostPurpose": "Testing environment",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "www.uatui.myitreturn.com",
+          "hostPurpose": "Testing environment",
+          "httpsBehavior": "HTTP redirected to https://myitreturn.com (Production); HTTPS works"
+        }
+      ]
+    },
+    {
+      "organization": "MyTaxCafe",
+      "hosts": [
+        {
+          "host": "mytaxcafe.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP redirected to HTTPS",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/52"
+        },
+        {
+          "host": "www.mytaxcafe.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP redirected to HTTPS",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/53"
+        },
+        {
+          "host": "o1.email.mytaxcafe.com",
+          "httpsBehavior": "Unable to connect over HTTP and HTTPS"
+        }
+      ]
+    },
+    {
+      "organization": "Tax Care India",
+      "hosts": [
+        {
+          "host": "taxcareindia.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP redirected to HTTPS"
+        },
+        {
+          "host": "www.taxcareindia.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP redirected to HTTPS"
+        },
+        {
+          "host": "cpanel.taxcareindia.com",
+          "httpsBehavior": "HTTP redirected to HTTPS"
+        }
+      ]
+    },
+    {
+      "organization": "Taxsmile",
+      "hosts": [
+        {
+          "host": "taxsmile.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTPS downgraded to HTTP",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/38"
+        },
+        {
+          "host": "www.taxsmile.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/39"
+        },
+        {
+          "host": "admin.taxsmile.com",
+          "hostPurpose": "Admin (has login)",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/82"
+        },
+        {
+          "host": "blog.taxsmile.com",
+          "hostPurpose": "Blog",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS does not show same content as HTTP",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/83"
+        },
+        {
+          "host": "email.taxsmile.com",
+          "httpsBehavior": "Unable to connect over HTTP and HTTPS"
+        },
+        {
+          "host": "gateway.taxsmile.com",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/84"
+        },
+        {
+          "host": "mails.taxsmile.com",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/85"
+        },
+        {
+          "host": "prelive.taxsmile.com",
+          "hostPurpose": "Testing (has login)",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS does not show same content as HTTP",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/86"
+        },
+        {
+          "host": "support.taxsmile.com",
+          "hostPurpose": "Support (has login)",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS does not show same content as HTTP",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/87"
+        },
+        {
+          "host": "webmail.taxsmile.com",
+          "hostPurpose": "Mail (has login)",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS does not show same content as HTTP",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/88"
+        }
+      ]
+    },
+    {
+      "organization": "TaxSpanner",
+      "hosts": [
+        {
+          "host": "taxspanner.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP redirected to HTTPS",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/40"
+        },
+        {
+          "host": "www.taxspanner.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP redirected to HTTPS",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/41"
+        },
+        {
+          "host": "alpha.taxspanner.com",
+          "hostPurpose": "Testing environment (has login)",
+          "httpsBehavior": "HTTP redirected to HTTPS",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/44"
+        },
+        {
+          "host": "analytics.taxspanner.com",
+          "hostPurpose": "Analytics (has login)",
+          "httpsBehavior": "HTTP redirected to HTTPS",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/46"
+        },
+        {
+          "host": "aws.taxspanner.com",
+          "httpsBehavior": "HTTP and HTTPS redirected to https://www.taxspanner.com",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/42"
+        },
+        {
+          "host": "beta.taxspanner.com",
+          "hostPurpose": "Testing environment (has login)",
+          "httpsBehavior": "HTTP redirected to HTTPS",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/43"
+        },
+        {
+          "host": "blog.taxspanner.com",
+          "hostPurpose": "Blog",
+          "httpsBehavior": "HTTP redirected to HTTPS"
+        },
+        {
+          "host": "bugz.taxspanner.com",
+          "hostPurpose": "Bug Tracker (has login)",
+          "httpsBehavior": "HTTP redirected to HTTPS",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/47"
+        },
+        {
+          "host": "cms.taxspanner.com",
+          "hostPurpose": "CMS (has login)",
+          "httpsBehavior": "HTTP redirected to HTTPS"
+        },
+        {
+          "host": "origin.taxspanner.com",
+          "httpsBehavior": "HTTP redirected to HTTPS",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/45"
+        },
+        {
+          "host": "support.taxspanner.com",
+          "httpsBehavior": "Unable to connect over HTTP and HTTPS"
+        },
+        {
+          "host": "testcms.taxspanner.com",
+          "httpsBehavior": "Unable to connect over HTTP and HTTPS"
+        },
+        {
+          "host": "u804.taxspanner.com",
+          "httpsBehavior": "HTTP redirected to https://grantspayment.com; HTTPS works but did not redirect",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/48"
+        }
+      ]
+    },
+    {
+      "organization": "VitteTax",
+      "hosts": [
+        {
+          "host": "vittetax.com",
+          "hostPurpose": "Home page (has login)",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
+        },
+        {
+          "host": "www.vittetax.com",
+          "hostPurpose": "Home page (has login)",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
+        }
+      ]
+    },
+    {
+      "organization": "Mytaxfiler",
+      "hosts": [
+        {
+          "host": "mytaxfiler.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "www.mytaxfiler.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "login.mytaxfiler.com",
+          "hostPurpose": "Login page",
+          "httpsBehavior": "HTTP redirected to HTTPS"
+        },
+        {
+          "host": "www.login.mytaxfiler.com",
+          "hostPurpose": "Login page",
+          "httpsBehavior": "HTTP redirected to HTTPS"
+        },
+        {
+          "host": "stg.login.mytaxfiler.com",
+          "hostPurpose": "Login page (testing)",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
+        },
+        {
+          "host": "m.mytaxfiler.com",
+          "hostPurpose": "Mobile",
+          "httpsBehavior": "HTTP only"
+        }
+      ]
+    },
+    {
+      "organization": "TaxZippy",
+      "hosts": [
+        {
+          "host": "taxzippy.com",
+          "hostPurpose": "Home page (has login)",
+          "httpsBehavior": "HTTP redirected to HTTPS"
+        },
+        {
+          "host": "www.taxzippy.com",
+          "hostPurpose": "Home page (has login)",
+          "httpsBehavior": "HTTP redirected to HTTPS"
+        }
+      ]
+    },
+    {
+      "organization": "Quicko",
+      "hosts": [
+        {
+          "host": "quicko.com",
+          "hostPurpose": "Home page (has login)",
+          "httpsBehavior": "HTTP redirected to HTTPS"
+        },
+        {
+          "host": "www.quicko.com",
+          "hostPurpose": "Home page (has login)",
+          "httpsBehavior": "HTTP redirected to HTTPS"
+        },
+        {
+          "host": "test.drive.quicko.com",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
+        },
+        {
+          "host": "blog.quicko.com",
+          "hostPurpose": "Blog",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS does not show same content as HTTP"
+        },
+        {
+          "host": "cdn.quicko.com",
+          "httpsBehavior": "HTTP redirected to HTTPS"
+        },
+        {
+          "host": "email.quicko.com",
+          "httpsBehavior": "HTTP redirected to HTTPS"
+        },
+        {
+          "host": "qt_prd_sng_services.quicko.com"
+        },
+        {
+          "host": "qt-prd-sng-serv-1.quicko.com"
+        },
+        {
+          "host": "content.quicko.com",
+          "httpsBehavior": "HTTP redirected to HTTPS"
+        }
+      ]
+    },
+    {
+      "organization": "Tax Chanakya",
+      "hosts": [
+        {
+          "host": "taxchanakya.com",
+          "hostPurpose": "Home page (has login)",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "www.taxchanakya.com",
+          "hostPurpose": "Home page (has login)",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "blog.taxchanakya.com",
+          "hostPurpose": "Blog",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
+        },
+        {
+          "host": "mail.taxchanakya.com",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS does not show same content as HTTP"
+        }
+      ]
+    },
+    {
+      "organization": "Taxshax",
+      "hosts": [
+        {
+          "host": "taxshax.com",
+          "hostPurpose": "Home page (has login)",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
+        },
+        {
+          "host": "www.taxshax.com",
+          "hostPurpose": "Home page (has login)",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
+        },
+        {
+          "host": "blogs.taxshax.com",
+          "httpsBehavior": "Unable to connect over HTTP and HTTPS"
+        },
+        {
+          "host": "tracking.taxshax.com",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
+        }
+      ]
+    },
+    {
+      "organization": "Tax Manager",
+      "hosts": [
+        {
+          "host": "taxmanager.in",
+          "hostPurpose": "Home page (has login)",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "www.taxmanager.in",
+          "hostPurpose": "Home page (has login)",
+          "httpsBehavior": "HTTP only"
+        }
+      ]
+    },
+    {
+      "organization": "Chaireturn",
+      "hosts": [
+        {
+          "host": "chaireturn.com",
+          "hostPurpose": "Home page (has login)",
+          "httpsBehavior": "HTTP redirected to HTTPS",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/89"
+        },
+        {
+          "host": "www.chaireturn.com",
+          "hostPurpose": "Home page (has login)",
+          "httpsBehavior": "HTTP redirected to HTTPS",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/90"
+        },
+        {
+          "host": "ns1.chaireturn.com",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/91"
+        },
+        {
+          "host": "ns2.chaireturn.com",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/92"
+        }
+      ]
+    },
+    {
+      "organization": "efiler",
+      "hosts": [
+        {
+          "host": "efiler.in",
+          "hostPurpose": "Home page (has login)",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "www.efiler.in",
+          "hostPurpose": "Home page (has login)",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "blog.efiler.in",
+          "hostPurpose": "Blog",
+          "httpsBehavior": "HTTP only"
+        }
+      ]
+    },
+    {
+      "organization": "Make My Returns",
+      "hosts": [
+        {
+          "host": "makemyreturns.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS downgraded"
+        },
+        {
+          "host": "www.makemyreturns.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS downgraded"
+        },
+        {
+          "host": "blog.makemyreturns.com",
+          "hostPurpose": "Blog",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS does not show same content as HTTP"
+        }
+      ]
+    },
+    {
+      "organization": "Income Tax Department, Government of India",
+      "hosts": [
+        {
+          "host": "incometaxindiaefiling.gov.in",
+          "hostPurpose": "Home page (has login)",
+          "httpsBehavior": "HTTPS downgraded to HTTP",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/80"
+        },
+        {
+          "host": "www.incometaxindiaefiling.gov.in",
+          "hostPurpose": "Home page (has login)",
+          "httpsBehavior": "HTTPS downgraded to HTTP",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/81"
+        }
+      ]
+    }
+  ]
+}

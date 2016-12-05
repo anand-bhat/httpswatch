@@ -1,0 +1,13 @@
+{
+  "industry": "Securities",
+  "organizations": [
+    {
+      "organization": "NSDL",
+      "hosts": [
+        {
+          "host": "*"
+        }
+      ]
+    }
+  ]
+}
