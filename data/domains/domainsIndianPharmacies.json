@@ -22,7 +22,8 @@
         {
           "host": "blog.netmeds.com",
           "hostPurpose": "Blog",
-          "httpsBehavior": "HTTP only"
+          "httpsBehavior": "HTTP only",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/116"
         },
         {
           "host": "dev-api.netmeds.com",
@@ -32,15 +33,18 @@
         {
           "host": "dev.netmeds.com",
           "hostPurpose": "Home page (Non production)",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/113"
         },
         {
           "host": "enewsletter.netmeds.com",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/115"
         },
         {
           "host": "img-blog.netmeds.com",
-          "httpsBehavior": "HTTP only"
+          "httpsBehavior": "HTTP only",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/117"
         },
         {
           "host": "m.netmeds.com",
@@ -49,7 +53,8 @@
         },
         {
           "host": "notify.netmeds.com",
-          "httpsBehavior": "HTTP redirected to HTTPS"
+          "httpsBehavior": "HTTP redirected to HTTPS",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/114"
         }
       ]
     },
@@ -66,12 +71,6 @@
           "hostPurpose": "Home page",
           "httpsBehavior": "HTTP and HTTPS redirect to http://www.mchemist.com"
         },
-        {
-          "host": "cloud.mchemist.com",
-          "httpsBehavior": "HTTP redirected to http://www.mchemist.com; HTTPS does not show same content"
-        },
-        {
-          "host": "www.cloud.mchemist.com",
           "httpsBehavior": "HTTP redirected to http://www.mchemist.com; HTTPS does not show same content"
         },
         {
@@ -224,25 +223,30 @@
         {
           "host": "www.savemymeds.com",
           "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/119"
         },
         {
           "host": "savemymeds.com",
           "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP and HTTPS redirect to redirect to http://www.savemymeds.com"
+          "httpsBehavior": "HTTP and HTTPS redirect to redirect to http://www.savemymeds.com",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/118"
         },
         {
           "host": "api.savemymeds.com",
-          "httpsBehavior": "HTTP only"
+          "httpsBehavior": "HTTP only",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/120"
         },
         {
           "host": "img.savemymeds.com",
-          "httpsBehavior": "HTTP only"
+          "httpsBehavior": "HTTP only",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/122"
         },
         {
           "host": "blog.savemymeds.com",
           "hostPurpose": "Blog",
-          "httpsBehavior": "HTTP only"
+          "httpsBehavior": "HTTP only",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/121"
         }
       ]
     },
@@ -500,33 +504,6 @@
           "host": "api.myramed.in",
           "hostPurpose": "API",
           "httpsBehavior": "HTTP redirected to HTTPS"
-        }
-      ]
-    },
-    {
-      "organization": "MeraPharmacy",
-      "hosts": [
-        {
-          "host": "www.merapharmacy.com",
-          "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
-        },
-        {
-          "host": "merapharmacy.com",
-          "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
-        },
-        {
-          "host": "dev.merapharmacy.com",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS does not show same content as HTTP"
-        },
-        {
-          "host": "lcdn.merapharmacy.com",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
-        },
-        {
-          "host": "scdn.merapharmacy.com",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
         }
       ]
     },
