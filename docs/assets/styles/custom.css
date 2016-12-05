@@ -1,0 +1,67 @@
+body {
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+td.details-control {
+	background: url('../images/details_open.png') no-repeat center center;
+	cursor: pointer;
+}
+.shown td.details-control {
+	background: url('../images/details_close.png') no-repeat center center;
+}
+table.dataTable tfoot th {
+	padding: 5px;
+}
+table.dataTable thead th {
+	padding: 5px 18px 5px 5px;
+}
+.grade {
+	font-weight: bold;
+	text-align: center;
+}
+.grade-green {
+	background-color: Green;
+}
+.grade-yellowgreen {
+	background-color: YellowGreen;
+}
+.grade-lightgreen {
+	background-color: LightGreen;
+}
+.grade-orange {
+	background-color: Orange;
+}
+.grade-gray {
+	background-color: Gray;
+}
+.grade-red {
+	background-color: Red;
+}
+.good {
+	color: YellowGreen;
+}
+.badhighlight {
+	background-color: Red;
+	color: White;
+	font-weight: bold;
+}
+.center {
+	text-align: center;
+}
+.cell-border th {
+	border-right: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+}
+.cell-border th:first-child {
+	border-left: 1px solid #ddd;
+}
+.cell-border {
+	border-bottom: 1px solid #ddd;
+}
+.strikethrough {
+	text-decoration: line-through;
+}
+.white {
+	color: White;
+}

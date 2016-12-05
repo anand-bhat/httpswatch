@@ -1,0 +1,13 @@
+title : HTTPS Watch
+
+author :
+  name : Anand Bhat
+  github : anand-bhat
+  twitter : _anandbhat
+
+production_url : https://anand-bhat.github.io/httpswatch/
+
+JB :
+  version : 0.3.0
+  BASE_PATH : https://anand-bhat.github.io/httpswatch/
+  ASSET_PATH : https://anand-bhat.github.io/httpswatch/assets
