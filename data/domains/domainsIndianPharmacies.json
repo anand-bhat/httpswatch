@@ -71,8 +71,6 @@
           "hostPurpose": "Home page",
           "httpsBehavior": "HTTP and HTTPS redirect to http://www.mchemist.com"
         },
-          "httpsBehavior": "HTTP redirected to http://www.mchemist.com; HTTPS does not show same content"
-        },
         {
           "host": "mobile.mchemist.com",
           "httpsBehavior": "HTTP and HTTPS redirect to redirect to http://www.mchemist.com"
