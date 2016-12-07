@@ -10,7 +10,6 @@ function drawChartCountsByOrg() {
 		return;
 
 	var data = google.visualization.arrayToDataTable(chartDataCountsByOrg);
-	data.sort([{column: 0}]);
 
 	var options = {
 		bar: {groupWidth: 30},

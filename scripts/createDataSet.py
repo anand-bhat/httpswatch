@@ -129,7 +129,7 @@ def printChartDataCountsByOrg(table):
           '{label: \'No HTTPS\', type: \'number\'}, ' +
           '{label: \'Scan error\', type: \'number\'}, ' +
           '{label: \'Not scanned\', type: \'number\'}],')
-    for org in table:
+    for org in sorted(table.keys()):
         counts = table[org]
         print('[\'' + org + '\', ' + getVal(counts, 'A+') + ', ' +
               getVal(counts, 'A') + ', ' + getVal(counts, 'A-') + ', ' +
