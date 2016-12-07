@@ -6,8 +6,9 @@ function format(row) {
 
 function drawChartCountsByOrg() {
 	'use strict';
-	if (typeof chartDataCountsByOrg === 'undefined')
+	if (chartDataCountsByOrg === undefined) {
 		return;
+	}
 
 	var data = google.visualization.arrayToDataTable(chartDataCountsByOrg);
 
@@ -19,7 +20,7 @@ function drawChartCountsByOrg() {
 		},
 		hAxis: {
 			minValue: 0,
-			ticks: [0, .25, .5, .75, 1],
+			ticks: [0, 0.25, 0.5, 0.75, 1],
 			textStyle: {fontSize: 14}
 		},
 		height: (100 + (60 * data.getNumberOfRows())),
@@ -207,11 +208,10 @@ $(document).ready(function () {
 						return data;
 					}
 
-					var link;
 					if (data !== '' && data !== '-') {
 						return '<a target="_blank" href="' + data + '">View</a>';
 					}
-					if (row[4] == 'A' || row[4] == 'A-' || row[4] == 'A+') {
+					if (row[4] === 'A' || row[4] === 'A-' || row[4] === 'A+' || row[4] === 'Could not connect' || row[4] === 'Scan error' || row[4] === 'Not scanned'  || row[4] === 'Unknown domain') {
 						return data;
 					}
 					return '<a target="_blank" href="https://github.com/anand-bhat/httpswatch/issues/new">Create</a>';
