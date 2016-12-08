@@ -21,11 +21,9 @@ careers.zigy.com
 cdn.saveonmedicals.com
 cdn01.pharmeasy.in
 chat.easymedico.com
-cloud.mchemist.com
 cms.pharmeasy.in
 dawaaii.com
 dev-api.netmeds.com
-dev.merapharmacy.com
 dev.netmeds.com
 dmg.1mg.com
 easymedico.com
@@ -39,7 +37,6 @@ img.1mg.com
 img.savemymeds.com
 indiameds.in
 jobs.1mg.com
-lcdn.merapharmacy.com
 lt.emaila.1mg.com
 m.netmeds.com
 madhuonlinepharmacy.in
@@ -55,7 +52,6 @@ medidart.com
 medideal.in
 medixpres.com
 medplusmart.com
-merapharmacy.com
 mobile.apollopharmacy.in
 mobile.mchemist.com
 myramed.in
@@ -72,7 +68,6 @@ ritecure.com
 rxmedikart.com
 savemymeds.com
 saveonmedicals.com
-scdn.merapharmacy.com
 share.pharmeasy.in
 stagapi.1mg.com
 stagdmg.1mg.com
@@ -94,7 +89,6 @@ www.blog.easymedico.com
 www.blog.medideal.in
 www.buydrug.in
 www.chat.easymedico.com
-www.cloud.mchemist.com
 www.dawaaii.com
 www.easymedico.com
 www.indiameds.in
@@ -105,7 +99,6 @@ www.medidart.com
 www.medideal.in
 www.medixpres.com
 www.medplusmart.com
-www.merapharmacy.com
 www.myramed.in
 www.netmeds.com
 www.patientportal.easymedico.com
