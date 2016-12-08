@@ -6,7 +6,7 @@ function format(row) {
 
 function drawChartCountsByOrg() {
 	'use strict';
-	if (chartDataCountsByOrg === undefined) {
+	if ((typeof chartDataCountsByOrg === 'undefined') ||(typeof google === 'undefined') ) {
 		return;
 	}
 
@@ -123,6 +123,19 @@ jQuery.extend(jQuery.fn.dataTableExt.oSort, {
 $(document).ready(function () {
 	'use strict';
 	var table = $('#httpsdata').DataTable({
+		search: {
+			search: function () {
+				if (location.hash === '') {
+					return '';
+				}
+				var locHash = location.hash.substr(1);
+				var query = locHash.substr(locHash.indexOf('q=')).split('&')[0].split('=')[1];
+				if (query !== undefined){
+					return decodeURIComponent(query);
+				}
+				return '';
+			}()
+		},
 		columns: [
 			{
 				className: 'details-control',
@@ -330,7 +343,7 @@ $(document).ready(function () {
 		}
 	});
 
-		// Toggle chart section visibility
+	// Toggle chart section visibility
 	$('#toggleChartCountsByOrg').on('click', function (e) {
 		e.preventDefault();
 
@@ -344,6 +357,20 @@ $(document).ready(function () {
 		}
 	});
 
+	// if a datatable is searched, sync it to the URL hash
+	$('table').on('search.dt', function(e, settings) {
+		e.preventDefault();
+		var query = $("input[type=search]").val();
+		if (query) {
+			location.hash = 'q=' + encodeURIComponent(query);
+		} else {
+			location.hash = '';
+		}
+	});
+
+	if (typeof google === 'undefined') {
+		return;
+	}
 	google.charts.load('current', {packages: ['corechart']});
 	google.charts.setOnLoadCallback(drawChartCountsByOrg);
 });
