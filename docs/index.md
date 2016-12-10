@@ -17,8 +17,8 @@ layout: blank
 	Most people historically associate HTTPS with things that need to be kept private, like login information or a page that accepts payment details but it is becoming increasingly clear that all web properties need to use HTTPS to ensure a safe and secure web experience. An excellent write-up for "HTTPS Everywhere" can be found at the aforementioned <a href="https://https.cio.gov/everything/">US Federal Government's
 	"HTTPS-Only Standard" site</a>.
 	<br><br>
-	The reason for including subdomains not normally used by the general public is that these are typically not maintained at the same standard as the main domain. Some of these (such as vpn.domain.com, 
-	webmail.domain.com etc.) are used by employees to access internal resources and it is imperative that these be protected at the same level, if not better, than a site that is used by the general public.
+	The reason for including subdomains not normally used by the general public is that these are typically not maintained at the same standard as the main domain. Some of these (such as vpn.example.com, 
+	webmail.example.com etc.) are used by employees to access internal resources and it is imperative that these be protected at the same level, if not better, than a site that is used by the general public.
 	Having poor transport layer security on such sites could lead to the an employee's credentials being compromised which could give an attacker access to internal systems. Then there are subdomains that continue to
 	be vulnerable to serious veulnerabilies such as <a href="https://en.wikipedia.org/wiki/Heartbleed">Heartbleed</a> that can be a great asset to attackers.
 	<br><br>
@@ -37,7 +37,7 @@ layout: blank
 				<li><a href="./reports/indianBanksPrivateSector">Private sector</a> - Private sector banks in India</li>
 			</ul>
 		</li>
-		<li>To do: Payment services (10% complete)</li>
+		<li><a href="./reports/indianPaymentServices">Payment gateways and payment related services</a></li>
 		<li>Securities and trading:
 			<ul>
 				<li><a href="./reports/nsdl">NSDL</a> - NSDL is the depository for the equity market in India</li>

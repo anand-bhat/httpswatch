@@ -8,4 +8,6 @@ CALL httpswatch -scangroup=IndianBanksPublicSector -createhostsfile=true
 @ECHO ---------------------------------------------
 CALL httpswatch -scangroup=IndianBanksPrivateSector -createhostsfile=true
 @ECHO ---------------------------------------------
+CALL httpswatch -scangroup=IndianPaymentServices -createhostsfile=true
+@ECHO ---------------------------------------------
 PAUSE

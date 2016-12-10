@@ -1,0 +1,2380 @@
+{
+  "industry": "Indian payment services",
+  "organizations": [
+    {
+      "organization": "airpay",
+      "hosts": [
+        {
+          "host": "airpay.co.in"
+        },
+        {
+          "host": "www.airpay.co.in"
+        },
+        {
+          "host": "ac.airpay.co.in"
+        },
+        {
+          "host": "bom.airpay.co.in"
+        },
+        {
+          "host": "ca.airpay.co.in"
+        },
+        {
+          "host": "ma.airpay.co.in"
+        },
+        {
+          "host": "mahaepay.airpay.co.in"
+        },
+        {
+          "host": "mail.airpay.co.in"
+        },
+        {
+          "host": "monitor.airpay.co.in"
+        },
+        {
+          "host": "myvoda.airpay.co.in"
+        },
+        {
+          "host": "payments.airpay.co.in"
+        },
+        {
+          "host": "secure.airpay.co.in"
+        },
+        {
+          "host": "webmail.airpay.co.in"
+        }
+      ]
+    },
+    {
+      "organization": "Atom Technologies",
+      "hosts": [
+        {
+          "host": "atomtech.in"
+        },
+        {
+          "host": "www.atomtech.in"
+        },
+        {
+          "host": "alerts.atomtech.in"
+        },
+        {
+          "host": "atomlitestaging.atomtech.in"
+        },
+        {
+          "host": "atomz.atomtech.in"
+        },
+        {
+          "host": "caller.atomtech.in"
+        },
+        {
+          "host": "cards.atomtech.in"
+        },
+        {
+          "host": "drprepaid.atomtech.in"
+        },
+        {
+          "host": "garuda.atomtech.in"
+        },
+        {
+          "host": "mail.atomtech.in"
+        },
+        {
+          "host": "mail1.atomtech.in"
+        },
+        {
+          "host": "mail1.paybuzz.atomtech.in"
+        },
+        {
+          "host": "mail1.sugam.atomtech.in"
+        },
+        {
+          "host": "mail2.atomtech.in"
+        },
+        {
+          "host": "mail2.paybuzz.atomtech.in"
+        },
+        {
+          "host": "mail2.sugam.atomtech.in"
+        },
+        {
+          "host": "mail3.paybuzz.atomtech.in"
+        },
+        {
+          "host": "ntlspayment.atomtech.in"
+        },
+        {
+          "host": "paybuzz.atomtech.in"
+        },
+        {
+          "host": "payment.atomtech.in"
+        },
+        {
+          "host": "paynetzuat.atomtech.in"
+        },
+        {
+          "host": "pg.atomtech.in"
+        },
+        {
+          "host": "pgreports.atomtech.in"
+        },
+        {
+          "host": "pgtest.atomtech.in"
+        },
+        {
+          "host": "prepaid.atomtech.in"
+        },
+        {
+          "host": "psa.atomtech.in"
+        },
+        {
+          "host": "reports.atomtech.in"
+        },
+        {
+          "host": "services.atomtech.in"
+        },
+        {
+          "host": "sparrow.atomtech.in"
+        },
+        {
+          "host": "sslpayment.atomtech.in"
+        },
+        {
+          "host": "sugam.atomtech.in"
+        },
+        {
+          "host": "web.atomtech.in"
+        },
+        {
+          "host": "webpay.atomtech.in"
+        }
+      ]
+    },
+    {
+      "organization": "CCAvenue",
+      "hosts": [
+        {
+          "host": "ccavenue.com"
+        },
+        {
+          "host": "www.ccavenue.com"
+        },
+        {
+          "host": "1martianway.ccavenue.com"
+        },
+        {
+          "host": "adventuregearstore.ccavenue.com"
+        },
+        {
+          "host": "albatrossflyingsystems.ccavenue.com"
+        },
+        {
+          "host": "alphanumeric.ccavenue.com"
+        },
+        {
+          "host": "alphonsomangoes.ccavenue.com"
+        },
+        {
+          "host": "amuzerecords.ccavenue.com"
+        },
+        {
+          "host": "apchristianevents.ccavenue.com"
+        },
+        {
+          "host": "artisanshamlet.ccavenue.com"
+        },
+        {
+          "host": "ashaemporium.ccavenue.com"
+        },
+        {
+          "host": "ashmanapparels.ccavenue.com"
+        },
+        {
+          "host": "bakemojo.ccavenue.com"
+        },
+        {
+          "host": "beanstalknleaves.ccavenue.com"
+        },
+        {
+          "host": "bsy.ccavenue.com"
+        },
+        {
+          "host": "buyeverything.ccavenue.com"
+        },
+        {
+          "host": "coloursofritu.ccavenue.com"
+        },
+        {
+          "host": "consultifrs.ccavenue.com"
+        },
+        {
+          "host": "dashboard.ccavenue.com"
+        },
+        {
+          "host": "deal2kart.ccavenue.com"
+        },
+        {
+          "host": "devasena.ccavenue.com"
+        },
+        {
+          "host": "dothediy.ccavenue.com"
+        },
+        {
+          "host": "epanditji.ccavenue.com"
+        },
+        {
+          "host": "esdeal.ccavenue.com"
+        },
+        {
+          "host": "f6swm8yxjq.this_is_research.next_query.is_from_us.if_problem.please_see.http.researchscan.cs.berkeley.edu.ccavenue.com"
+        },
+        {
+          "host": "farmpress.ccavenue.com"
+        },
+        {
+          "host": "gramiyum.ccavenue.com"
+        },
+        {
+          "host": "harvey.ccavenue.com"
+        },
+        {
+          "host": "helpdesk.ccavenue.com"
+        },
+        {
+          "host": "jgrouprobotics.ccavenue.com"
+        },
+        {
+          "host": "jkt0kolqbi.this_is_research.next_query.is_from_us.if_problem.please_see.http.researchscan.cs.berkeley.edu.ccavenue.com"
+        },
+        {
+          "host": "jyotishplusindia.ccavenue.com"
+        },
+        {
+          "host": "konarksolutions.ccavenue.com"
+        },
+        {
+          "host": "lgoin.ccavenue.com"
+        },
+        {
+          "host": "login.ccavenue.com"
+        },
+        {
+          "host": "mahindra.ccavenue.com"
+        },
+        {
+          "host": "mail.ccavenue.com"
+        },
+        {
+          "host": "mail.world.ccavenue.com"
+        },
+        {
+          "host": "mamalla.ccavenue.com"
+        },
+        {
+          "host": "mars.ccavenue.com"
+        },
+        {
+          "host": "mgenstore.ccavenue.com"
+        },
+        {
+          "host": "mobilecreches.ccavenue.com"
+        },
+        {
+          "host": "mokanc.ccavenue.com"
+        },
+        {
+          "host": "mushroom.ccavenue.com"
+        },
+        {
+          "host": "myhomedelivery.ccavenue.com"
+        },
+        {
+          "host": "navitech.ccavenue.com"
+        },
+        {
+          "host": "neckwear.ccavenue.com"
+        },
+        {
+          "host": "ns.ccavenue.com"
+        },
+        {
+          "host": "nwdfezdckr.this_is_research.next_query.is_from_us.if_problem.please_see.http.researchscan.cs.berkeley.edu.ccavenue.com"
+        },
+        {
+          "host": "onlinelala.ccavenue.com"
+        },
+        {
+          "host": "orangegardens.ccavenue.com"
+        },
+        {
+          "host": "orders.ccavenue.com"
+        },
+        {
+          "host": "ornabliss.ccavenue.com"
+        },
+        {
+          "host": "palasandrabooks.ccavenue.com"
+        },
+        {
+          "host": "physicsbyanish.ccavenue.com"
+        },
+        {
+          "host": "pinaacle.ccavenue.com"
+        },
+        {
+          "host": "powerme.ccavenue.com"
+        },
+        {
+          "host": "reatil.ccavenue.com"
+        },
+        {
+          "host": "renufeatures.ccavenue.com"
+        },
+        {
+          "host": "rkstore.ccavenue.com"
+        },
+        {
+          "host": "seasons.ccavenue.com"
+        },
+        {
+          "host": "secure.ccavenue.com"
+        },
+        {
+          "host": "shubhsarinicollections.ccavenue.com"
+        },
+        {
+          "host": "sie.ccavenue.com"
+        },
+        {
+          "host": "sikhbeard.ccavenue.com"
+        },
+        {
+          "host": "smartpuja.ccavenue.com"
+        },
+        {
+          "host": "soniyastore.ccavenue.com"
+        },
+        {
+          "host": "starshopi.ccavenue.com"
+        },
+        {
+          "host": "stylishdolls.ccavenue.com"
+        },
+        {
+          "host": "support.google.com"
+        },
+        {
+          "host": "test.ccavenue.com"
+        },
+        {
+          "host": "testprepshop.ccavenue.com"
+        },
+        {
+          "host": "thekkady.ccavenue.com"
+        },
+        {
+          "host": "thinture.ccavenue.com"
+        },
+        {
+          "host": "toletcare.comwww.ccavenue.com"
+        },
+        {
+          "host": "vinshiwellness.ccavenue.com"
+        },
+        {
+          "host": "world.ccavenue.com"
+        },
+        {
+          "host": "wwww.ccavenue.com"
+        },
+        {
+          "host": "zoneofdeals.ccavenue.com"
+        }
+      ]
+    },
+    {
+      "organization": "Citrus Pay",
+      "hosts": [
+        {
+          "host": "citruspay.com"
+        },
+        {
+          "host": "www.citruspay.com"
+        },
+        {
+          "host": "a.ns.e.citruspay.com"
+        },
+        {
+          "host": "admin.citruspay.com"
+        },
+        {
+          "host": "aircel.citruspay.com"
+        },
+        {
+          "host": "analytics.citruspay.com"
+        },
+        {
+          "host": "b.ns.e.citruspay.com"
+        },
+        {
+          "host": "betadevelopers.citruspay.com"
+        },
+        {
+          "host": "bin.citruspay.com"
+        },
+        {
+          "host": "blazecard.citruspay.com"
+        },
+        {
+          "host": "blazenet.citruspay.com"
+        },
+        {
+          "host": "blazenetadmin.citruspay.com"
+        },
+        {
+          "host": "blog.citruspay.com"
+        },
+        {
+          "host": "c.citruspay.com"
+        },
+        {
+          "host": "c.ns.e.citruspay.com"
+        },
+        {
+          "host": "cardenquiry.citruspay.com"
+        },
+        {
+          "host": "channels.citruspay.com"
+        },
+        {
+          "host": "checkout-static.citruspay.com"
+        },
+        {
+          "host": "checkout.citruspay.com"
+        },
+        {
+          "host": "citrusapi.citruspay.com"
+        },
+        {
+          "host": "citruscube.citruspay.com"
+        },
+        {
+          "host": "citruscubebase.citruspay.com"
+        },
+        {
+          "host": "consumer.citruspay.com"
+        },
+        {
+          "host": "consumerprepaid.citruspay.com"
+        },
+        {
+          "host": "context.citruspay.com"
+        },
+        {
+          "host": "coupons.citruspay.com"
+        },
+        {
+          "host": "cpoffers.citruspay.com"
+        },
+        {
+          "host": "cube.citruspay.com"
+        },
+        {
+          "host": "cubeappapi.citruspay.com"
+        },
+        {
+          "host": "d.ns.e.citruspay.com"
+        },
+        {
+          "host": "developers.citruspay.com"
+        },
+        {
+          "host": "directdebit.citruspay.com"
+        },
+        {
+          "host": "e.citruspay.com"
+        },
+        {
+          "host": "e.ns.e.citruspay.com"
+        },
+        {
+          "host": "ebm.c.citruspay.com"
+        },
+        {
+          "host": "ebm.e.citruspay.com"
+        },
+        {
+          "host": "f.e.citruspay.com"
+        },
+        {
+          "host": "f.ns.e.citruspay.com"
+        },
+        {
+          "host": "ftp.citruspay.com"
+        },
+        {
+          "host": "gateway.test.citruspay.com"
+        },
+        {
+          "host": "gocd.citruspay.com"
+        },
+        {
+          "host": "icp.citruspay.com"
+        },
+        {
+          "host": "internalprepaid.citruspay.com"
+        },
+        {
+          "host": "invoice.citruspay.com"
+        },
+        {
+          "host": "mars.citruspay.com"
+        },
+        {
+          "host": "merchantapp.citruspay.com"
+        },
+        {
+          "host": "merchantprepaid.citruspay.com"
+        },
+        {
+          "host": "mercury.citruspay.com"
+        },
+        {
+          "host": "messaging-preprod.citruspay.com"
+        },
+        {
+          "host": "mob.citruspay.com"
+        },
+        {
+          "host": "mobadmin.citruspay.com"
+        },
+        {
+          "host": "moblite.citruspay.com"
+        },
+        {
+          "host": "mobsandboxadmin.citruspay.com"
+        },
+        {
+          "host": "mocha.citruspay.com"
+        },
+        {
+          "host": "mta402.e.citruspay.com"
+        },
+        {
+          "host": "mta403.e.citruspay.com"
+        },
+        {
+          "host": "mumredmine.citruspay.com"
+        },
+        {
+          "host": "mvc.citruspay.com"
+        },
+        {
+          "host": "nitro.citruspay.com"
+        },
+        {
+          "host": "offers.citruspay.com"
+        },
+        {
+          "host": "onboard.citruspay.com"
+        },
+        {
+          "host": "oops.citruspay.com"
+        },
+        {
+          "host": "power.citruspay.com"
+        },
+        {
+          "host": "poweradmin.citruspay.com"
+        },
+        {
+          "host": "primus-preprod.citruspay.com"
+        },
+        {
+          "host": "primus.citruspay.com"
+        },
+        {
+          "host": "proximity.citruspay.com"
+        },
+        {
+          "host": "redmine.citruspay.com"
+        },
+        {
+          "host": "reports-old.citruspay.com"
+        },
+        {
+          "host": "reports.citruspay.com"
+        },
+        {
+          "host": "sandbox.citruspay.com"
+        },
+        {
+          "host": "sandboxadmin.citruspay.com"
+        },
+        {
+          "host": "sboxblazenet.citruspay.com"
+        },
+        {
+          "host": "sboxcheckout-static.citruspay.com"
+        },
+        {
+          "host": "sboxcheckout.citruspay.com"
+        },
+        {
+          "host": "sboxcontext.citruspay.com"
+        },
+        {
+          "host": "sboxmercury.citruspay.com"
+        },
+        {
+          "host": "secure2.citruspay.com"
+        },
+        {
+          "host": "signup.citruspay.com"
+        },
+        {
+          "host": "smtpout.citruspay.com"
+        },
+        {
+          "host": "sslv2.citruspay.com"
+        },
+        {
+          "host": "sslv2admin.citruspay.com"
+        },
+        {
+          "host": "stg.citruspay.com"
+        },
+        {
+          "host": "stgadmin.citruspay.com"
+        },
+        {
+          "host": "stganalytics.citruspay.com"
+        },
+        {
+          "host": "stgbillpay.citruspay.com"
+        },
+        {
+          "host": "stgconsumer.citruspay.com"
+        },
+        {
+          "host": "stgcontext.citruspay.com"
+        },
+        {
+          "host": "stgjs.citruspay.com"
+        },
+        {
+          "host": "stgmerchantapp.citruspay.com"
+        },
+        {
+          "host": "stgmoblite9.citruspay.com"
+        },
+        {
+          "host": "stgpg12.citruspay.com"
+        },
+        {
+          "host": "stgpg13.citruspay.com"
+        },
+        {
+          "host": "stgpg15.citruspay.com"
+        },
+        {
+          "host": "stgpg2.citruspay.com"
+        },
+        {
+          "host": "stgpg9.citruspay.com"
+        },
+        {
+          "host": "stgwallet.citruspay.com"
+        },
+        {
+          "host": "support.citruspay.com"
+        },
+        {
+          "host": "testbilladmin.citruspay.com"
+        },
+        {
+          "host": "vault.citruspay.com"
+        },
+        {
+          "host": "vault.test.citruspay.com"
+        },
+        {
+          "host": "wallet.citruspay.com"
+        },
+        {
+          "host": "www.blog.citruspay.com"
+        },
+        {
+          "host": "citruswallet.com"
+        },
+        {
+          "host": "www.citruswallet.com"
+        }
+      ]
+    },
+    {
+      "organization": "DirecPay",
+      "hosts": [
+        {
+          "host": "direcpay.com"
+        },
+        {
+          "host": "www.direcpay.com"
+        },
+        {
+          "host": "onlinepaymentgateway.direcpay.com"
+        },
+        {
+          "host": "paymentgatewayindia.direcpay.com"
+        },
+        {
+          "host": "reports.direcpay.com"
+        },
+        {
+          "host": "test.direcpay.com"
+        }
+      ]
+    },
+    {
+      "organization": "EBS",
+      "hosts": [
+        {
+          "host": "ebs.in"
+        },
+        {
+          "host": "www.ebs.in"
+        },
+        {
+          "host": "api.secure.ebs.in"
+        },
+        {
+          "host": "console.secure.ebs.in"
+        },
+        {
+          "host": "dev.ebs.in"
+        },
+        {
+          "host": "dev.secure.ebs.in"
+        },
+        {
+          "host": "git.ebs.in"
+        },
+        {
+          "host": "inapi.secure.ebs.in"
+        },
+        {
+          "host": "inconsole.secure.ebs.in"
+        },
+        {
+          "host": "incontroller.secure.ebs.in"
+        },
+        {
+          "host": "notification.ebs.in"
+        },
+        {
+          "host": "panela.ebs.in"
+        },
+        {
+          "host": "qa.secure.ebs.in"
+        },
+        {
+          "host": "r.notification.ebs.in"
+        },
+        {
+          "host": "redmine.ebs.in"
+        },
+        {
+          "host": "secure.ebs.in"
+        },
+        {
+          "host": "staging.secure.ebs.in"
+        },
+        {
+          "host": "support.ebs.in"
+        }
+      ]
+    },
+    {
+      "organization": "EMVANTAGE",
+      "hosts": [
+        {
+          "host": "emvantage.com"
+        },
+        {
+          "host": "www.emvantage.com"
+        },
+        {
+          "host": "mail.emvantage.com"
+        },
+        {
+          "host": "ns1.emvantage.com"
+        },
+        {
+          "host": "ns2.emvantage.com"
+        },
+        {
+          "host": "test.emvantage.com"
+        }
+      ]
+    },
+    {
+      "organization": "FreeCharge",
+      "hosts": [
+        {
+          "host": "freecharge.in"
+        },
+        {
+          "host": "www.freecharge.in"
+        },
+        {
+          "host": "account-beta.freecharge.in"
+        },
+        {
+          "host": "account.freecharge.in"
+        },
+        {
+          "host": "admin.freecharge.in"
+        },
+        {
+          "host": "blog.freecharge.in"
+        },
+        {
+          "host": "cdn.freecharge.in"
+        },
+        {
+          "host": "checkout.freecharge.in"
+        },
+        {
+          "host": "csat.freecharge.in"
+        },
+        {
+          "host": "dev4.dev.freecharge.in"
+        },
+        {
+          "host": "ext-dev1-dev.freecharge.in"
+        },
+        {
+          "host": "ext-dev10-dev.freecharge.in"
+        },
+        {
+          "host": "ext-dev11-dev.freecharge.in"
+        },
+        {
+          "host": "ext-dev12-dev.freecharge.in"
+        },
+        {
+          "host": "ext-dev14-dev.freecharge.in"
+        },
+        {
+          "host": "ext-dev15-dev.freecharge.in"
+        },
+        {
+          "host": "ext-dev2-dev.freecharge.in"
+        },
+        {
+          "host": "ext-dev3-dev.freecharge.in"
+        },
+        {
+          "host": "ext-dev4-dev.freecharge.in"
+        },
+        {
+          "host": "ext-dev5-dev.freecharge.in"
+        },
+        {
+          "host": "ext-dev6-dev.freecharge.in"
+        },
+        {
+          "host": "ext-dev7-dev.freecharge.in"
+        },
+        {
+          "host": "ext-dev8-dev.freecharge.in"
+        },
+        {
+          "host": "ext-dev9-dev.freecharge.in"
+        },
+        {
+          "host": "ext-qamobile1-aws1.freecharge.in"
+        },
+        {
+          "host": "ext-qamobile2-aws1.freecharge.in"
+        },
+        {
+          "host": "ext-qamobile3-aws1.freecharge.in"
+        },
+        {
+          "host": "ext-qamobile4-aws1.freecharge.in"
+        },
+        {
+          "host": "ext-qamobile5-aws1.freecharge.in"
+        },
+        {
+          "host": "ext-qamobile6-aws1.freecharge.in"
+        },
+        {
+          "host": "ext-qamobile7-aws1.freecharge.in"
+        },
+        {
+          "host": "ext-qamobile8-aws1.freecharge.in"
+        },
+        {
+          "host": "ext-umsinternal-dev.freecharge.in"
+        },
+        {
+          "host": "ext-umsinternal.dev.freecharge.in"
+        },
+        {
+          "host": "geekery.freecharge.in"
+        },
+        {
+          "host": "login.freecharge.in"
+        },
+        {
+          "host": "m.freecharge.in"
+        },
+        {
+          "host": "merchant.freecharge.in"
+        },
+        {
+          "host": "o4.em.freecharge.com"
+        },
+        {
+          "host": "onecheck.freecharge.in"
+        },
+        {
+          "host": "opr.freecharge.in"
+        },
+        {
+          "host": "pay-internal.freecharge.in"
+        },
+        {
+          "host": "pay.freecharge.in"
+        },
+        {
+          "host": "paymentschat.freecharge.in"
+        },
+        {
+          "host": "s.freecharge.in"
+        },
+        {
+          "host": "s2s.freecharge.in"
+        },
+        {
+          "host": "support.freecharge.in"
+        },
+        {
+          "host": "tracker.freecharge.in"
+        },
+        {
+          "host": "vcard.freecharge.in"
+        },
+        {
+          "host": "freecharge.com"
+        },
+        {
+          "host": "www.freecharge.com"
+        },
+        {
+          "host": "admin.freecharge.com"
+        },
+        {
+          "host": "jobs.freecharge.com"
+        },
+        {
+          "host": "mobileapps.freecharge.com"
+        },
+        {
+          "host": "offers.freecharge.com"
+        },
+        {
+          "host": "pay.freecharge.com"
+        },
+        {
+          "host": "s2s.freecharge.com"
+        }
+      ]
+    },
+    {
+      "organization": "Instamojo",
+      "hosts": [
+        {
+          "host": "instamojo.com"
+        },
+        {
+          "host": "www.instamojo.com"
+        },
+        {
+          "host": "admin.instamojo.com"
+        },
+        {
+          "host": "blog.instamojo.com"
+        },
+        {
+          "host": "docs.instamojo.com"
+        },
+        {
+          "host": "email.mg.instamojo.com"
+        },
+        {
+          "host": "staging.instamojo.com"
+        },
+        {
+          "host": "support.instamojo.com"
+        },
+        {
+          "host": "test.instamojo.com"
+        }
+      ]
+    },
+    {
+      "organization": "Juspay",
+      "hosts": [
+        {
+          "host": "juspay.in"
+        },
+        {
+          "host": "www.juspay.in"
+        },
+        {
+          "host": "analytics.juspay.in"
+        },
+        {
+          "host": "api.juspay.in"
+        },
+        {
+          "host": "apidocs.juspay.in"
+        },
+        {
+          "host": "beta.expresscheckout.juspay.in"
+        },
+        {
+          "host": "beta.locker.juspay.in"
+        },
+        {
+          "host": "blog.juspay.in"
+        },
+        {
+          "host": "config.juspay.in"
+        },
+        {
+          "host": "docs.juspay.in"
+        },
+        {
+          "host": "faq.juspay.in"
+        },
+        {
+          "host": "krypton.juspay.in"
+        },
+        {
+          "host": "logs.juspay.in"
+        },
+        {
+          "host": "merchant.juspay.in"
+        },
+        {
+          "host": "paylater-beta.juspay.in"
+        },
+        {
+          "host": "paylater.juspay.in"
+        },
+        {
+          "host": "redir1.juspay.in"
+        },
+        {
+          "host": "sandbox.juspay.in"
+        },
+        {
+          "host": "status.juspay.in"
+        }
+      ]
+    },
+    {
+      "organization": "LazyPay",
+      "hosts": [
+        {
+          "host": "www.lazypay.in"
+        },
+        {
+          "host": "api.lazypay.in"
+        },
+        {
+          "host": "sboxapi.lazypay.in"
+        },
+        {
+          "host": "test.lazypay.in"
+        }
+      ]
+    },
+    {
+      "organization": "MobiKwik",
+      "hosts": [
+        {
+          "host": "mobikwik.com"
+        },
+        {
+          "host": "www.mobikwik.com"
+        },
+        {
+          "host": "149.emails.mailer.mobikwik.com"
+        },
+        {
+          "host": "150.emails.mailer.mobikwik.com"
+        },
+        {
+          "host": "a.ns.crm.mobikwik.com"
+        },
+        {
+          "host": "alpha.mobikwik.com"
+        },
+        {
+          "host": "alpha1.mobikwik.com"
+        },
+        {
+          "host": "app.mobikwik.com"
+        },
+        {
+          "host": "app1.mobikwik.com"
+        },
+        {
+          "host": "app2.mobikwik.com"
+        },
+        {
+          "host": "app3.mobikwik.com"
+        },
+        {
+          "host": "appapi.mobikwik.com"
+        },
+        {
+          "host": "appapi1.mobikwik.com"
+        },
+        {
+          "host": "auid.mobikwik.com"
+        },
+        {
+          "host": "b.ns.crm.mobikwik.com"
+        },
+        {
+          "host": "beta.mobikwik.com"
+        },
+        {
+          "host": "blog.mobikwik.com"
+        },
+        {
+          "host": "busapi.mobikwik.com"
+        },
+        {
+          "host": "c.mx.crm.mobikwik.com"
+        },
+        {
+          "host": "c.ns.crm.mobikwik.com"
+        },
+        {
+          "host": "communications.mobikwik.com"
+        },
+        {
+          "host": "crm.mobikwik.com"
+        },
+        {
+          "host": "d.mx.crm.mobikwik.com"
+        },
+        {
+          "host": "d.ns.crm.mobikwik.com"
+        },
+        {
+          "host": "dashboard.mobikwik.com"
+        },
+        {
+          "host": "db.mobikwik.com"
+        },
+        {
+          "host": "dr.mobikwik.com"
+        },
+        {
+          "host": "e.ns.crm.mobikwik.com"
+        },
+        {
+          "host": "ebm.crm.mobikwik.com"
+        },
+        {
+          "host": "ekycapi.mobikwik.com"
+        },
+        {
+          "host": "emaila.mailer.mobikwik.com"
+        },
+        {
+          "host": "emails.mailer.mobikwik.com"
+        },
+        {
+          "host": "f.crm.mobikwik.com"
+        },
+        {
+          "host": "f.ns.crm.mobikwik.com"
+        },
+        {
+          "host": "gg.mobikwik.com"
+        },
+        {
+          "host": "img.mailer.mobikwik.com"
+        },
+        {
+          "host": "ldap.mobikwik.com"
+        },
+        {
+          "host": "ldap1.mobikwik.com"
+        },
+        {
+          "host": "m.mobikwik.com"
+        },
+        {
+          "host": "m.staging.mobikwik.com"
+        },
+        {
+          "host": "mailer.mobikwik.com"
+        },
+        {
+          "host": "merchant.mobikwik.com"
+        },
+        {
+          "host": "mm.mobikwik.com"
+        },
+        {
+          "host": "mobile.mobikwik.com"
+        },
+        {
+          "host": "mta721.crm.mobikwik.com"
+        },
+        {
+          "host": "mta821.crm.mobikwik.com"
+        },
+        {
+          "host": "near.mobikwik.com"
+        },
+        {
+          "host": "new.mobikwik.com"
+        },
+        {
+          "host": "offers.mobikwik.com"
+        },
+        {
+          "host": "origin-static.mobikwik.com"
+        },
+        {
+          "host": "panela.mailer.mobikwik.com"
+        },
+        {
+          "host": "promotions.mobikwik.com"
+        },
+        {
+          "host": "rapi.mobikwik.com"
+        },
+        {
+          "host": "rechargeforum.mobikwik.com"
+        },
+        {
+          "host": "refer.mobikwik.com"
+        },
+        {
+          "host": "s.mobikwik.com"
+        },
+        {
+          "host": "staging.mobikwik.com"
+        },
+        {
+          "host": "stagingmobile.mobikwik.com"
+        },
+        {
+          "host": "static.mobikwik.com"
+        },
+        {
+          "host": "static10.mobikwik.com"
+        },
+        {
+          "host": "static3.mobikwik.com"
+        },
+        {
+          "host": "static6.mobikwik.com"
+        },
+        {
+          "host": "static7.mobikwik.com"
+        },
+        {
+          "host": "static8.mobikwik.com"
+        },
+        {
+          "host": "static9.mobikwik.com"
+        },
+        {
+          "host": "staticnew1.mobikwik.com"
+        },
+        {
+          "host": "staticnew3.mobikwik.com"
+        },
+        {
+          "host": "statis6.mobikwik.com"
+        },
+        {
+          "host": "test.mobikwik.com"
+        },
+        {
+          "host": "trzej9jfyt.this_is_research.next_query.is_from_us.if_problem.please_see.http.researchscan.cs.berkeley.edu.mobikwik.com"
+        },
+        {
+          "host": "uidev.mobikwik.com"
+        },
+        {
+          "host": "wallet.mobikwik.com"
+        },
+        {
+          "host": "walletapi.mobikwik.com"
+        },
+        {
+          "host": "wallettest.mobikwik.com"
+        },
+        {
+          "host": "webapi.mobikwik.com"
+        },
+        {
+          "host": "www.alpha.mobikwik.com"
+        },
+        {
+          "host": "www.app.mobikwik.com"
+        },
+        {
+          "host": "www.app1.mobikwik.com"
+        },
+        {
+          "host": "www.app2.mobikwik.com"
+        },
+        {
+          "host": "www.db.mobikwik.com"
+        },
+        {
+          "host": "www.ekycapi.mobikwik.com"
+        },
+        {
+          "host": "www.ldap.mobikwik.com"
+        },
+        {
+          "host": "www.ldap1.mobikwik.com"
+        },
+        {
+          "host": "www.mm.mobikwik.com"
+        },
+        {
+          "host": "www.mobile.mobikwik.com"
+        },
+        {
+          "host": "www.s.mobikwik.com"
+        },
+        {
+          "host": "www.static3.mobikwik.com"
+        },
+        {
+          "host": "www.staticnew1.mobikwik.com"
+        },
+        {
+          "host": "www.staticnew3.mobikwik.com"
+        },
+        {
+          "host": "www.statis6.mobikwik.com"
+        },
+        {
+          "host": "www.trzej9jfyt.this_is_research.next_query.is_from_us.if_problem.please_see.http.researchscan.cs.berkeley.edu.mobikwik.com"
+        },
+        {
+          "host": "www.wallettest.mobikwik.com"
+        },
+        {
+          "host": "www.www10.mobikwik.com"
+        },
+        {
+          "host": "www.wwwmerchant.mobikwik.com"
+        },
+        {
+          "host": "www.wwww.mobikwik.com"
+        },
+        {
+          "host": "www10.mobikwik.com"
+        },
+        {
+          "host": "wwwmerchant.mobikwik.com"
+        },
+        {
+          "host": "wwww.mobikwik.com"
+        }
+      ]
+    },
+    {
+      "organization": "ngpay",
+      "hosts": [
+        {
+          "host": "ngpay.com"
+        },
+        {
+          "host": "www.ngpay.com"
+        },
+        {
+          "host": "preprod.ngpay.com"
+        },
+        {
+          "host": "staging.ngpay.com"
+        }
+      ]
+    },
+    {
+      "organization": "Pay1",
+      "hosts": [
+        {
+          "host": "pay1.in"
+        },
+        {
+          "host": "www.pay1.in"
+        },
+        {
+          "host": "b2c.pay1.in"
+        },
+        {
+          "host": "cashpg.pay1.in"
+        },
+        {
+          "host": "cc.pay1.in"
+        },
+        {
+          "host": "cdev.pay1.in"
+        },
+        {
+          "host": "dev.pay1.in"
+        },
+        {
+          "host": "ext.pay1.in"
+        },
+        {
+          "host": "panel.pay1.in"
+        },
+        {
+          "host": "partner.pay1.in"
+        },
+        {
+          "host": "rx.pay1.in"
+        },
+        {
+          "host": "rxx.pay1.in"
+        },
+        {
+          "host": "shop.pay1.in"
+        },
+        {
+          "host": "test.pay1.in"
+        },
+        {
+          "host": "pay1.me"
+        },
+        {
+          "host": "www.pay1.me"
+        },
+        {
+          "host": "b2c.pay1.me"
+        },
+        {
+          "host": "cc.pay1.me"
+        },
+        {
+          "host": "panel.pay1.me"
+        },
+        {
+          "host": "rx.pay1.me"
+        },
+        {
+          "host": "shop.pay1.me"
+        },
+        {
+          "host": "test.pay1.me"
+        }
+      ]
+    },
+    {
+      "organization": "Paytm",
+      "hosts": [
+        {
+          "host": "paytm.com"
+        },
+        {
+          "host": "www.paytm.com"
+        },
+        {
+          "host": "about.paytm.com"
+        },
+        {
+          "host": "accounts-uat.paytm.com"
+        },
+        {
+          "host": "accounts.paytm.com"
+        },
+        {
+          "host": "accounts1.paytm.com"
+        },
+        {
+          "host": "analytics.paytm.com"
+        },
+        {
+          "host": "apiproxy.paytm.com"
+        },
+        {
+          "host": "assets.paytm.com"
+        },
+        {
+          "host": "assetscdn.paytm.com"
+        },
+        {
+          "host": "beta-assets.paytm.com"
+        },
+        {
+          "host": "beta.paytm.com"
+        },
+        {
+          "host": "beta1-assets.paytm.com"
+        },
+        {
+          "host": "beta1.paytm.com"
+        },
+        {
+          "host": "blog.paytm.com"
+        },
+        {
+          "host": "buservice.saas.paytm.com"
+        },
+        {
+          "host": "c.paytm.com"
+        },
+        {
+          "host": "cart-staging.paytm.com"
+        },
+        {
+          "host": "cart.paytm.com"
+        },
+        {
+          "host": "cartapidev.paytm.com"
+        },
+        {
+          "host": "catalog-staging.paytm.com"
+        },
+        {
+          "host": "catalog.paytm.com"
+        },
+        {
+          "host": "catalogadmin.paytm.com"
+        },
+        {
+          "host": "catalogapidev.paytm.com"
+        },
+        {
+          "host": "cdn.paytm.com"
+        },
+        {
+          "host": "cdn2.paytm.com"
+        },
+        {
+          "host": "cdn5.paytm.com"
+        },
+        {
+          "host": "chat-staging.paytm.com"
+        },
+        {
+          "host": "chat2-paywith.paytm.com"
+        },
+        {
+          "host": "cms.paytm.com"
+        },
+        {
+          "host": "code.paytm.com"
+        },
+        {
+          "host": "codejam.paytm.com"
+        },
+        {
+          "host": "compliance.paytm.com"
+        },
+        {
+          "host": "ctest.paytm.com"
+        },
+        {
+          "host": "dashboard.paytm.com"
+        },
+        {
+          "host": "dev-c2c.paytm.com"
+        },
+        {
+          "host": "dev-paywith.paytm.com"
+        },
+        {
+          "host": "easypay.paytm.com"
+        },
+        {
+          "host": "email.paytm.com"
+        },
+        {
+          "host": "fulfillment-staging.paytm.com"
+        },
+        {
+          "host": "fulfillment.paytm.com"
+        },
+        {
+          "host": "gobig-staging.paytm.com"
+        },
+        {
+          "host": "gobig.paytm.com"
+        },
+        {
+          "host": "goldengate.paytm.com"
+        },
+        {
+          "host": "kyc.paytm.com"
+        },
+        {
+          "host": "m.paytm.com"
+        },
+        {
+          "host": "mail.paytm.com"
+        },
+        {
+          "host": "merchant.paytm.com"
+        },
+        {
+          "host": "mseller.paytm.com"
+        },
+        {
+          "host": "netc-uat.paytm.com"
+        },
+        {
+          "host": "newuser.paytm.com"
+        },
+        {
+          "host": "notification.paytm.com"
+        },
+        {
+          "host": "o1.email.paytm.com"
+        },
+        {
+          "host": "o2.email.paytm.com"
+        },
+        {
+          "host": "o4.email.paytm.com"
+        },
+        {
+          "host": "o5.email.paytm.com"
+        },
+        {
+          "host": "o6.mail.paytm.com"
+        },
+        {
+          "host": "oms-admin.paytm.com"
+        },
+        {
+          "host": "onboard.paytm.com"
+        },
+        {
+          "host": "p.paytm.com"
+        },
+        {
+          "host": "pages.paytm.com"
+        },
+        {
+          "host": "partner.paytm.com"
+        },
+        {
+          "host": "paywith.paytm.com"
+        },
+        {
+          "host": "persona-dev.paytm.com"
+        },
+        {
+          "host": "persona.paytm.com"
+        },
+        {
+          "host": "pguat.paytm.com"
+        },
+        {
+          "host": "phabricator.paytm.com"
+        },
+        {
+          "host": "qc.paytm.com"
+        },
+        {
+          "host": "resizer.paytm.com"
+        },
+        {
+          "host": "rpcapi.paytm.com"
+        },
+        {
+          "host": "search.paytm.com"
+        },
+        {
+          "host": "secure.paytm.com"
+        },
+        {
+          "host": "seedapi.paytm.com"
+        },
+        {
+          "host": "seller.paytm.com"
+        },
+        {
+          "host": "sellon.paytm.com"
+        },
+        {
+          "host": "shop.paytm.com"
+        },
+        {
+          "host": "signup.paytm.com"
+        },
+        {
+          "host": "sites-staging.paytm.com"
+        },
+        {
+          "host": "sites.paytm.com"
+        },
+        {
+          "host": "staging-assets.paytm.com"
+        },
+        {
+          "host": "staging.paytm.com"
+        },
+        {
+          "host": "t.paytm.com"
+        },
+        {
+          "host": "tickets-staging.paytm.com"
+        },
+        {
+          "host": "tickets.paytm.com"
+        },
+        {
+          "host": "track.paytm.com"
+        },
+        {
+          "host": "tracking.paytm.com"
+        },
+        {
+          "host": "travel-dev.paytm.com"
+        },
+        {
+          "host": "travel.paytm.com"
+        },
+        {
+          "host": "user.paas.paytm.com"
+        },
+        {
+          "host": "verify.paytm.com"
+        },
+        {
+          "host": "walletchat-staging.paytm.com"
+        },
+        {
+          "host": "www.paas.paytm.com"
+        },
+        {
+          "host": "paytm.in"
+        },
+        {
+          "host": "www.paytm.in"
+        },
+        {
+          "host": "accounts-staging.paytm.in"
+        },
+        {
+          "host": "aprisk.paytm.in"
+        },
+        {
+          "host": "easypay.paytm.in"
+        },
+        {
+          "host": "gateway.paytm.in"
+        },
+        {
+          "host": "merchant.paytm.in"
+        },
+        {
+          "host": "secure.paytm.in"
+        },
+        {
+          "host": "securegw.paytm.in"
+        },
+        {
+          "host": "static1.paytm.in"
+        },
+        {
+          "host": "static2.paytm.in"
+        },
+        {
+          "host": "static3.paytm.in"
+        },
+        {
+          "host": "static4.paytm.in"
+        },
+        {
+          "host": "staticgw1.paytm.in"
+        },
+        {
+          "host": "staticgw2.paytm.in"
+        },
+        {
+          "host": "staticgw3.paytm.in"
+        },
+        {
+          "host": "staticgw4.paytm.in"
+        },
+        {
+          "host": "staticgw5.paytm.in"
+        },
+        {
+          "host": "test.paytm.in"
+        },
+        {
+          "host": "tracking.paytm.in"
+        },
+        {
+          "host": "trust-uat.paytm.in"
+        },
+        {
+          "host": "trust.paytm.in"
+        },
+        {
+          "host": "wallet.paytm.in"
+        },
+        {
+          "host": "www.trust.paytm.in"
+        }
+      ]
+    },
+    {
+      "organization": "PayU",
+      "hosts": [
+        {
+          "host": "announcements.payu.com"
+        },
+        {
+          "host": "apidev.payubiz.in"
+        },
+        {
+          "host": "asi.payumoney.com"
+        },
+        {
+          "host": "bankportal.payu.in"
+        },
+        {
+          "host": "beta.sandbox.payu.com"
+        },
+        {
+          "host": "betafittipaldi.payumoney.com"
+        },
+        {
+          "host": "blog.payu.in"
+        },
+        {
+          "host": "blog.payubiz.in"
+        },
+        {
+          "host": "blog.payumoney.com"
+        },
+        {
+          "host": "blogtest.payu.in"
+        },
+        {
+          "host": "careers.payu.in"
+        },
+        {
+          "host": "cbtest.payu.in"
+        },
+        {
+          "host": "chargeback.payu.in"
+        },
+        {
+          "host": "corporate.payu.com"
+        },
+        {
+          "host": "cthcredacs.payu.in"
+        },
+        {
+          "host": "dashboard.payu.in"
+        },
+        {
+          "host": "dashboard.payubiz.in"
+        },
+        {
+          "host": "demotest.payu.in"
+        },
+        {
+          "host": "dev.wallet.payu.com"
+        },
+        {
+          "host": "devcreditcard.payu.in"
+        },
+        {
+          "host": "developer.payu.in"
+        },
+        {
+          "host": "developer.payubiz.in"
+        },
+        {
+          "host": "developers.payu.com"
+        },
+        {
+          "host": "devfile1.payumoney.com"
+        },
+        {
+          "host": "di-txncdn.payubiz.in"
+        },
+        {
+          "host": "documentation.payubiz.in"
+        },
+        {
+          "host": "extest.payubiz.in"
+        },
+        {
+          "host": "feedback.payumoney.com"
+        },
+        {
+          "host": "file.payumoney.com"
+        },
+        {
+          "host": "fileserver.payubiz.in"
+        },
+        {
+          "host": "fingerprint.payumoney.com"
+        },
+        {
+          "host": "fittipaldi.payumoney.com"
+        },
+        {
+          "host": "fp.payu.in"
+        },
+        {
+          "host": "funnel.payu.in"
+        },
+        {
+          "host": "indiagrowthdrivers.payumoney.com"
+        },
+        {
+          "host": "info.payu.in"
+        },
+        {
+          "host": "insurance.payu.in"
+        },
+        {
+          "host": "integration.payu.in"
+        },
+        {
+          "host": "integration.payubiz.in"
+        },
+        {
+          "host": "integrationadmindev.payubiz.in"
+        },
+        {
+          "host": "integrationapidev.payubiz.in"
+        },
+        {
+          "host": "integrationdeveloper.payubiz.in"
+        },
+        {
+          "host": "ipsp.secure.payu.com"
+        },
+        {
+          "host": "latinamerica.payu.com"
+        },
+        {
+          "host": "m.payu.com"
+        },
+        {
+          "host": "m.secure.payu.com"
+        },
+        {
+          "host": "mail01.payu.in"
+        },
+        {
+          "host": "mail02.payu.in"
+        },
+        {
+          "host": "mail03.payu.in"
+        },
+        {
+          "host": "mail04.payu.in"
+        },
+        {
+          "host": "mail05.payu.in"
+        },
+        {
+          "host": "mail06.payu.in"
+        },
+        {
+          "host": "mail08.payu.in"
+        },
+        {
+          "host": "maintenance.payu.com"
+        },
+        {
+          "host": "media.payumoney.com"
+        },
+        {
+          "host": "mediatest.payumoney.com"
+        },
+        {
+          "host": "merch-prod.snd.payu.com"
+        },
+        {
+          "host": "misc.payu.in"
+        },
+        {
+          "host": "mobileblog.payubiz.in"
+        },
+        {
+          "host": "mobiledev.payu.in"
+        },
+        {
+          "host": "mobiledev.payumoney.com"
+        },
+        {
+          "host": "mobiledeveloper.payubiz.in"
+        },
+        {
+          "host": "mobiledevfile.payumoney.com"
+        },
+        {
+          "host": "mobiletest.payu.in"
+        },
+        {
+          "host": "mobiletest.payubiz.in"
+        },
+        {
+          "host": "mobiletest.payumoney.com"
+        },
+        {
+          "host": "mobiletestfile.payumoney.com"
+        },
+        {
+          "host": "mobiletxncdn.payubiz.in"
+        },
+        {
+          "host": "monitoring.payubiz.in"
+        },
+        {
+          "host": "mos.payu.in"
+        },
+        {
+          "host": "mpitest.payubiz.in"
+        },
+        {
+          "host": "ms.payu.in"
+        },
+        {
+          "host": "mta-all16.info.payu.com"
+        },
+        {
+          "host": "mta-all28.info.payu.com"
+        },
+        {
+          "host": "offers.payumoney.com"
+        },
+        {
+          "host": "p9.admin.payu.in"
+        },
+        {
+          "host": "partner.payu.in"
+        },
+        {
+          "host": "partners.beta.sandbox.payu.com"
+        },
+        {
+          "host": "partners.payu.com"
+        },
+        {
+          "host": "partners.secure.payu.com"
+        },
+        {
+          "host": "pay.payumoney.com"
+        },
+        {
+          "host": "payu-ivr.payu.in"
+        },
+        {
+          "host": "payu.com"
+        },
+        {
+          "host": "payu.in"
+        },
+        {
+          "host": "payubiz.in"
+        },
+        {
+          "host": "payumoney.com"
+        },
+        {
+          "host": "pos.payubiz.in"
+        },
+        {
+          "host": "pp5.payumoney.com"
+        },
+        {
+          "host": "ppfile5.payumoney.com"
+        },
+        {
+          "host": "qc1.creditcard.payu.in"
+        },
+        {
+          "host": "qccreditcard.payu.in"
+        },
+        {
+          "host": "reseller.payu.in"
+        },
+        {
+          "host": "rnd.secure.payu.com"
+        },
+        {
+          "host": "sdktest.payu.in"
+        },
+        {
+          "host": "secure.payu.com"
+        },
+        {
+          "host": "secure.payu.in"
+        },
+        {
+          "host": "secure.snd.payu.com"
+        },
+        {
+          "host": "server-push.payu.com"
+        },
+        {
+          "host": "sms.payu.in"
+        },
+        {
+          "host": "stage.wallet.payu.com"
+        },
+        {
+          "host": "static.payu.com"
+        },
+        {
+          "host": "static.payu.in"
+        },
+        {
+          "host": "survey.payu.com"
+        },
+        {
+          "host": "test.blog.payubiz.in"
+        },
+        {
+          "host": "test.developer.payubiz.in"
+        },
+        {
+          "host": "test.payu.in"
+        },
+        {
+          "host": "test.payubiz.in"
+        },
+        {
+          "host": "test.payumoney.com"
+        },
+        {
+          "host": "test.secure.payu.com"
+        },
+        {
+          "host": "test.wallet.payu.com"
+        },
+        {
+          "host": "testacs.payu.in"
+        },
+        {
+          "host": "testacs.payumoney.com"
+        },
+        {
+          "host": "testacscred.payu.in"
+        },
+        {
+          "host": "testadmindev.payubiz.in"
+        },
+        {
+          "host": "testapidev.payubiz.in"
+        },
+        {
+          "host": "testblog.payubiz.in"
+        },
+        {
+          "host": "testcc1.payu.in"
+        },
+        {
+          "host": "testdeveloper.payubiz.in"
+        },
+        {
+          "host": "testfile.payumoney.com"
+        },
+        {
+          "host": "testpay.payumoney.com"
+        },
+        {
+          "host": "testpayments.payu.in"
+        },
+        {
+          "host": "teststatic.payu.in"
+        },
+        {
+          "host": "testtxncdn.payubiz.in"
+        },
+        {
+          "host": "transflow-info.payu.in"
+        },
+        {
+          "host": "transflow-misc.payu.in"
+        },
+        {
+          "host": "transflow-static.payu.in"
+        },
+        {
+          "host": "tvapaymon.payubiz.in"
+        },
+        {
+          "host": "txncdn.payubiz.in"
+        },
+        {
+          "host": "ux.payumoney.com"
+        },
+        {
+          "host": "uxdev1.payumoney.com"
+        },
+        {
+          "host": "uxtest.payumoney.com"
+        },
+        {
+          "host": "vpn.partners.payu.com"
+        },
+        {
+          "host": "vpn.partners.secure.payu.com"
+        },
+        {
+          "host": "wallet.payu.com"
+        },
+        {
+          "host": "www.corporate.payu.com"
+        },
+        {
+          "host": "www.developers.payu.com"
+        },
+        {
+          "host": "www.latinamerica.payu.com"
+        },
+        {
+          "host": "www.m.payu.com"
+        },
+        {
+          "host": "www.pay.payumoney.com"
+        },
+        {
+          "host": "www.payu.com"
+        },
+        {
+          "host": "www.payu.in"
+        },
+        {
+          "host": "www.payubiz.in"
+        },
+        {
+          "host": "www.payumoney.com"
+        },
+        {
+          "host": "www.survey.payu.com"
+        },
+        {
+          "host": "www.testpay.payumoney.com"
+        }
+      ]
+    },
+    {
+      "organization": "PayZippy",
+      "hosts": [
+        {
+          "host": "payzippy.com"
+        },
+        {
+          "host": "www.payzippy.com"
+        },
+        {
+          "host": "c100.payzippy.com"
+        },
+        {
+          "host": "m100.payzippy.com"
+        }
+      ]
+    },
+    {
+      "organization": "Razorpay",
+      "hosts": [
+        {
+          "host": "razorpay.com"
+        },
+        {
+          "host": "www.razorpay.com"
+        },
+        {
+          "host": "api.razorpay.com"
+        },
+        {
+          "host": "blade.razorpay.com"
+        },
+        {
+          "host": "blog.razorpay.com"
+        },
+        {
+          "host": "cdn.razorpay.com"
+        },
+        {
+          "host": "checkout.razorpay.com"
+        },
+        {
+          "host": "dashboard.razorpay.com"
+        },
+        {
+          "host": "docs.razorpay.com"
+        },
+        {
+          "host": "email.razorpay.com"
+        },
+        {
+          "host": "events.razorpay.com"
+        },
+        {
+          "host": "ifsc.razorpay.com"
+        },
+        {
+          "host": "redash.razorpay.com"
+        },
+        {
+          "host": "webinar.razorpay.com"
+        },
+        {
+          "host": "where.razorpay.com"
+        }
+      ]
+    },
+    {
+      "organization": "Zaakpay",
+      "hosts": [
+        {
+          "host": "zaakpay.com"
+        },
+        {
+          "host": "www.zaakpay.com"
+        },
+        {
+          "host": "api.zaakpay.com"
+        },
+        {
+          "host": "api2.zaakpay.com"
+        },
+        {
+          "host": "blog.zaakpay.com"
+        },
+        {
+          "host": "mbkapi.zaakpay.com"
+        },
+        {
+          "host": "static.zaakpay.com"
+        }
+      ]
+    }
+  ]
+}
