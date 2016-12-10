@@ -1457,9 +1457,6 @@
           "httpsBehavior": "HTTPS only"
         },
         {
-          "host": "www.forextravelcardingvysya.kotak.com"
-        },
-        {
           "host": "forextravelcardingvysya.kotak.com"
         },
         {
@@ -2254,9 +2251,6 @@
         },
         {
           "host": "cards.rblbank.com"
-        },
-        {
-          "host": "careers.rblbank.com"
         },
         {
           "host": "cashpoint.rblbank.com"

@@ -67,7 +67,6 @@ career.tmb.in
 careers.dcbbank.com
 careers.federalbank.co.in
 careers.kvb.co.in
-careers.rblbank.com
 carloan.kotak.com
 cashpoint.rblbank.com
 caslite.axisbank.co.in
@@ -614,7 +613,6 @@ www.emm.kotak.com
 www.federalbank.co.in
 www.fednetbank.com
 www.filesecure.bank.kotak.com
-www.forextravelcardingvysya.kotak.com
 www.fxlive.kotak.com
 www.fxliveuat.kotak.com
 www.hdfcbank.com
