@@ -267,7 +267,7 @@ def main(argv):
                              statusMessage, industry, hostPurpose,
                              httpsBehavior, issueReport, '-', '-', '-', '-',
                              '-', '-', '-', '-', '-', '-', '-', '-', '-', '-',
-                             '-', '-', '-', '-', '-', '-', '-', '-', '-']
+                             '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
             print(dataSetValues, ',')
 
             # Update chart data
@@ -427,7 +427,7 @@ def main(argv):
             trustIssues = valueIfGraded(
                     grade, booleanToYesNo(trustIssues))
 
-            # Determine if site uses SHA1 certificate (currently unused)
+            # Determine if site uses SHA1 certificate
             sha1Certificate = valueIfGraded(
                     grade, booleanToYesNo(endpoint['details']['cert'].
                                           get('sigAlg', '') == 'SHA1withRSA'))
@@ -461,7 +461,7 @@ def main(argv):
                              insecureRenegotiation, notls, trustIssues, poodle,
                              notlsv12, rc4WithModern, supportsRc4, sslv3,
                              weakDH, hasIncompleteChain, weakPrivateKey,
-                             lacksFS, lacksSecureRenegotiation]
+                             lacksFS, lacksSecureRenegotiation, sha1Certificate]
             print(dataSetValues, ',')
 
             # Update chart data
@@ -490,7 +490,7 @@ def main(argv):
                              'Not scanned', industry, hostPurpose,
                              httpsBehavior, issueReport, '-', '-', '-', '-',
                              '-', '-', '-', '-', '-', '-', '-', '-', '-', '-',
-                             '-', '-', '-', '-', '-', '-', '-', '-', '-']
+                             '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
             print(dataSetValues, ',')
 
             # Update chart data
