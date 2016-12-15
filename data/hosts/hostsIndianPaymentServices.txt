@@ -376,7 +376,6 @@ mobsandboxadmin.citruspay.com
 mocha.citruspay.com
 mokanc.ccavenue.com
 monitor.airpay.co.in
-monitor.secure.ebs.in
 monitoring.payubiz.in
 mos.payu.in
 mpitest.payubiz.in
@@ -718,7 +717,6 @@ www.freecharge.com
 www.freecharge.in
 www.instamojo.com
 www.juspay.in
-www.krypton.juspay.in
 www.latinamerica.payu.com
 www.lazypay.in
 www.ldap.mobikwik.com
