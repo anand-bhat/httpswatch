@@ -16,9 +16,6 @@ def booleanToYesNo(value):
 
 
 def getExtraHostData(jsonData, host, key):
-    if key == 'industry':
-        return jsonData.get('industry', '')
-
     for orgRecord in jsonData['organizations']:
         for hostRecord in orgRecord['hosts']:
             if hostRecord.get('host', '?') in [host, '*']:
@@ -30,27 +27,33 @@ def getExtraHostData(jsonData, host, key):
 
 
 def openSslCcsValue(value):
-    return ('Test failure' if value == -1
-            else 'Unknown' if value == 0
-            else 'No' if value == 1
-            else 'Possibly' if value == 2
-            else 'Yes' if value == 3
-            else '-')
+    switcher = {
+        -1: 'Test failure',
+        0: 'Unknown',
+        1: 'No',
+        2: 'Possibly',
+        3: 'Yes'
+    }
+    return switcher.get(value, '-')
 
 
 def openSSLLuckyMinus20Value(value):
-    return ('Test failure' if value == -1
-            else 'Unknown' if value == 0
-            else 'No' if value == 1
-            else 'Yes' if value == 2
-            else '-')
+    switcher = {
+        -1: 'Test failure',
+        0: 'Unknown',
+        1: 'No',
+        2: 'Yes'
+    }
+    return switcher.get(value, '-')
 
 
 def weakDHValue(value):
-    return ('No' if value == 0
-            else 'No; but does not use custom primes' if value == 1
-            else 'Yes' if value == 2
-            else 'No')
+    switcher = {
+        0: 'No',
+        1: 'No; but does not use custom primes',
+        2: 'Yes'
+    }
+    return switcher.get(value, 'No')
 
 
 def lacksFSValue(value):
@@ -60,13 +63,15 @@ def lacksFSValue(value):
 
 
 def poodleTlsValue(value):
-    return ('Test timeout' if value == -3
-            else 'No' if value == -2
-            else 'Test failure' if value == -1
-            else 'Unknown' if value == 0
-            else 'No' if value == 1
-            else 'Yes' if value == 2
-            else '-')
+    switcher = {
+        -3: 'Test timeout',
+        -2: 'No',
+        -1: 'Test failure',
+        0: 'Unknown',
+        1: 'No',
+        2: 'Yes'
+    }
+    return switcher.get(value, '-')
 
 
 def isBitSet(x, n):
@@ -74,8 +79,6 @@ def isBitSet(x, n):
 
 
 def hasSecureEndpoint(ssllabsJSON, hostToBeChecked):
-    failures = ['No secure protocols supported',
-                'Unable to connect to the server']
     for labsReport in ssllabsJSON:
         if labsReport['host'] != hostToBeChecked:
             continue
@@ -83,13 +86,20 @@ def hasSecureEndpoint(ssllabsJSON, hostToBeChecked):
         if labsReport['status'] != 'READY':
             continue
 
-        for endpoint in labsReport['endpoints']:
-            if endpoint.get('statusMessage', '') not in failures:
-                return True
+        return(hasSecureIPEndpoint(labsReport['endpoints']))
     return False
 
 
-def updateCountsSummary(table, key):
+def hasSecureIPEndpoint(endpoints):
+    failures = ['No secure protocols supported',
+                'Unable to connect to the server']
+    for endpoint in endpoints:
+        if endpoint.get('statusMessage', '') not in failures:
+            return True
+    return False
+
+
+def updateCounts(table, key):
     if key in table:
         table[key] = table[key] + 1
     else:
@@ -103,14 +113,11 @@ def updateCountsByOrg(table, org, key):
 
     if org in table:
         counts = table[org]
-        if key in counts:
-            counts[key] = counts[key] + 1
-        else:
-            counts[key] = 1
-    else:
-        counts = {}
-        counts[key] = 1
-        table[org] = counts
+        return updateCounts(counts, key)
+
+    counts = {}
+    counts[key] = 1
+    table[org] = counts
     return table
 
 
@@ -245,8 +252,8 @@ def main(argv):
         hostsFromSSLLabsReport.append(host)
 
         # Fetch additional data from domains JSON
+        industry = domainsJSON.get('industry', '')
         org = getExtraHostData(domainsJSON, host, 'organization')
-        industry = getExtraHostData(domainsJSON, host, 'industry')
         hostPurpose = getExtraHostData(domainsJSON, host, 'hostPurpose')
         httpsBehavior = getExtraHostData(domainsJSON, host, 'httpsBehavior')
         issueReport = getExtraHostData(domainsJSON, host, 'issueReport')
@@ -271,7 +278,7 @@ def main(argv):
             print(dataSetValues, ',')
 
             # Update chart data
-            updateCountsSummary(countsSummary, grade)
+            updateCounts(countsSummary, grade)
             updateCountsByOrg(countsByOrg, org, grade)
 
             # Proceed to next record in SSL Labs scan data
@@ -461,11 +468,12 @@ def main(argv):
                              insecureRenegotiation, notls, trustIssues, poodle,
                              notlsv12, rc4WithModern, supportsRc4, sslv3,
                              weakDH, hasIncompleteChain, weakPrivateKey,
-                             lacksFS, lacksSecureRenegotiation, sha1Certificate]
+                             lacksFS, lacksSecureRenegotiation,
+                             sha1Certificate]
             print(dataSetValues, ',')
 
             # Update chart data
-            updateCountsSummary(countsSummary, grade)
+            updateCounts(countsSummary, grade)
             updateCountsByOrg(countsByOrg, org, grade)
 
     # Handle hosts from domains list that were not scanned. Cases:
@@ -494,7 +502,7 @@ def main(argv):
             print(dataSetValues, ',')
 
             # Update chart data
-            updateCountsSummary(countsSummary, 'Not scanned')
+            updateCounts(countsSummary, 'Not scanned')
             updateCountsByOrg(countsByOrg, org, 'Not scanned')
 
     # Terminate dataSet

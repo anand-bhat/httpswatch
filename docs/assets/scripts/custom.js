@@ -4,9 +4,48 @@ function format(row) {
 	return '<table><tr><td>SSL Labs report: <a target="_blank" href="https://www.ssllabs.com/ssltest/analyze.html?d=' + row[2] + '&ignoreMismatch=on">' + row[2] + '</a></td></tr></table>';
 }
 
+var gradeRank = {
+	'A+': 1,
+	'A': 2,
+	'A-': 3,
+	'B': 4,
+	'C': 5,
+	'D': 6,
+	'E': 7,
+	'T/ A+': 8,
+	'T/ A': 9,
+	'T/ A-': 10,
+	'T/ B': 11,
+	'T/ C': 12,
+	'T/ D': 13,
+	'T/ E': 14,
+	'F': 15,
+	'No HTTPS': 16,
+	'Scan error': 17,
+	'Could not connect': 18,
+	'Not scanned': 19,
+	'Unknown domain': 20
+};
+
+var gradeClass = {
+	'A+': 'grade-green',
+	'A': 'grade-yellowgreen',
+	'A-': 'grade-lightgreen',
+	'B': 'grade-orange',
+	'C': 'grade-orange',
+	'D': 'grade-orange',
+	'E': 'grade-orange',
+	'Scan error': 'grade-gray',
+	'Could not connect': 'grade-gray',
+	'Not scanned': 'grade-gray',
+	'Unknown domain': 'grade-gray'
+};
+
+var gradesNotRequiringReport = ['A', 'A-', 'A+', 'Could not connect', 'Scan error', 'Not scanned', 'Unknown domain'];
+
 function drawChartCountsByOrg() {
 	'use strict';
-	if ((typeof chartDataCountsByOrg === 'undefined') ||(typeof google === 'undefined') ) {
+	if ((typeof chartDataCountsByOrg === 'undefined') ||(typeof google === 'undefined')) {
 		return;
 	}
 
@@ -61,52 +100,7 @@ function drawChartCountsByOrg() {
 jQuery.extend(jQuery.fn.dataTableExt.oSort, {
 	'enumgrade-pre': function (a) {
 		'use strict';
-		switch (a) {
-		case 'A+':
-			return 1;
-		case 'A':
-			return 2;
-		case 'A-':
-			return 3;
-		case 'B':
-			return 4;
-		case 'C':
-			return 5;
-		case 'D':
-			return 6;
-		case 'E':
-			return 7;
-		case 'T/ A+':
-			return 8;
-		case 'T/ A':
-			return 9;
-		case 'T/ A-':
-			return 10;
-		case 'T/ B':
-			return 11;
-		case 'T/ C':
-			return 12;
-		case 'T/ D':
-			return 13;
-		case 'T/ E':
-			return 14;
-		case 'T/ F':
-			return 15;
-		case 'F':
-			return 16;
-		case 'No HTTPS':
-			return 17;
-		case 'Scan error':
-			return 18;
-		case 'Could not connect':
-			return 19;
-		case 'Not scanned':
-			return 20;
-		case 'Unknown domain':
-			return 21;
-		default:
-			return 22;
-		}
+		return gradeRank[a] || 21;
 	},
 
 	'enumgrade-asc': function (a, b) {
@@ -124,7 +118,7 @@ $(document).ready(function () {
 	'use strict';
 	var table = $('#httpsdata').DataTable({
 		search: {
-			search: function () {
+			search: (function () {
 				if (location.hash === '') {
 					return '';
 				}
@@ -134,7 +128,7 @@ $(document).ready(function () {
 					return decodeURIComponent(query);
 				}
 				return '';
-			}()
+			}())
 		},
 		columns: [
 			{
@@ -185,33 +179,7 @@ $(document).ready(function () {
 					if (type !== 'display') {
 						return data;
 					}
-					var gradeClass;
-					switch (data) {
-					case 'A+':
-						gradeClass = 'grade-green';
-						break;
-					case 'A':
-						gradeClass = 'grade-yellowgreen';
-						break;
-					case 'A-':
-						gradeClass = 'grade-lightgreen';
-						break;
-					case 'B':
-					case 'C':
-					case 'D':
-					case 'E':
-						gradeClass = 'grade-orange';
-						break;
-					case 'Unknown domain':
-					case 'Could not connect':
-					case 'Scan error':
-					case 'Not scanned':
-						gradeClass = 'grade-gray';
-						break;
-					default:
-						gradeClass = 'grade-red';
-					}
-					return '<div class="grade ' + gradeClass + '"><a target="_blank" class="white" href="https://www.ssllabs.com/ssltest/analyze.html?d=' + row[2] + '&ignoreMismatch=on">' + data + '</a></div>';
+					return '<div class="grade ' + (gradeClass[data] || 'grade-red') + '"><a target="_blank" class="white" href="https://www.ssllabs.com/ssltest/analyze.html?d=' + row[2] + '&ignoreMismatch=on">' + data + '</a></div>';
 				},
 				targets: 4
 			},
@@ -225,7 +193,8 @@ $(document).ready(function () {
 					if (data !== '' && data !== '-') {
 						return '<a target="_blank" href="' + data + '">View</a>';
 					}
-					if (row[4] === 'A' || row[4] === 'A-' || row[4] === 'A+' || row[4] === 'Could not connect' || row[4] === 'Scan error' || row[4] === 'Not scanned'  || row[4] === 'Unknown domain') {
+
+					if ($.inArray(row[4], gradesNotRequiringReport) !== -1) {
 						return data;
 					}
 					return '<a target="_blank" href="https://github.com/anand-bhat/httpswatch/issues/new">Create</a>';
@@ -361,6 +330,7 @@ $(document).ready(function () {
 	// If the datatable with HTTPS data is searched, sync it to the URL hash
 	$('#httpsdata').on('search.dt', function(e, settings) {
 		e.preventDefault();
+
 		var query = $("input[type=search]").val();
 		if (query) {
 			location.hash = 'q=' + encodeURIComponent(query);
