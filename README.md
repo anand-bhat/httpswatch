@@ -1,4 +1,6 @@
 # httpswatch
+[![Code Climate](https://codeclimate.com/github/anand-bhat/httpswatch/badges/gpa.svg)](https://codeclimate.com/github/anand-bhat/httpswatch)
+[![Issue Count](https://codeclimate.com/github/anand-bhat/httpswatch/badges/issue_count.svg)](https://codeclimate.com/github/anand-bhat/httpswatch)
 
 Track HTTPS usage and configuration of websites that are expected to be secure.
 
