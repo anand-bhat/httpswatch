@@ -236,6 +236,7 @@ $(document).ready(function () {
 		deferRender: true,
 		fixedHeader: { footer: true, header: true },
 		initComplete: function () {
+			// Add filters
 			this.api().columns().every(function () {
 				var column = this;
 
@@ -261,6 +262,21 @@ $(document).ready(function () {
 					select.append('<option value="' + d + '">' + d + '</option>');
 				});
 			});
+
+			// Hide columns that do not have a 'Yes'.
+			this.api().columns().every(function () {
+				var column = this;
+				var columnIndex = column.index();
+				if (columnIndex < 11) {
+					// Columns whose default visibility is controlled by table properties
+					return;
+				}
+				var showColumn = column.data().filter(function(value, index) {return value === 'Yes';}).any();
+				if (!showColumn) {
+					$('a.toggle-column[data-column=' + columnIndex + ']').css('text-decoration', 'line-through');
+					column.visible(false);
+				}
+			});
 		},
 		lengthMenu: [[10, 25, 50, 100, -1], [10, 25, 50, 100, 'All']],
 		order: [[1, 'asc'], [2, 'asc'], [3, 'asc']]
@@ -285,7 +301,6 @@ $(document).ready(function () {
 	// Toggle column visibility and option state
 	$('a.toggle-column').on('click', function (e) {
 		e.preventDefault();
-
 		var column = table.column($(this).attr('data-column'));
 		if (column.visible()) {
 			$(this).css('text-decoration', 'line-through');
@@ -302,7 +317,6 @@ $(document).ready(function () {
 	// Toggle options section visibility
 	$('#toggleColumns').on('click', function (e) {
 		e.preventDefault();
-
 		if ($('#toggleColumnsSection').is(':visible')) {
 			$('#toggleColumnsSection').hide();
 			$(this).text('[show section]');
@@ -316,7 +330,6 @@ $(document).ready(function () {
 	// Toggle chart section visibility
 	$('#toggleChartCountsByOrg').on('click', function (e) {
 		e.preventDefault();
-
 		if ($('#chartCountsByOrg').is(':visible')) {
 			$('#chartCountsByOrg').hide();
 			$(this).text('[show section]');
@@ -330,7 +343,6 @@ $(document).ready(function () {
 	// If the datatable with HTTPS data is searched, sync it to the URL hash
 	$('#httpsdata').on('search.dt', function(e, settings) {
 		e.preventDefault();
-
 		var query = $("input[type=search]").val();
 		if (query) {
 			location.hash = 'q=' + encodeURIComponent(query);
