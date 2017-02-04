@@ -20,6 +20,6 @@ The project site is available at https://anand-bhat.github.io/httpswatch/. The c
 
 | Name      | Version | Website |
 | ----------- | ---- | ----------- |
-| Python | 3.5.2 | https://www.python.org/|
-| Go | 1.7.4 | https://golang.org |
+| Python | 3.6.0 | https://www.python.org/|
+| Go | 1.7.5 | https://golang.org |
 | Official SSL Labs server test Go script (ssllabs-scan) | 1.4.0 | https://github.com/ssllabs/ssllabs-scan |
