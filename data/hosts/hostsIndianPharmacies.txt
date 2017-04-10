@@ -10,7 +10,6 @@ api.savemymeds.com
 apollopharmacy.in
 articles.1mg.com
 attachments.pharmeasy.in
-bigchemist.com
 blog.easymedico.com
 blog.medideal.in
 blog.medplusmart.com
@@ -73,18 +72,15 @@ stagapi.1mg.com
 stagdmg.1mg.com
 staging.easymedico.com
 static.1mg.com
-static.bigchemist.com
 static.zigy.com
 static1.medplusmart.com
 static2.medplusmart.com
-svn-staging.bigchemist.com
 tech.pharmeasy.in
 user.pharmeasy.in
 vps.buydrug.in
 webmail.easymedico.com
 www.1mg.com
 www.apollopharmacy.in
-www.bigchemist.com
 www.blog.easymedico.com
 www.blog.medideal.in
 www.buydrug.in

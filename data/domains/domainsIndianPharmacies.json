@@ -667,30 +667,6 @@
           "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS does not show same content as HTTP"
         }
       ]
-    },
-    {
-      "organization": "Big Chemist",
-      "hosts": [
-        {
-          "host": "www.bigchemist.com",
-          "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS downgraded to HTTP",
-          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/94"
-        },
-        {
-          "host": "bigchemist.com",
-          "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS downgraded to HTTP"
-        },
-        {
-          "host": "static.bigchemist.com",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS downgraded to HTTP"
-        },
-        {
-          "host": "svn-staging.bigchemist.com",
-          "httpsBehavior": "Unable to connect over HTTP and HTTPS"
-        }
-      ]
     }
   ]
 }
