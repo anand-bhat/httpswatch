@@ -45,7 +45,6 @@ hrblock.in
 incometaxindiaefiling.gov.in
 login.mytaxfiler.com
 m.myitreturn.com
-m.mytaxfiler.com
 mail.taxchanakya.com
 mails.taxsmile.com
 makemyreturns.com
