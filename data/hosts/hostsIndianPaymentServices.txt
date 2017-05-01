@@ -243,7 +243,6 @@ f.crm.mobikwik.com
 f.e.citruspay.com
 f.ns.crm.mobikwik.com
 f.ns.e.citruspay.com
-f6swm8yxjq.this_is_research.next_query.is_from_us.if_problem.please_see.http.researchscan.cs.berkeley.edu.ccavenue.com
 faq.juspay.in
 farmpress.ccavenue.com
 feedback.payumoney.com
@@ -290,7 +289,6 @@ internalprepaid.citruspay.com
 invoice.citruspay.com
 ipsp.secure.payu.com
 jgrouprobotics.ccavenue.com
-jkt0kolqbi.this_is_research.next_query.is_from_us.if_problem.please_see.http.researchscan.cs.berkeley.edu.ccavenue.com
 jobs.freecharge.com
 juspay.in
 jyotishplusindia.ccavenue.com
@@ -406,7 +404,6 @@ ns.ccavenue.com
 ns1.emvantage.com
 ns2.emvantage.com
 ntlspayment.atomtech.in
-nwdfezdckr.this_is_research.next_query.is_from_us.if_problem.please_see.http.researchscan.cs.berkeley.edu.ccavenue.com
 o1.email.paytm.com
 o2.email.paytm.com
 o4.em.freecharge.com
@@ -667,7 +664,6 @@ travel-dev.paytm.com
 travel.paytm.com
 trust-uat.paytm.in
 trust.paytm.in
-trzej9jfyt.this_is_research.next_query.is_from_us.if_problem.please_see.http.researchscan.cs.berkeley.edu.mobikwik.com
 tvapaymon.payubiz.in
 txncdn.payubiz.in
 uidev.mobikwik.com
@@ -746,7 +742,6 @@ www.statis6.mobikwik.com
 www.survey.payu.com
 www.testpay.payumoney.com
 www.trust.paytm.in
-www.trzej9jfyt.this_is_research.next_query.is_from_us.if_problem.please_see.http.researchscan.cs.berkeley.edu.mobikwik.com
 www.wallettest.mobikwik.com
 www.www10.mobikwik.com
 www.wwwmerchant.mobikwik.com
