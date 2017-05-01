@@ -7,20 +7,26 @@ layout: blank
 <hr>
 <div>
 	This project aims to create an actionable dashboard listing the HTTPS configurations of certain websites where good security in transit is expected.
-	This uses the <a href="https://www.ssllabs.com/ssltest/index.html">Qualys SSL Labs Server Test</a> to evaluate a site's HTTPS configuration and displays its grade. Issues with a site's HTTPS configuration that
-	prevent it from obtaining an 'A' grade or better are highlighted. The full report is also available via a hyperlink to the Qualys site.
+	This uses the <a href="https://www.ssllabs.com/ssltest/index.html">Qualys SSL Labs Server Test</a> to evaluate a site's HTTPS configuration and displays its grade.
+	Issues with a site's HTTPS configuration that prevent it from obtaining an 'A' grade or better are highlighted.
+	The full report is also available via a hyperlink to the Qualys site.
 	<br><br>
-	At this time, the focus is on websites used by services in India. In my opinion, most internet users in India do not understand or underestimate the importance of online privacy and security and this is reflected
-	in the sorry state of HTTPS adoption and deployment, especially for government agencies. While my request to mandate the use of HTTPS hasn't been acknowledged by the agency responsible for
-	maintaining government websites, my hope is that with enough exposure they will do something similar to what has been done by <a href="https://https.cio.gov/">the USA for websites operated by the Federal Government</a> and <a href="https://www.ncsc.gov.uk/guidance/tls-external-facing-services">the UK</a>.
+	At this time, the focus is on websites used by services in India.
+	In my opinion, most internet users in India do not understand or underestimate the importance of online privacy and security.
+	This is reflected in the sorry state of HTTPS adoption and deployment, especially for government agencies.
+	While my request to mandate the use of HTTPS hasn't been acknowledged by the agency responsible for maintaining government websites,
+	my hope is that with enough exposure they will do something similar to what has been done by <a href="https://https.cio.gov/">the USA for websites operated by the Federal Government</a>
+	and <a href="https://www.ncsc.gov.uk/guidance/tls-external-facing-services">the UK</a>.
 	<br><br>
-	Most people historically associate HTTPS with things that need to be kept private, like login information or a page that accepts payment details but it is becoming increasingly clear that all web properties need to use HTTPS to ensure a safe and secure web experience. An excellent write-up for "HTTPS Everywhere" can be found at the aforementioned <a href="https://https.cio.gov/everything/">US Federal Government's
-	"HTTPS-Only Standard" site</a>.
+	Most people historically associate HTTPS with things that need to be kept private, like login information or a page that accepts payment details.
+	But it is becoming increasingly clear that all web properties need to use HTTPS to ensure a safe and secure web experience.
+	An excellent write-up for "HTTPS Everywhere" can be found at the aforementioned <a href="https://https.cio.gov/everything/">US Federal Government's "HTTPS-Only Standard" site</a>.
 	<br><br>
-	The reason for including subdomains not normally used by the general public is that these are typically not maintained at the same standard as the main domain. Some of these (such as vpn.example.com, 
-	webmail.example.com etc.) are used by employees to access internal resources and it is imperative that these be protected at the same level, if not better, than a site that is used by the general public.
-	Having poor transport layer security on such sites could lead to the an employee's credentials being compromised which could give an attacker access to internal systems. Then there are subdomains that continue to
-	be vulnerable to serious veulnerabilies such as <a href="https://en.wikipedia.org/wiki/Heartbleed">Heartbleed</a> that can be a great asset to attackers.
+	The reason for including subdomains not normally used by the general public is that these are typically not maintained at the same standard as the main domain.
+	Some of these (such as vpn.example.com, webmail.example.com etc.) are used by employees to access internal resources and it is imperative that these be protected at the same level,
+	if not better, than a site that is used by the general public.
+	Having poor transport layer security on such sites could lead to the an employee's credentials being compromised which could give an attacker access to internal systems.
+	Then there are subdomains (sobdomains?) that continue to be vulnerable to serious veulnerabilies such as <a href="https://en.wikipedia.org/wiki/Heartbleed">Heartbleed</a> that can be a great asset to attackers.
 	<br><br>
 	The subdomains considered for the tests here were discovered using a combination of Google searches (using the <i>site</i> operator), VirusTotal
 	(<i>https://virustotal.com/en/domain/example.com/information/</i>) and <a href="https://dnsdumpster.com/">DNSDumspter</a>.
