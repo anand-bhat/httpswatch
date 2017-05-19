@@ -102,7 +102,6 @@ csbnet.co.in
 custcomm.icicibank.com
 customerservice.indusind.com
 dbt.icicibank.com
-debitcardoffers.rblbank.com
 dhanbank.com
 dhanbank.in
 directremit.axisbank.co.in
@@ -259,7 +258,6 @@ karnatakabank.co.in
 karnatakabank.com
 kc2k3bombkh10.kotak.com
 kie.kotak.com
-klirelay.kotak.com
 kmccsr000005.kotak.com
 kotak.com
 kotakntmum01.kotak.com
@@ -370,7 +368,6 @@ msaleslive.axisbank.co.in
 msme.ktkbank.com
 mta.retail.icicibank.com
 mtp.axisbank.co.in
-mtreasury.icicibank.com
 muat.rblbank.com
 mutualfund.kotak.com
 mx.yesbank.in
@@ -509,7 +506,6 @@ speed.icicibank.com
 speedremit.indusind.com
 speeduat.icicibank.com
 srilanka.axisbank.com
-sslvpn.icicibank.com
 sso.kotak.com
 stage.yesbank.co.in
 stpbrk.corporate.hdfcbank.com
@@ -594,7 +590,6 @@ www.axisbank.com
 www.axisforexonline.com
 www.b2.icicibank.com
 www.bandhanbank.com
-www.bandhanbankonline.com
 www.carloan.kotak.com
 www.cityunionbank.com
 www.corp.kotak.com

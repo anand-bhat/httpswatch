@@ -369,10 +369,6 @@
           "httpsBehavior": "Not used for HTTP/ HTTPS"
         },
         {
-          "host": "www.bandhanbankonline.com",
-          "hostPurpose": "Internet Banking (Personal + Corporate)"
-        },
-        {
           "host": "bandhanbankonline.com",
           "hostPurpose": "Internet Banking (Personal + Corporate)",
           "httpsBehavior": "HTTPS only"
@@ -1333,9 +1329,6 @@
           "host": "mta.retail.icicibank.com"
         },
         {
-          "host": "mtreasury.icicibank.com"
-        },
-        {
           "host": "mymoneysso.icicibank.com"
         },
         {
@@ -1379,9 +1372,6 @@
         },
         {
           "host": "speeduat.icicibank.com"
-        },
-        {
-          "host": "sslvpn.icicibank.com"
         },
         {
           "host": "synch.icicibank.com"
@@ -2017,9 +2007,6 @@
           "host": "kie.kotak.com"
         },
         {
-          "host": "klirelay.kotak.com"
-        },
-        {
           "host": "kmccsr000005.kotak.com"
         },
         {
@@ -2257,9 +2244,6 @@
         },
         {
           "host": "collections.rblbank.com"
-        },
-        {
-          "host": "debitcardoffers.rblbank.com"
         },
         {
           "host": "m.rblbank.com"

@@ -82,22 +82,13 @@
           "host": "mail1.atomtech.in"
         },
         {
-          "host": "mail1.paybuzz.atomtech.in"
-        },
-        {
           "host": "mail1.sugam.atomtech.in"
         },
         {
           "host": "mail2.atomtech.in"
         },
         {
-          "host": "mail2.paybuzz.atomtech.in"
-        },
-        {
           "host": "mail2.sugam.atomtech.in"
-        },
-        {
-          "host": "mail3.paybuzz.atomtech.in"
         },
         {
           "host": "ntlspayment.atomtech.in"
@@ -131,9 +122,6 @@
         },
         {
           "host": "services.atomtech.in"
-        },
-        {
-          "host": "sparrow.atomtech.in"
         },
         {
           "host": "sslpayment.atomtech.in"
@@ -686,9 +674,6 @@
           "host": "vault.citruspay.com"
         },
         {
-          "host": "vault.test.citruspay.com"
-        },
-        {
           "host": "wallet.citruspay.com"
         },
         {
@@ -781,29 +766,6 @@
         },
         {
           "host": "support.ebs.in"
-        }
-      ]
-    },
-    {
-      "organization": "EMVANTAGE",
-      "hosts": [
-        {
-          "host": "emvantage.com"
-        },
-        {
-          "host": "www.emvantage.com"
-        },
-        {
-          "host": "mail.emvantage.com"
-        },
-        {
-          "host": "ns1.emvantage.com"
-        },
-        {
-          "host": "ns2.emvantage.com"
-        },
-        {
-          "host": "test.emvantage.com"
         }
       ]
     },
@@ -1515,12 +1477,6 @@
           "host": "beta.paytm.com"
         },
         {
-          "host": "beta1-assets.paytm.com"
-        },
-        {
-          "host": "beta1.paytm.com"
-        },
-        {
           "host": "blog.paytm.com"
         },
         {
@@ -1548,9 +1504,6 @@
           "host": "catalogadmin.paytm.com"
         },
         {
-          "host": "catalogapidev.paytm.com"
-        },
-        {
           "host": "cdn.paytm.com"
         },
         {
@@ -1566,13 +1519,7 @@
           "host": "chat2-paywith.paytm.com"
         },
         {
-          "host": "cms.paytm.com"
-        },
-        {
           "host": "code.paytm.com"
-        },
-        {
-          "host": "codejam.paytm.com"
         },
         {
           "host": "compliance.paytm.com"
@@ -1585,9 +1532,6 @@
         },
         {
           "host": "dev-c2c.paytm.com"
-        },
-        {
-          "host": "dev-paywith.paytm.com"
         },
         {
           "host": "easypay.paytm.com"
@@ -1615,9 +1559,6 @@
         },
         {
           "host": "m.paytm.com"
-        },
-        {
-          "host": "mail.paytm.com"
         },
         {
           "host": "merchant.paytm.com"
@@ -1665,19 +1606,10 @@
           "host": "partner.paytm.com"
         },
         {
-          "host": "paywith.paytm.com"
-        },
-        {
-          "host": "persona-dev.paytm.com"
-        },
-        {
           "host": "persona.paytm.com"
         },
         {
           "host": "pguat.paytm.com"
-        },
-        {
-          "host": "phabricator.paytm.com"
         },
         {
           "host": "qc.paytm.com"
@@ -1701,13 +1633,7 @@
           "host": "seller.paytm.com"
         },
         {
-          "host": "sellon.paytm.com"
-        },
-        {
           "host": "shop.paytm.com"
-        },
-        {
-          "host": "signup.paytm.com"
         },
         {
           "host": "sites-staging.paytm.com"
@@ -1720,12 +1646,6 @@
         },
         {
           "host": "staging.paytm.com"
-        },
-        {
-          "host": "t.paytm.com"
-        },
-        {
-          "host": "tickets-staging.paytm.com"
         },
         {
           "host": "tickets.paytm.com"
@@ -1929,9 +1849,6 @@
         },
         {
           "host": "fp.payu.in"
-        },
-        {
-          "host": "funnel.payu.in"
         },
         {
           "host": "indiagrowthdrivers.payumoney.com"
@@ -2358,6 +2275,17 @@
         },
         {
           "host": "static.zaakpay.com"
+        }
+      ]
+    },
+    {
+      "organization": "Talkcharge",
+      "hosts": [
+        {
+          "host": "talkcharge.com"
+        },
+        {
+          "host": "www.talkcharge.com"
         }
       ]
     }

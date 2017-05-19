@@ -561,21 +561,10 @@
           "host": "drive.quicko.com"
         },
         {
-          "host": "email.quicko.com",
-          "httpsBehavior": "HTTP redirected to HTTPS"
-        },
-        {
           "host": "help.quicko.com"
         },
         {
-          "host": "qt_prd_sng_services.quicko.com"
-        },
-        {
           "host": "qt-prd-sng-serv-1.quicko.com"
-        },
-        {
-          "host": "test.drive.quicko.com",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
         },
         {
           "host": "web.quicko.com"

@@ -682,9 +682,6 @@
           "host": "share.idbibank.co.in"
         },
         {
-          "host": "webmail.idbibank.co.in"
-        },
-        {
           "host": "www.idbibank.com"
         },
         {
@@ -1490,19 +1487,6 @@
     {
       "organization": "State Bank of Mysore",
       "hosts": [
-        {
-          "host": "www.statebankofmysore.co.in",
-          "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP only"
-        },
-        {
-          "host": "statebankofmysore.co.in",
-          "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP only"
-        },
-        {
-          "host": "text.statebankofmysore.co.in"
-        },
         {
           "host": "www.onlinesbm.com"
         },

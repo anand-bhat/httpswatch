@@ -108,18 +108,8 @@
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/61"
         },
         {
-          "host": "mobile.apollopharmacy.in",
-          "hostPurpose": "Mobile",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works",
-          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/63"
-        },
-        {
           "host": "mail.apollopharmacy.in",
           "hostPurpose": "Mail",
-          "httpsBehavior": "HTTP only"
-        },
-        {
-          "host": "panela.mailer.apollopharmacy.in",
           "httpsBehavior": "HTTP only"
         }
       ]
@@ -199,10 +189,6 @@
         {
           "host": "careers.zigy.com",
           "hostPurpose": "Employment portal",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS does not show same content as HTTP"
-        },
-        {
-          "host": "static.zigy.com",
           "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS does not show same content as HTTP"
         },
         {

@@ -33,7 +33,6 @@ downloads.myitreturn.com
 drive.quicko.com
 efiler.in
 email.cleartax.in
-email.quicko.com
 email.taxsmile.com
 gateway.taxsmile.com
 hamaratax.com
@@ -65,7 +64,6 @@ o5.email.cleartax.in
 origin.taxspanner.com
 prelive.taxsmile.com
 qt-prd-sng-serv-1.quicko.com
-qt_prd_sng_services.quicko.com
 quicko.com
 sendy.hrblock.in
 sendy2.hrblock.in
@@ -87,7 +85,6 @@ taxsmile.com
 taxspanner.com
 taxzippy.com
 tds.taxcloudindia.com
-test.drive.quicko.com
 test.hrblock.in
 testcms.taxspanner.com
 tracking.taxshax.com

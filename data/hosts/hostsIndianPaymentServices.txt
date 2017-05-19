@@ -69,8 +69,6 @@ beta.locker.juspay.in
 beta.mobikwik.com
 beta.paytm.com
 beta.sandbox.payu.com
-beta1-assets.paytm.com
-beta1.paytm.com
 betadevelopers.citruspay.com
 betafittipaldi.payumoney.com
 bin.citruspay.com
@@ -113,7 +111,6 @@ cashpg.pay1.in
 catalog-staging.paytm.com
 catalog.paytm.com
 catalogadmin.paytm.com
-catalogapidev.paytm.com
 cbtest.payu.in
 cc.pay1.in
 cc.pay1.me
@@ -137,9 +134,7 @@ citruscube.citruspay.com
 citruscubebase.citruspay.com
 citruspay.com
 citruswallet.com
-cms.paytm.com
 code.paytm.com
-codejam.paytm.com
 coloursofritu.ccavenue.com
 communications.mobikwik.com
 compliance.paytm.com
@@ -171,7 +166,6 @@ db.mobikwik.com
 deal2kart.ccavenue.com
 demotest.payu.in
 dev-c2c.paytm.com
-dev-paywith.paytm.com
 dev.ebs.in
 dev.pay1.in
 dev.secure.ebs.in
@@ -209,7 +203,6 @@ email.paytm.com
 email.razorpay.com
 emaila.mailer.mobikwik.com
 emails.mailer.mobikwik.com
-emvantage.com
 epanditji.ccavenue.com
 esdeal.ccavenue.com
 events.razorpay.com
@@ -256,7 +249,6 @@ freecharge.in
 ftp.citruspay.com
 fulfillment-staging.paytm.com
 fulfillment.paytm.com
-funnel.payu.in
 garuda.atomtech.in
 gateway.paytm.in
 gateway.test.citruspay.com
@@ -315,8 +307,6 @@ mahindra.ccavenue.com
 mail.airpay.co.in
 mail.atomtech.in
 mail.ccavenue.com
-mail.emvantage.com
-mail.paytm.com
 mail.world.ccavenue.com
 mail01.payu.in
 mail02.payu.in
@@ -326,12 +316,9 @@ mail05.payu.in
 mail06.payu.in
 mail08.payu.in
 mail1.atomtech.in
-mail1.paybuzz.atomtech.in
 mail1.sugam.atomtech.in
 mail2.atomtech.in
-mail2.paybuzz.atomtech.in
 mail2.sugam.atomtech.in
-mail3.paybuzz.atomtech.in
 mailer.mobikwik.com
 maintenance.payu.com
 mamalla.ccavenue.com
@@ -401,8 +388,6 @@ nitro.citruspay.com
 notification.ebs.in
 notification.paytm.com
 ns.ccavenue.com
-ns1.emvantage.com
-ns2.emvantage.com
 ntlspayment.atomtech.in
 o1.email.paytm.com
 o2.email.paytm.com
@@ -461,15 +446,12 @@ payu.com
 payu.in
 payubiz.in
 payumoney.com
-paywith.paytm.com
 payzippy.com
-persona-dev.paytm.com
 persona.paytm.com
 pg.atomtech.in
 pgreports.atomtech.in
 pgtest.atomtech.in
 pguat.paytm.com
-phabricator.paytm.com
 physicsbyanish.ccavenue.com
 pinaacle.ccavenue.com
 pos.payubiz.in
@@ -540,7 +522,6 @@ secure2.citruspay.com
 securegw.paytm.in
 seedapi.paytm.com
 seller.paytm.com
-sellon.paytm.com
 server-push.payu.com
 services.atomtech.in
 shop.pay1.in
@@ -549,7 +530,6 @@ shop.paytm.com
 shubhsarinicollections.ccavenue.com
 sie.ccavenue.com
 signup.citruspay.com
-signup.paytm.com
 sikhbeard.ccavenue.com
 sites-staging.paytm.com
 sites.paytm.com
@@ -557,7 +537,6 @@ smartpuja.ccavenue.com
 sms.payu.in
 smtpout.citruspay.com
 soniyastore.ccavenue.com
-sparrow.atomtech.in
 sslpayment.atomtech.in
 sslv2.citruspay.com
 sslv2admin.citruspay.com
@@ -616,12 +595,11 @@ support.freecharge.in
 support.google.com
 support.instamojo.com
 survey.payu.com
-t.paytm.com
+talkcharge.com
 test.blog.payubiz.in
 test.ccavenue.com
 test.developer.payubiz.in
 test.direcpay.com
-test.emvantage.com
 test.instamojo.com
 test.lazypay.in
 test.mobikwik.com
@@ -650,7 +628,6 @@ teststatic.payu.in
 testtxncdn.payubiz.in
 thekkady.ccavenue.com
 thinture.ccavenue.com
-tickets-staging.paytm.com
 tickets.paytm.com
 toletcare.comwww.ccavenue.com
 track.paytm.com
@@ -672,7 +649,6 @@ ux.payumoney.com
 uxdev1.payumoney.com
 uxtest.payumoney.com
 vault.citruspay.com
-vault.test.citruspay.com
 vcard.freecharge.in
 verify.paytm.com
 vinshiwellness.ccavenue.com
@@ -708,7 +684,6 @@ www.developers.payu.com
 www.direcpay.com
 www.ebs.in
 www.ekycapi.mobikwik.com
-www.emvantage.com
 www.freecharge.com
 www.freecharge.in
 www.instamojo.com
@@ -740,6 +715,7 @@ www.staticnew1.mobikwik.com
 www.staticnew3.mobikwik.com
 www.statis6.mobikwik.com
 www.survey.payu.com
+www.talkcharge.com
 www.testpay.payumoney.com
 www.trust.paytm.in
 www.wallettest.mobikwik.com
