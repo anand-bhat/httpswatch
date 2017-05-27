@@ -271,11 +271,11 @@ def main(argv):
                 grade = 'Scan error'
 
             # Print record
-            dataSetValues = ['', org, host, '-', grade, '-',
-                             statusMessage, industry, hostPurpose,
-                             httpsBehavior, issueReport, '-', '-', '-', '-',
+            dataSetValues = ['', org, host, '-', grade, '-', statusMessage,
+                             industry, hostPurpose, httpsBehavior, issueReport,
                              '-', '-', '-', '-', '-', '-', '-', '-', '-', '-',
-                             '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
+                             '-', '-', '-', '-', '-', '-', '-', '-', '-', '-',
+                             '-', '-', '-', '-', '-', '-']
             print(dataSetValues, ',')
 
             # Update chart data
@@ -420,9 +420,12 @@ def main(argv):
                     for suite in suiteSet['list']:
                         if not supportsAnonSuites and 'anon' in suite['name']:
                             supportsAnonSuites = True
-                        if not weakDH and suite.get('kxType', '') == 'DH' and suite.get('kxStrength', 99999) <= 1024:
+                        if (not weakDH and
+                                suite.get('kxType', '') == 'DH' and
+                                suite.get('kxStrength', 99999) <= 1024):
                             weakDH = True
-                        if not weakCiphers and suite.get('cipherStrength', 99999) < 112:
+                        if (not weakCiphers and
+                                suite.get('cipherStrength', 99999) < 112):
                             weakCiphers = True
 
             supportsAnonSuites = valueIfGraded(
@@ -433,7 +436,10 @@ def main(argv):
             sweet32 = False
             if 'sims' in endpoint['details']:
                 for sim in endpoint['details']['sims']['results']:
-                    if not sweet32 and sim.get('protocolId', 0) in ['770', '771'] and ('IDEA' in sim.get('suiteName', '') or '3DES' in sim.get('suiteName', '')):
+                    if (not sweet32 and
+                            sim.get('protocolId', 0) in [770, 771] and
+                            ('IDEA' in sim.get('suiteName', '') or
+                                '3DES' in sim.get('suiteName', ''))):
                         sweet32 = True
 
             sweet32 = valueIfGraded(grade, booleanToYesNo(sweet32))
@@ -444,14 +450,14 @@ def main(argv):
                     endpoint['details'].get('rc4Only', False)))
 
             # Determine if certificate chain is incomplete
-            hasIncompleteChain = False
+            incompleteChain = False
             for certChain in endpoint['details']['certChains']:
                 if (isBitSet(certChain.get('issues', 0), 1)):
-                    hasIncompleteChain = True
+                    incompleteChain = True
                     break
 
-            hasIncompleteChain = valueIfGraded(
-                grade, booleanToYesNo(hasIncompleteChain))
+            incompleteChain = valueIfGraded(
+                grade, booleanToYesNo(incompleteChain))
 
             # Determine trust issues
             trustIssues = False
@@ -490,10 +496,11 @@ def main(argv):
                              openSslCcs, openSSLLuckyMinus20, freak, logjam,
                              poodleTls, drownVulnerable, ticketbleed, sslv2,
                              supportsAnonSuites, rc4Only,
-                             insecureRenegotiation, notls, weakCiphers, trustIssues, poodle,
-                             notlsv12, rc4WithModern, sweet32, supportsRc4, sslv3,
-                             weakDH, hasIncompleteChain, weakPrivateKey,
-                             lacksFS, lacksSecureRenegotiation]
+                             insecureRenegotiation, notls, weakCiphers,
+                             trustIssues, poodle, notlsv12, rc4WithModern,
+                             sweet32, supportsRc4, sslv3, weakDH,
+                             incompleteChain, weakPrivateKey, lacksFS,
+                             lacksSecureRenegotiation]
             print(dataSetValues, ',')
 
             # Update chart data
@@ -522,7 +529,8 @@ def main(argv):
                              'Not scanned', industry, hostPurpose,
                              httpsBehavior, issueReport, '-', '-', '-', '-',
                              '-', '-', '-', '-', '-', '-', '-', '-', '-', '-',
-                             '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
+                             '-', '-', '-', '-', '-', '-', '-', '-', '-', '-',
+                             '-', '-']
             print(dataSetValues, ',')
 
             # Update chart data
