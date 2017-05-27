@@ -154,23 +154,25 @@ $(document).ready(function () {
 			{title: '[F] Vulnerable to Logjam'},
 			{title: '[F] Vulnerable to POODLE (TLS)'},
 			{title: '[F] Vulnerable to DROWN'},
+			{title: '[F] Vulnerable to Ticketbleed'},
 			{title: '[F] Supports SSLv2'},
 			{title: '[F] Supports Anonymous suites'},
 			{title: '[F] Only supports RC4 suites'},
 			{title: '[F] Supports Insecure renegotiation'},
 			{title: '[F] No support for TLS'},
+			{title: '[F] Supports insecure cipher suites'},
 			{title: '[T] Untrusted certificate'},
 			{title: '[C] Vulnerable to POODLE (SSLv3)'},
 			{title: '[C] Lacks support for TLSv1.2'},
 			{title: '[C] Uses RC4 with modern protocols'},
+			{title: '[C] Uses 3DES with modern protocols'},
 			{title: '[B] Supports RC4'},
 			{title: '[B] Supports SSLv3'},
 			{title: '[B] Uses weak DH'},
 			{title: '[B] Has incomplete chain'},
 			{title: '[B] Has weak private key'},
 			{title: '[A-] Lacks Forward Secrecy'},
-			{title: '[A-] Lacks Secure Renegotiation'},
-			{title: 'Uses SHA-1 Certificate'}
+			{title: '[A-] Lacks Secure Renegotiation'}
 		],
 		columnDefs: [
 			{
@@ -220,14 +222,14 @@ $(document).ready(function () {
 					}
 					return '<div class="' + cellClass + '">' + data + '</div>';
 				},
-				targets: [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34]
+				targets: [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]
 			},
 			{
 				// Add title to cells
 				createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
 					$(cell).prop('title', 'Organization: ' + rowData[1] + '\r\nHost: ' + rowData[2] + '\r\nIP Address: ' + rowData[3] + '\r\nSSL Labs Grade: ' + rowData[4]);
 				},
-				targets: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34]
+				targets: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]
 			},
 			{type: 'enumgrade', targets: 4},
 			{visible: false, targets: [0, 5, 6, 7, 8, 9, 10]}

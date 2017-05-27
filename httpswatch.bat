@@ -64,7 +64,7 @@ CALL PYTHON ./scripts/createHostsFile.py --domainsfile=./data/domains/domains%_S
 :: Get SSL Labs results for hosts
 :: Backup existing file
 IF EXIST .\data\ssllabsReports\ssllabsReport%_SCANGROUP%.json CALL "C:\Program Files\WinRAR\winrar.exe" a -ep -afzip .\data\backups\ssllabsReports\ssllabsReport%_SCANGROUP%_%_TIMESTAMP%.zip .\data\ssllabsReports\ssllabsReport%_SCANGROUP%.json
-CALL GO run ./scripts/ssllabs-scan.go --usecache=true --maxage=24 --ignore-mismatch=true --hostfile ./data/hosts/hosts%_SCANGROUP%.txt > ./data/ssllabsReports/ssllabsReport%_SCANGROUP%.json
+CALL GO run ./scripts/ssllabs-scan-v3.go --usecache=true --maxage=24 --ignore-mismatch=true --hostfile ./data/hosts/hosts%_SCANGROUP%.txt > ./data/ssllabsReports/ssllabsReport%_SCANGROUP%.json
 
 :: Create data set for site report
 IF EXIST .\data\dataSets\dataSet%_SCANGROUP%.js CALL "C:\Program Files\WinRAR\winrar.exe" a -ep -afzip .\data\backups\dataSets\dataSet%_SCANGROUP%_%_TIMESTAMP%.zip .\data\dataSets\dataSet%_SCANGROUP%.js

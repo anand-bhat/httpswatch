@@ -47,13 +47,14 @@ def openSSLLuckyMinus20Value(value):
     return switcher.get(value, '-')
 
 
-def weakDHValue(value):
+def ticketbleedValue(value):
     switcher = {
-        0: 'No',
-        1: 'No; but does not use custom primes',
+        -1: 'Test failure',
+        0: 'Unknown',
+        1: 'No',
         2: 'Yes'
     }
-    return switcher.get(value, 'No')
+    return switcher.get(value, '-')
 
 
 def lacksFSValue(value):
@@ -274,7 +275,7 @@ def main(argv):
                              statusMessage, industry, hostPurpose,
                              httpsBehavior, issueReport, '-', '-', '-', '-',
                              '-', '-', '-', '-', '-', '-', '-', '-', '-', '-',
-                             '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
+                             '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
             print(dataSetValues, ',')
 
             # Update chart data
@@ -283,6 +284,14 @@ def main(argv):
 
             # Proceed to next record in SSL Labs scan data
             continue
+
+        # Obtain certificate details
+        certKeyStrength = -1
+        certIssues = 0
+        for cert in labsReport['certs']:
+            certKeyStrength = cert.get('keyStrength', -1)
+            certIssues = cert.get('issues', 0)
+            break
 
         numberOfEndpoints = len(labsReport['endpoints'])
 
@@ -349,6 +358,11 @@ def main(argv):
                 grade, openSSLLuckyMinus20Value(
                     endpoint['details'].get('openSSLLuckyMinus20', '-')))
 
+            # Determine if site is vulnerable to Ticketbleed (CVE-2016-9244)
+            ticketbleed = valueIfGraded(
+                grade, ticketbleedValue(
+                    endpoint['details'].get('ticketbleed', '-')))
+
             # Determine if site supports insecure renegotiation
             insecureRenegotiation = valueIfGraded(
                 grade, booleanToYesNo(
@@ -362,8 +376,7 @@ def main(argv):
 
             # Determine if site has weak private key
             weakPrivateKey = valueIfGraded(
-                grade, booleanToYesNo(
-                    endpoint['details']['key'].get('strength', -1) <= 1024))
+                grade, booleanToYesNo(certKeyStrength <= 1024))
 
             # Protocol analysis - Check for SSL2.0, SSL3.0, lack of TLS, TLS1.2
             sslv2 = False
@@ -401,16 +414,29 @@ def main(argv):
             # Determine if site supports anonymous suites and uses weak DH
             supportsAnonSuites = False
             weakDH = False
-            if 'list' in endpoint['details']['suites']:
-                for suite in endpoint['details']['suites']['list']:
-                    if not supportsAnonSuites and 'anon' in suite['name']:
-                        supportsAnonSuites = True
-                    if not weakDH and suite.get('dhStrength', 99999) <= 1024:
-                        weakDH = True
+            weakCiphers = False
+            if 'suites' in endpoint['details']:
+                for suiteSet in endpoint['details']['suites']:
+                    for suite in suiteSet['list']:
+                        if not supportsAnonSuites and 'anon' in suite['name']:
+                            supportsAnonSuites = True
+                        if not weakDH and suite.get('kxType', '') == 'DH' and suite.get('kxStrength', 99999) <= 1024:
+                            weakDH = True
+                        if not weakCiphers and suite.get('cipherStrength', 99999) < 112:
+                            weakCiphers = True
 
             supportsAnonSuites = valueIfGraded(
                 grade, booleanToYesNo(supportsAnonSuites))
             weakDH = valueIfGraded(grade, booleanToYesNo(weakDH))
+            weakCiphers = valueIfGraded(grade, booleanToYesNo(weakCiphers))
+
+            sweet32 = False
+            if 'sims' in endpoint['details']:
+                for sim in endpoint['details']['sims']['results']:
+                    if not sweet32 and sim.get('protocolId', 0) in ['770', '771'] and ('IDEA' in sim.get('suiteName', '') or '3DES' in sim.get('suiteName', '')):
+                        sweet32 = True
+
+            sweet32 = valueIfGraded(grade, booleanToYesNo(sweet32))
 
             # Determine if site only supports RC4
             rc4Only = valueIfGraded(
@@ -418,26 +444,25 @@ def main(argv):
                     endpoint['details'].get('rc4Only', False)))
 
             # Determine if certificate chain is incomplete
+            hasIncompleteChain = False
+            for certChain in endpoint['details']['certChains']:
+                if (isBitSet(certChain.get('issues', 0), 1)):
+                    hasIncompleteChain = True
+                    break
+
             hasIncompleteChain = valueIfGraded(
-                grade, booleanToYesNo(isBitSet(
-                    endpoint['details']['chain'].get('issues', 0), 1)))
+                grade, booleanToYesNo(hasIncompleteChain))
 
             # Determine trust issues
             trustIssues = False
             if (grade == 'T'):
                 trustIssues = True
                 grade = grade + '/ ' + endpoint.get('gradeTrustIgnored', '')
-            elif (grade == 'F' and
-                  endpoint['details']['cert'].get('issues', 0) != 0):
+            elif (grade == 'F' and certIssues != 0):
                 trustIssues = True
 
             trustIssues = valueIfGraded(
                     grade, booleanToYesNo(trustIssues))
-
-            # Determine if site uses SHA1 certificate
-            sha1Certificate = valueIfGraded(
-                    grade, booleanToYesNo(endpoint['details']['cert'].
-                                          get('sigAlg', '') == 'SHA1withRSA'))
 
             # Determine user defined grade when SSL Labs fails to scan
             if (grade == ''):
@@ -463,13 +488,12 @@ def main(argv):
                              statusMessage, industry, hostPurpose,
                              httpsBehavior, issueReport, heartbleed,
                              openSslCcs, openSSLLuckyMinus20, freak, logjam,
-                             poodleTls, drownVulnerable, sslv2,
+                             poodleTls, drownVulnerable, ticketbleed, sslv2,
                              supportsAnonSuites, rc4Only,
-                             insecureRenegotiation, notls, trustIssues, poodle,
-                             notlsv12, rc4WithModern, supportsRc4, sslv3,
+                             insecureRenegotiation, notls, weakCiphers, trustIssues, poodle,
+                             notlsv12, rc4WithModern, sweet32, supportsRc4, sslv3,
                              weakDH, hasIncompleteChain, weakPrivateKey,
-                             lacksFS, lacksSecureRenegotiation,
-                             sha1Certificate]
+                             lacksFS, lacksSecureRenegotiation]
             print(dataSetValues, ',')
 
             # Update chart data
@@ -498,7 +522,7 @@ def main(argv):
                              'Not scanned', industry, hostPurpose,
                              httpsBehavior, issueReport, '-', '-', '-', '-',
                              '-', '-', '-', '-', '-', '-', '-', '-', '-', '-',
-                             '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
+                             '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']
             print(dataSetValues, ',')
 
             # Update chart data
