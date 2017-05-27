@@ -170,6 +170,7 @@ hbchadp20.hdfcbank.com
 hbchadp7.hdfcbank.com
 hbchaha10.hdfcbank.com
 hbchaha20.hdfcbank.com
+hceprod.axisbank.co.in
 hdfcbank.com
 healthcare.federalbank.co.in
 hindi.axisbank.com
@@ -292,7 +293,6 @@ loans.icicibank.com
 loans.indusind.com
 los.hdfcbank.com
 lvbankonline.in
-m.axisbank.co.in
 m.axisbank.com
 m.dhanbank.com
 m.enet.hdfcbank.com
@@ -630,7 +630,6 @@ www.kie.kotak.com
 www.kotak.com
 www.kotakntmum03.kotak.com
 www.ksmailrelay1.kotak.com
-www.ksmailrelay3.kotak.com
 www.ktkbank.com
 www.kvb.co.in
 www.kvbin.com

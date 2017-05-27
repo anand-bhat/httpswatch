@@ -675,11 +675,6 @@
           "host": "www.efiler.in",
           "hostPurpose": "Home page (has login)",
           "httpsBehavior": "HTTP only"
-        },
-        {
-          "host": "blog.efiler.in",
-          "hostPurpose": "Blog",
-          "httpsBehavior": "HTTP only"
         }
       ]
     },

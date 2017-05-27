@@ -286,6 +286,10 @@
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/29"
         },
         {
+          "host": "hceprod.axisbank.co.in",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/140"
+        },
+        {
           "host": "imtpay.axisbank.co.in",
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/35"
         },
@@ -295,11 +299,6 @@
         },
         {
           "host": "lms.axisbank.co.in",
-          "httpsBehavior": "HTTPS only"
-        },
-        {
-          "host": "m.axisbank.co.in",
-          "hostPurpose": "Mobile banking",
           "httpsBehavior": "HTTPS only"
         },
         {
@@ -2047,9 +2046,6 @@
         },
         {
           "host": "ksmailrelay2.kotak.com"
-        },
-        {
-          "host": "www.ksmailrelay3.kotak.com"
         },
         {
           "host": "ksmailrelay3.kotak.com"

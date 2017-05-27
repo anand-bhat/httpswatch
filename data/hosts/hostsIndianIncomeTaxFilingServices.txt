@@ -7,7 +7,6 @@ auth.myitreturn.com
 aws.taxspanner.com
 beta.taxspanner.com
 blog.cleartax.in
-blog.efiler.in
 blog.hrblock.in
 blog.makemyreturns.com
 blog.myitreturn.com
