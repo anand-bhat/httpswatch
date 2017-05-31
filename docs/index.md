@@ -6,7 +6,7 @@ layout: blank
 </div>
 <hr>
 <div>
-	This project aims to create an actionable dashboard listing the HTTPS configurations of certain websites where good security in transit is expected.
+	This project aims to create an actionable dashboard listing the HTTPS configurations of certain websites where good transport layer security is expected.
 	This uses the <a href="https://www.ssllabs.com/ssltest/index.html">Qualys SSL Labs Server Test</a> to evaluate a site's HTTPS configuration and displays its grade.
 	Issues with a site's HTTPS configuration that prevent it from obtaining an 'A' grade or better are highlighted.
 	The full report is also available via a hyperlink to the Qualys site.
@@ -23,13 +23,12 @@ layout: blank
 	An excellent write-up for "HTTPS Everywhere" can be found at the aforementioned <a href="https://https.cio.gov/everything/">US Federal Government's "HTTPS-Only Standard" site</a>.
 	<br><br>
 	The reason for including subdomains not normally used by the general public is that these are typically not maintained at the same standard as the main domain.
-	Some of these (such as vpn.example.com, webmail.example.com etc.) are used by employees to access internal resources and it is imperative that these be protected at the same level,
-	if not better, than a site that is used by the general public.
+	Some of these (such as mail.example.com, secure,example.com, remote.example.com, vpn.example.com, webmail.example.com etc.) are used by employees to access internal resources
+	and it is imperative that these be protected at the same level, if not better, than a site that is used by the general public.
 	Having poor transport layer security on such sites could lead to the an employee's credentials being compromised which could give an attacker access to internal systems.
-	Then there are subdomains (sobdomains?) that continue to be vulnerable to serious veulnerabilies such as <a href="https://en.wikipedia.org/wiki/Heartbleed">Heartbleed</a> that can be a great asset to attackers.
+	Then there are subdomains (sobdomains?) that continue to be vulnerable to serious vulnerabilies such as <a href="https://en.wikipedia.org/wiki/Heartbleed">Heartbleed</a> that can be a great asset to attackers.
 	<br><br>
-	The subdomains considered for the tests here were discovered using a combination of Google searches (using the <i>site</i> operator), VirusTotal
-	(<i>https://virustotal.com/en/domain/example.com/information/</i>) and <a href="https://dnsdumpster.com/">DNSDumspter</a>.
+	The subdomains considered for the tests here were discovered using <a href="https://github.com/aboul3la/Sublist3r">Sublist3r</a>.
 </div>
 <hr>
 <div>
