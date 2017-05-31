@@ -3,14 +3,15 @@
   "organizations": [
     {
       "organization": "NetMeds",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
         {
-          "host": "www.netmeds.com",
+          "host": "netmeds.com",
           "hostPurpose": "Home page",
           "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS downgraded to HTTP"
         },
         {
-          "host": "netmeds.com",
+          "host": "www.netmeds.com",
           "hostPurpose": "Home page",
           "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS downgraded to HTTP"
         },
@@ -26,8 +27,8 @@
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/116"
         },
         {
-          "host": "dev-api.netmeds.com",
-          "hostPurpose": "API (Non production)",
+          "host": "careers.netmeds.com",
+          "hostPurpose": "Employment portal",
           "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
         },
         {
@@ -35,6 +36,11 @@
           "hostPurpose": "Home page (Non production)",
           "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works",
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/113"
+        },
+        {
+          "host": "dev-api.netmeds.com",
+          "hostPurpose": "API (Non production)",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
         },
         {
           "host": "enewsletter.netmeds.com",
@@ -60,16 +66,17 @@
     },
     {
       "organization": "mChemist",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
-        {
-          "host": "www.mchemist.com",
-          "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
-        },
         {
           "host": "mchemist.com",
           "hostPurpose": "Home page",
           "httpsBehavior": "HTTP and HTTPS redirect to http://www.mchemist.com"
+        },
+        {
+          "host": "www.mchemist.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
         },
         {
           "host": "mobile.mchemist.com",
@@ -79,14 +86,15 @@
     },
     {
       "organization": "Medidart",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
         {
-          "host": "www.medidart.com",
+          "host": "medidart.com",
           "hostPurpose": "Home page",
           "httpsBehavior": "HTTPS only"
         },
         {
-          "host": "medidart.com",
+          "host": "www.medidart.com",
           "hostPurpose": "Home page",
           "httpsBehavior": "HTTPS only"
         }
@@ -94,18 +102,19 @@
     },
     {
       "organization": "Apollo Pharmacy",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
-        {
-          "host": "www.apollopharmacy.in",
-          "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works",
-          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/62"
-        },
         {
           "host": "apollopharmacy.in",
           "hostPurpose": "Home page",
           "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works",
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/61"
+        },
+        {
+          "host": "www.apollopharmacy.in",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/62"
         },
         {
           "host": "mail.apollopharmacy.in",
@@ -116,7 +125,14 @@
     },
     {
       "organization": "Buydrug",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
+        {
+          "host": "buydrug.in",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP redirected to HTTPS",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/70"
+        },
         {
           "host": "www.buydrug.in",
           "hostPurpose": "Home page",
@@ -124,10 +140,10 @@
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/69"
         },
         {
-          "host": "buydrug.in",
-          "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP redirected to HTTPS",
-          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/70"
+          "host": "ns1.buydrug.in"
+        },
+        {
+          "host": "ns.2buydrug.in"
         },
         {
           "host": "vps.buydrug.in",
@@ -143,13 +159,8 @@
     },
     {
       "organization": "MedPlus Mart",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
-        {
-          "host": "www.medplusmart.com",
-          "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS downgraded to HTTP",
-          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/96"
-        },
         {
           "host": "medplusmart.com",
           "hostPurpose": "Home page",
@@ -157,9 +168,18 @@
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/95"
         },
         {
+          "host": "www.medplusmart.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS downgraded to HTTP",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/96"
+        },
+        {
           "host": "blog.medplusmart.com",
           "hostPurpose": "Blog",
           "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "mail.medplusmart.com"
         },
         {
           "host": "static1.medplusmart.com",
@@ -175,14 +195,15 @@
     },
     {
       "organization": "Zigy",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
         {
-          "host": "www.zigy.com",
+          "host": "zigy.com",
           "hostPurpose": "Home page",
           "httpsBehavior": "HTTP redirected to HTTPS"
         },
         {
-          "host": "zigy.com",
+          "host": "www.zigy.com",
           "hostPurpose": "Home page",
           "httpsBehavior": "HTTP redirected to HTTPS"
         },
@@ -203,13 +224,8 @@
     },
     {
       "organization": "SaveMyMeds",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
-        {
-          "host": "www.savemymeds.com",
-          "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works",
-          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/119"
-        },
         {
           "host": "savemymeds.com",
           "hostPurpose": "Home page",
@@ -217,9 +233,21 @@
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/118"
         },
         {
+          "host": "www.savemymeds.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/119"
+        },
+        {
           "host": "api.savemymeds.com",
           "httpsBehavior": "HTTP only",
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/120"
+        },
+        {
+          "host": "blog.savemymeds.com",
+          "hostPurpose": "Blog",
+          "httpsBehavior": "HTTP only",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/121"
         },
         {
           "host": "img.savemymeds.com",
@@ -227,23 +255,30 @@
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/122"
         },
         {
-          "host": "blog.savemymeds.com",
-          "hostPurpose": "Blog",
-          "httpsBehavior": "HTTP only",
-          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/121"
+          "host": "m.savemymeds.com"
+        },
+        {
+          "host": "mail.savemymeds.com"
+        },
+        {
+          "host": "ns1.savemymeds.com"
+        },
+        {
+          "host": "ns2.savemymeds.com"
         }
       ]
     },
     {
       "organization": "1mg",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
         {
-          "host": "www.1mg.com",
+          "host": "1mg.com",
           "hostPurpose": "Home page",
           "httpsBehavior": "HTTP redirected to HTTPS"
         },
         {
-          "host": "1mg.com",
+          "host": "www.1mg.com",
           "hostPurpose": "Home page",
           "httpsBehavior": "HTTP redirected to HTTPS"
         },
@@ -268,6 +303,12 @@
           "httpsBehavior": "HTTP redirected to HTTPS"
         },
         {
+          "host": "blog.1mg.com"
+        },
+        {
+          "host": "csc.1mg.com"
+        },
+        {
           "host": "dmg.1mg.com",
           "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
         },
@@ -282,6 +323,10 @@
         {
           "host": "email.newsletter.1mg.com",
           "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "emaila.1mg.com",
+          "httpsBehavior": "Unable to connect over HTTP and HTTPS"
         },
         {
           "host": "img.1mg.com",
@@ -300,10 +345,6 @@
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/65"
         },
         {
-          "host": "emaila.1mg.com",
-          "httpsBehavior": "Unable to connect over HTTP and HTTPS"
-        },
-        {
           "host": "lt.emaila.1mg.com",
           "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works",
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/66"
@@ -312,6 +353,9 @@
           "host": "mailstats.1mg.com",
           "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works",
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/67"
+        },
+        {
+          "host": "o47.mx.1mg.com"
         },
         {
           "host": "ppa.1mg.com",
@@ -323,12 +367,27 @@
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/68"
         },
         {
+          "host": "rt.1mg.com"
+        },
+        {
+          "host": "spectreapi.1mg.com"
+        },
+        {
+          "host": "sso.1mg.com"
+        },
+        {
+          "host": "stag.1mg.com"
+        },
+        {
           "host": "stagapi.1mg.com",
           "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
         },
         {
           "host": "stagdmg.1mg.com",
           "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
+        },
+        {
+          "host": "stagstatic.1mg.com"
         },
         {
           "host": "static.1mg.com",
@@ -338,13 +397,8 @@
     },
     {
       "organization": "SaveOnMedicals",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
-        {
-          "host": "www.saveonmedicals.com",
-          "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP redirected to HTTPS",
-          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/78"
-        },
         {
           "host": "saveonmedicals.com",
           "hostPurpose": "Home page",
@@ -352,15 +406,28 @@
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/77"
         },
         {
+          "host": "www.saveonmedicals.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP redirected to HTTPS",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/78"
+        },
+        {
           "host": "cdn.saveonmedicals.com",
           "hostPurpose": "CDN",
           "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works",
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/79"
+        },
+        {
+          "host": "m.saveonmedicals.com"
+        },
+        {
+          "host": "www.m.saveonmedicals.com"
         }
       ]
     },
     {
       "organization": "RxMedikart",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
         {
           "host": "www.rxmedikart.com",
@@ -378,14 +445,15 @@
     },
     {
       "organization": "RiteCure",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
         {
-          "host": "www.ritecure.com",
+          "host": "ritecure.com",
           "hostPurpose": "Home page",
           "httpsBehavior": "HTTP only"
         },
         {
-          "host": "ritecure.com",
+          "host": "www.ritecure.com",
           "hostPurpose": "Home page",
           "httpsBehavior": "HTTP only"
         },
@@ -398,47 +466,60 @@
     },
     {
       "organization": "Retail Pharma India",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
+        {
+          "host": "retailpharmaindia.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS does not show same content as HTTP"
+        },
         {
           "host": "www.retailpharmaindia.com",
           "hostPurpose": "Home page",
           "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS does not show same content as HTTP"
         },
         {
-          "host": "retailpharmaindia.com",
-          "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS does not show same content as HTTP"
+          "host": "ns1.retailpharmaindia.com",
+        },
+        {
+          "host": "ns2.retailpharmaindia.com",
         }
       ]
     },
     {
       "organization": "Practo",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
-        {
-          "host": "www.practo-order.com",
-          "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP redirected to HTTPS",
-          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/74"
-        },
         {
           "host": "practo-order.com",
           "hostPurpose": "Home page",
           "httpsBehavior": "HTTP redirected to HTTPS",
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/73"
+        },
+        {
+          "host": "www.practo-order.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP redirected to HTTPS",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/74"
         }
       ]
     },
     {
       "organization": "PharmEasy",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
+        {
+          "host": "pharmeasy.in",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP only"
+        },
         {
           "host": "www.pharmeasy.in",
           "hostPurpose": "Home page",
           "httpsBehavior": "HTTP only"
         },
         {
-          "host": "pharmeasy.in",
-          "hostPurpose": "Home page",
+          "host": "api.pharmeasy.in",
           "httpsBehavior": "HTTP only"
         },
         {
@@ -446,7 +527,15 @@
           "httpsBehavior": "HTTP only"
         },
         {
-          "host": "api.pharmeasy.in",
+          "host": "cdn01.pharmeasy.in",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
+        },
+        {
+          "host": "cms.pharmeasy.in",
+          "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "share.pharmeasy.in",
           "httpsBehavior": "HTTP only"
         },
         {
@@ -458,49 +547,51 @@
           "httpsBehavior": "HTTP only"
         },
         {
-          "host": "cdn01.pharmeasy.in",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
-        },
-        {
-          "host": "share.pharmeasy.in",
-          "httpsBehavior": "HTTP only"
-        },
-        {
-          "host": "cms.pharmeasy.in",
-          "httpsBehavior": "HTTP only"
+          "host": "web.staging.pharmeasy.in"
         }
       ]
     },
     {
       "organization": "Myra Medicines",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
-        {
-          "host": "www.myramed.in",
-          "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
-        },
         {
           "host": "myramed.in",
           "hostPurpose": "Home page",
           "httpsBehavior": "HTTP redirected to HTTPS"
         },
         {
+          "host": "www.myramed.in",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
+        },
+        {
           "host": "api.myramed.in",
           "hostPurpose": "API",
           "httpsBehavior": "HTTP redirected to HTTPS"
+        },
+        {
+          "host": "app.myramed.in"
+        },
+        {
+          "host": "test.myramed.in"
+        },
+        {
+          "host": "web.myramed.in"
         }
       ]
     },
     {
       "organization": "Medixpress",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
         {
-          "host": "www.medixpres.com",
+          "host": "medixpres.com",
           "hostPurpose": "Home page",
           "httpsBehavior": "HTTP only"
         },
         {
-          "host": "medixpres.com",
+          "host": "www.medixpres.com",
           "hostPurpose": "Home page",
           "httpsBehavior": "HTTP only"
         },
@@ -517,14 +608,15 @@
     },
     {
       "organization": "Medideal.in",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
         {
-          "host": "www.medideal.in",
+          "host": "medideal.in",
           "hostPurpose": "Home page",
           "httpsBehavior": "HTTP redirected to HTTPS"
         },
         {
-          "host": "medideal.in",
+          "host": "www.medideal.in",
           "hostPurpose": "Home page",
           "httpsBehavior": "HTTP redirected to HTTPS"
         },
@@ -542,14 +634,15 @@
     },
     {
       "organization": "Madhu Online Pharmacy",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
         {
-          "host": "www.madhuonlinepharmacy.in",
+          "host": "madhuonlinepharmacy.in",
           "hostPurpose": "Home page",
           "httpsBehavior": "HTTP only"
         },
         {
-          "host": "madhuonlinepharmacy.in",
+          "host": "www.madhuonlinepharmacy.in",
           "hostPurpose": "Home page",
           "httpsBehavior": "HTTP only"
         }
@@ -557,33 +650,41 @@
     },
     {
       "organization": "India Meds",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
+        {
+          "host": "indiameds.in",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP redirected to HTTPS"
+        },
         {
           "host": "www.indiameds.in",
           "hostPurpose": "Home page",
           "httpsBehavior": "HTTP redirected to HTTPS"
         },
         {
-          "host": "indiameds.in",
-          "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP redirected to HTTPS"
+          "host": "ns1.indiameds.in"
+        },
+        {
+          "host": "ns2.indiameds.in"
         }
       ]
     },
     {
       "organization": "EasyMedico",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
-        {
-          "host": "www.easymedico.com",
-          "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP redirected to HTTPS",
-          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/100"
-        },
         {
           "host": "easymedico.com",
           "hostPurpose": "Home page",
           "httpsBehavior": "HTTP redirected to HTTPS",
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/99"
+        },
+        {
+          "host": "www.easymedico.com",
+          "hostPurpose": "Home page",
+          "httpsBehavior": "HTTP redirected to HTTPS",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/100"
         },
         {
           "host": "blog.easymedico.com",
@@ -606,6 +707,15 @@
           "host": "www.chat.easymedico.com",
           "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works",
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/106"
+        },
+        {
+          "host": "doctorportal.easymedico.com"
+        },
+        {
+          "host": "www.doctorportal.easymedico.com"
+        },
+        {
+          "host": "images.easymedico.com"
         },
         {
           "host": "mail.easymedico.com",
@@ -641,6 +751,7 @@
     },
     {
       "organization": "Dawaaii.com",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
         {
           "host": "www.dawaaii.com",

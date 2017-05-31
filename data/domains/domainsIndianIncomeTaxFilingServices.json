@@ -3,6 +3,7 @@
   "organizations": [
     {
       "organization": "ClearTax",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
         {
           "host": "cleartax.in",
@@ -77,11 +78,15 @@
           "host": "www.cleartds.com",
           "hostPurpose": "TDS filing (has login)",
           "httpsBehavior": "HTTP redirected to HTTPS"
+        },
+        {
+          "host": "latest.cleartds.com"
         }
       ]
     },
     {
       "organization": "H&R Block India",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
         {
           "host": "hrblock.in",
@@ -135,6 +140,9 @@
           "host": "taxforum.hrblock.in"
         },
         {
+          "host": "tech.hrblock.in"
+        },
+        {
           "host": "test.hrblock.in",
           "hostPurpose": "Testing environment",
           "httpsBehavior": "HTTP redirected to HTTPS",
@@ -150,6 +158,7 @@
     },
     {
       "organization": "HamaraTax",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
         {
           "host": "hamaratax.com",
@@ -166,6 +175,7 @@
     },
     {
       "organization": "myITreturn",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
         {
           "host": "myitreturn.com",
@@ -272,6 +282,7 @@
     },
     {
       "organization": "MyTaxCafe",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
         {
           "host": "mytaxcafe.com",
@@ -293,6 +304,7 @@
     },
     {
       "organization": "Tax Care India",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
         {
           "host": "taxcareindia.com",
@@ -312,6 +324,7 @@
     },
     {
       "organization": "Taxsmile",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
         {
           "host": "taxsmile.com",
@@ -364,6 +377,9 @@
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/87"
         },
         {
+          "host": "tsserver4.taxsmile.com"
+        },
+        {
           "host": "webmail.taxsmile.com",
           "hostPurpose": "Mail (has login)",
           "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS does not show same content as HTTP",
@@ -373,6 +389,7 @@
     },
     {
       "organization": "TaxSpanner",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
         {
           "host": "taxspanner.com",
@@ -429,6 +446,9 @@
           "httpsBehavior": "HTTP redirected to HTTPS"
         },
         {
+          "host": "helpdesk.taxspanner.com"
+        },
+        {
           "host": "origin.taxspanner.com",
           "httpsBehavior": "HTTP redirected to HTTPS",
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/45"
@@ -450,6 +470,7 @@
     },
     {
       "organization": "VitteTax",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
         {
           "host": "vittetax.com",
@@ -465,6 +486,7 @@
     },
     {
       "organization": "Mytaxfiler",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
         {
           "host": "mytaxfiler.com",
@@ -479,6 +501,14 @@
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/133"
         },
         {
+          "host": "austin.mytaxfiler.com",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/129"
+        },
+        {
+          "host": "houston.mytaxfiler.com",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/130"
+        },
+        {
           "host": "login.mytaxfiler.com",
           "hostPurpose": "Login page",
           "httpsBehavior": "HTTP redirected to HTTPS",
@@ -491,21 +521,13 @@
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/127"
         },
         {
+          "host": "newjersey.mytaxfiler.com"
+        },
+        {
           "host": "stg.login.mytaxfiler.com",
           "hostPurpose": "Login page (testing)",
           "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works",
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/128"
-        },
-        {
-          "host": "austin.mytaxfiler.com",
-          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/129"
-        },
-        {
-          "host": "houston.mytaxfiler.com",
-          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/130"
-        },
-        {
-          "host": "newjersey.mytaxfiler.com"
         },
         {
           "host": "sunnyvale.mytaxfiler.com",
@@ -515,6 +537,7 @@
     },
     {
       "organization": "TaxZippy",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
         {
           "host": "taxzippy.com",
@@ -530,6 +553,7 @@
     },
     {
       "organization": "Quicko",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
         {
           "host": "quicko.com",
@@ -573,6 +597,7 @@
     },
     {
       "organization": "Tax Chanakya",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
         {
           "host": "taxchanakya.com",
@@ -597,6 +622,7 @@
     },
     {
       "organization": "Taxshax",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
         {
           "host": "taxshax.com",
@@ -615,6 +641,9 @@
           "httpsBehavior": "Unable to connect over HTTP and HTTPS"
         },
         {
+          "host": "m.taxshax.com"
+        },
+        {
           "host": "tracking.taxshax.com",
           "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works",
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/138"
@@ -623,6 +652,7 @@
     },
     {
       "organization": "Tax Manager",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
         {
           "host": "taxmanager.in",
@@ -638,6 +668,7 @@
     },
     {
       "organization": "Chaireturn",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
         {
           "host": "chaireturn.com",
@@ -665,6 +696,7 @@
     },
     {
       "organization": "efiler",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
         {
           "host": "efiler.in",
@@ -680,6 +712,7 @@
     },
     {
       "organization": "Make My Returns",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
         {
           "host": "makemyreturns.com",
@@ -703,6 +736,7 @@
     },
     {
       "organization": "Income Tax Department, Government of India",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
         {
           "host": "incometaxindiaefiling.gov.in",
@@ -720,6 +754,7 @@
     },
     {
       "organization": "TaxRaahi",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
         {
           "host": "taxraahi.com",
@@ -735,6 +770,7 @@
     },
     {
       "organization": "Taxmantra",
+      "lastScanForSubdomains": "2017-05-31",
       "hosts": [
         {
           "host": "taxmantra.com",
@@ -745,6 +781,12 @@
           "host": "www.taxmantra.com",
           "hostPurpose": "Home page",
           "httpsBehavior": "HTTP redirected to HTTPS"
+        },
+        {
+          "host": "ereturns.taxmantra.com"
+        },
+        {
+          "host": "ftp.taxmantra.com"
         }
       ]
     }
