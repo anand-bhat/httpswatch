@@ -10,8 +10,9 @@ td.details-control {
 .shown td.details-control {
 	background: url('../images/details_close.png') no-repeat center center;
 }
-table.dataTable tfoot th {
+table.dataTable tfoot td {
 	padding: 5px;
+	text-align: center;
 }
 table.dataTable thead th {
 	padding: 5px 18px 5px 5px;
@@ -49,14 +50,14 @@ table.dataTable thead th {
 .center {
 	text-align: center;
 }
-.cell-border th {
+.cell-border thead th, tfoot td {
 	border-right: 1px solid #ddd;
 	border-top: 1px solid #ddd;
 }
-.cell-border th:first-child {
+.cell-border thead th:first-child, tfoot td:first-child {
 	border-left: 1px solid #ddd;
 }
-.cell-border {
+.cell-border tfoot td {
 	border-bottom: 1px solid #ddd;
 }
 .strikethrough {
