@@ -1,0 +1,34 @@
+engines:
+  csslint:
+    enabled: true
+  duplication:
+    enabled: true
+    config:
+      languages:
+        javascript:
+        python:
+          python_version: 3
+  eslint:
+    enabled: true
+  fixme:
+    enabled: true
+  markdownlint:
+    enabled: true
+  pep8:
+    enabled: true
+  radon: 
+    enabled: true
+
+ratings:
+  paths:
+  - "**.css"
+  - "**.js"
+  - "**.md"
+  - "**.py"
+  - "**.html"
+
+exclude_paths:
+- "data/"
+- "docs/_includes/JB/"
+- "docs/assets/data/"
+- "scripts/ssllabs-scan-v3.go"
