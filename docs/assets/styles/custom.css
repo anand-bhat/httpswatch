@@ -15,11 +15,11 @@ table.dataTable tfoot td {
 	text-align: center;
 }
 table.dataTable thead th {
-	padding: 5px 18px 5px 5px;
+	font-weight: normal;
+	padding: 8px 10px;
 }
 .grade {
 	font-weight: bold;
-	text-align: center;
 }
 .grade-green {
 	background-color: Green;

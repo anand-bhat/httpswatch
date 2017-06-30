@@ -140,39 +140,39 @@ $(document).ready(function () {
 			{title: 'Organization'},
 			{title: 'Host'},
 			{title: 'IP Address'},
-			{title: 'SSL Labs Grade'},
+			{title: 'SSL Labs Grade', className: 'center'},
 			{title: 'Test Date', className: 'center'},
 			{title: 'Status Message'},
 			{title: 'Industry'},
 			{title: 'Host Purpose'},
 			{title: 'HTTPS Behavior'},
 			{title: 'Issue Report', className: 'center', orderable: false},
-			{title: '[F] Vulnerable to Heartbleed'},
-			{title: '[F] Vulnerable to CVE-2014-0224'},
-			{title: '[F] Vulnerable to CVE-2016-2107'},
-			{title: '[F] Vulnerable to FREAK'},
-			{title: '[F] Vulnerable to Logjam'},
-			{title: '[F] Vulnerable to POODLE (TLS)'},
-			{title: '[F] Vulnerable to DROWN'},
-			{title: '[F] Vulnerable to Ticketbleed'},
-			{title: '[F] Supports SSLv2'},
-			{title: '[F] Supports Anonymous suites'},
-			{title: '[F] Only supports RC4 suites'},
-			{title: '[F] Supports Insecure renegotiation'},
-			{title: '[F] No support for TLS'},
-			{title: '[F] Supports insecure cipher suites'},
-			{title: '[T] Untrusted certificate'},
-			{title: '[C] Vulnerable to POODLE (SSLv3)'},
-			{title: '[C] Lacks support for TLSv1.2'},
-			{title: '[C] Uses RC4 with modern protocols'},
-			{title: '[C] Uses 3DES with modern protocols'},
-			{title: '[B] Supports RC4'},
-			{title: '[B] Supports SSLv3'},
-			{title: '[B] Uses weak DH'},
-			{title: '[B] Has incomplete chain'},
-			{title: '[B] Has weak private key'},
-			{title: '[A-] Lacks Forward Secrecy'},
-			{title: '[A-] Lacks Secure Renegotiation'}
+			{title: '[F] Vulnerable to Heartbleed', className: 'center'},
+			{title: '[F] Vulnerable to CVE-2014-0224', className: 'center'},
+			{title: '[F] Vulnerable to CVE-2016-2107', className: 'center'},
+			{title: '[F] Vulnerable to FREAK', className: 'center'},
+			{title: '[F] Vulnerable to Logjam', className: 'center'},
+			{title: '[F] Vulnerable to POODLE (TLS)', className: 'center'},
+			{title: '[F] Vulnerable to DROWN', className: 'center'},
+			{title: '[F] Vulnerable to Ticketbleed', className: 'center'},
+			{title: '[F] Supports SSLv2', className: 'center'},
+			{title: '[F] Supports Anonymous suites', className: 'center'},
+			{title: '[F] Only supports RC4 suites', className: 'center'},
+			{title: '[F] Supports Insecure renegotiation', className: 'center'},
+			{title: '[F] No support for TLS', className: 'center'},
+			{title: '[F] Supports insecure cipher suites', className: 'center'},
+			{title: '[T] Untrusted certificate', className: 'center'},
+			{title: '[C] Vulnerable to POODLE (SSLv3)', className: 'center'},
+			{title: '[C] Lacks support for TLSv1.2', className: 'center'},
+			{title: '[C] Uses RC4 with modern protocols', className: 'center'},
+			{title: '[C] Uses 3DES with modern protocols', className: 'center'},
+			{title: '[B] Supports RC4', className: 'center'},
+			{title: '[B] Supports SSLv3', className: 'center'},
+			{title: '[B] Uses weak DH', className: 'center'},
+			{title: '[B] Has incomplete chain', className: 'center'},
+			{title: '[B] Has weak private key', className: 'center'},
+			{title: '[A-] Lacks Forward Secrecy', className: 'center'},
+			{title: '[A-] Lacks Secure Renegotiation', className: 'center'}
 		],
 		columnDefs: [
 			{
@@ -212,13 +212,13 @@ $(document).ready(function () {
 					var cellClass;
 					switch (data) {
 					case 'Yes':
-						cellClass = 'center badhighlight';
+						cellClass = 'badhighlight';
 						break;
 					case 'No':
-						cellClass = 'center good';
+						cellClass = 'good';
 						break;
 					default:
-						cellClass = 'center';
+						cellClass = '';
 					}
 					return '<div class="' + cellClass + '">' + data + '</div>';
 				},
@@ -232,7 +232,7 @@ $(document).ready(function () {
 				targets: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]
 			},
 			{type: 'enumgrade', targets: 4},
-			{visible: false, targets: [0, 5, 6, 7, 8, 9, 10]}
+			{visible: false, targets: [0, 3, 5, 6, 7, 8, 9, 10]}
 		],
 		data: dataSet,
 		deferRender: true,
@@ -279,6 +279,10 @@ $(document).ready(function () {
 					column.visible(false);
 				}
 			});
+		},
+		language: {
+			search: '',
+			searchPlaceholder: 'Search'
 		},
 		lengthMenu: [[10, 25, 50, 100, -1], [10, 25, 50, 100, 'All']],
 		order: [[1, 'asc'], [2, 'asc'], [3, 'asc']]
