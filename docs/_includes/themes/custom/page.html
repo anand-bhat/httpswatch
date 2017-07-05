@@ -8,7 +8,7 @@
 {{ content }}
 <br>
 <div>
-	<b>Toggle shown/ <span class="strikethrough">hidden</span> columns:</b> <a id="toggleColumns" href="#">[show section]</a>
+	Toggle shown/ <span class="strikethrough">hidden</span> columns: <a id="toggleColumns" href="#">[show]</a>
 	<div id="toggleColumnsSection" class="collapse">
 		<ul>
 			<li>Site overview and test details:
@@ -65,7 +65,7 @@
 	</div>
 </div>
 <div>
-	<table id="httpsdata" class="display cell-border" width="100%">
+	<table id="httpsdata" class="hover order-column row-border cell-border" width="100%">
 		<tfoot>
 			<tr>
 				<td></td>
@@ -110,6 +110,6 @@
 	</table>
 </div>
 <div>
-	<b>Counts by organization:</b> <a id="toggleChartCountsByOrg" href="#">[hide section]</a>
-	<div id="chartCountsByOrg"></div>
+	<b>Counts by organization:</b> <a id="toggleChartCountsByOrgAndGrade" href="#">[show]</a>
+	<div id="chartCountsByOrgAndGrade" class="collapse"><canvas id="chartCountsByOrgAndGradeCanvas"></canvas></div>
 </div>

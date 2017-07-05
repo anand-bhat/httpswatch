@@ -1,3 +1,40 @@
+Chart.pluginService.register({
+	// 100% stacked chart - From https://github.com/y-takey/chartjs-plugin-stacked100
+	beforeInit: function(chartInstance, pluginOptions) {
+		var xAxes = chartInstance.options.scales.xAxes;
+		var yAxes = chartInstance.options.scales.yAxes;
+
+		[xAxes, yAxes].forEach(function(axes) {
+			axes.forEach(function(hash) { hash.stacked = true; });
+		});
+		xAxes.forEach(function(hash) { hash.ticks.min = 0; hash.ticks.max = 100; });
+
+		chartInstance.options.tooltips.callbacks.label = function(tooltipItem, data) {
+			var datasetIndex = tooltipItem.datasetIndex,
+				index = tooltipItem.index,
+				xLabel = tooltipItem.xLabel;
+			var datasetLabel = data.datasets[datasetIndex].label || '';
+
+			return '' + datasetLabel + ': ' + xLabel + '% (' + data.originalData[datasetIndex][index] + ')';
+		};
+	},
+
+	beforeUpdate: function(chartInstance, pluginOptions) {
+		var datasets = chartInstance.data.datasets;
+		var allData = datasets.map(function(dataset) { return dataset.data; });
+		chartInstance.data.originalData = allData;
+
+		var totals = Array.apply(null, new Array(allData[0].length)).map(function(el, i) {
+			return allData.reduce(function(sum, data) { return sum + data[i]; }, 0);
+		});
+		datasets.forEach(function(dataset) {
+			dataset.data = dataset.data.map(function(val, i) {
+				return Math.round(val * 1000 / totals[i]) / 10;
+			});
+		});
+	}
+});
+
 // Formatting function for row details
 function format(row) {
 	'use strict';
@@ -43,57 +80,33 @@ var gradeClass = {
 
 var gradesNotRequiringReport = ['A', 'A-', 'A+', 'Could not connect', 'Scan error', 'Not scanned', 'Unknown domain'];
 
-function drawChartCountsByOrg() {
+function drawChartCountsByOrgAndGrade() {
 	'use strict';
-	if ((typeof chartDataCountsByOrg === 'undefined') ||(typeof google === 'undefined')) {
+	if ((typeof chartDataCountsByOrgAndGrade === 'undefined') ||(typeof Chart === 'undefined')) {
 		return;
 	}
 
-	var data = google.visualization.arrayToDataTable(chartDataCountsByOrg);
-
 	var options = {
-		bar: {groupWidth: 30},
-		chartArea: {
-			bottom: 50,
-			top: 50
+		scales: {
+			xAxes: [{
+				stacked: true,
+				ticks: { max: 100 }
+			}],
+			yAxes: [{
+				stacked: true
+			}]
 		},
-		hAxis: {
-			minValue: 0,
-			ticks: [0, 0.25, 0.5, 0.75, 1],
-			textStyle: {fontSize: 14}
-		},
-		height: (100 + (60 * data.getNumberOfRows())),
-		isStacked: 'percent',
-		legend: {
-			maxLines: 1,
-			position: 'top',
-			textStyle: {fontSize: 14}
-		},
-		series: {
-			0: {color: 'Green'},
-			1: {color: 'YellowGreen'},
-			2: {color: 'LightGreen'},
-			3: {color: 'Orange'},
-			4: {color: 'Orange'},
-			5: {color: 'Orange'},
-			6: {color: 'Orange'},
-			7: {color: 'Red'},
-			8: {color: 'Red'},
-			9: {color: 'Red'},
-			10: {color: 'Gray'},
-			11: {color: 'Gray'}
-		},
-		tooltip: {
-			textStyle: {fontSize: 14},
-			showColorCode: true
-		},
-		vAxis: {
-			textStyle: {fontSize: 14}
+		tooltips: {
+			enabled: true
 		}
 	};
 
-	var chart = new google.visualization.BarChart(document.getElementById('chartCountsByOrg'));
-	chart.draw(data, options);
+	var chartCountsByOrgAndGradeCanvas = document.getElementById("chartCountsByOrgAndGradeCanvas");
+	var priceBarChart = new Chart(chartCountsByOrgAndGradeCanvas, {
+		type: 'horizontalBar',
+		data: chartDataCountsByOrgAndGrade,
+		options: options
+	});
 }
 
 // Sort function for SSL Grade to show A+ first
@@ -281,7 +294,7 @@ $(document).ready(function () {
 			});
 		},
 		language: {
-			search: '',
+			search: '<i class="glyphicon glyphicon-search"></i>',
 			searchPlaceholder: 'Search'
 		},
 		lengthMenu: [[10, 25, 50, 100, -1], [10, 25, 50, 100, 'All']],
@@ -325,24 +338,24 @@ $(document).ready(function () {
 		e.preventDefault();
 		if ($('#toggleColumnsSection').is(':visible')) {
 			$('#toggleColumnsSection').hide();
-			$(this).text('[show section]');
+			$(this).text('[show]');
 		}
 		else {
 			$('#toggleColumnsSection').show();
-			$(this).text('[hide section]');
+			$(this).text('[hide]');
 		}
 	});
 
 	// Toggle chart section visibility
-	$('#toggleChartCountsByOrg').on('click', function (e) {
+	$('#toggleChartCountsByOrgAndGrade').on('click', function (e) {
 		e.preventDefault();
-		if ($('#chartCountsByOrg').is(':visible')) {
-			$('#chartCountsByOrg').hide();
-			$(this).text('[show section]');
+		if ($('#chartCountsByOrgAndGrade').is(':visible')) {
+			$('#chartCountsByOrgAndGrade').hide();
+			$(this).text('[show]');
 		}
 		else {
-			$('#chartCountsByOrg').show();
-			$(this).text('[hide section]');
+			$('#chartCountsByOrgAndGrade').show();
+			$(this).text('[hide]');
 		}
 	});
 
@@ -357,9 +370,7 @@ $(document).ready(function () {
 		}
 	});
 
-	if (typeof google === 'undefined') {
-		return;
+	if (typeof Chart !== 'undefined') {
+		drawChartCountsByOrgAndGrade();
 	}
-	google.charts.load('current', {packages: ['corechart']});
-	google.charts.setOnLoadCallback(drawChartCountsByOrg);
 });

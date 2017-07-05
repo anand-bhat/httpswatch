@@ -150,6 +150,67 @@ def printChartDataCountsByOrg(table):
     print('];')
 
 
+def printChartDataCountsByOrgAndGrade(table):
+    print('var chartDataCountsByOrgAndGrade = {')
+    print('labels: [\'{0}\']'.
+          format('\', \''.join(str(i) for i in sorted(table.keys()))) + ',')
+    print('datasets: [')
+    countsByOrgAndGrade = {}
+    chartGrades = ['A+', 'A', 'A-', 'B', 'C', 'D', 'E', 'T', 'F', 'No HTTPS',
+                   'Scan error', 'Not scanned']
+    backgroundColorForGrade = {
+        'A+': 'rgba(0, 80, 0, 0.9)',
+        'A': 'rgba(154, 205, 50, 0.9)',
+        'A-': 'rgba(144, 238, 144, 0.9)',
+        'B': 'rgba(255, 165, 0, 0.9)',
+        'C': 'rgba(255, 165, 0, 0.9)',
+        'D': 'rgba(255, 165, 0, 0.9)',
+        'E': 'rgba(255, 165, 0, 0.9)',
+        'T': 'rgba(255, 0, 0, 0.9)',
+        'F': 'rgba(255, 0, 0, 0.9)',
+        'No HTTPS': 'rgba(255, 0, 0, 0.9)',
+        'Scan error': 'rgba(128, 128, 128, 0.9)',
+        'Not scanned': 'rgba(128, 128, 128, 0.9)'
+    }
+    hoverBackgroundColorForGrade = {
+        'A+': 'rgba(0, 80, 0, 1)',
+        'A': 'rgba(154, 205, 50, 1)',
+        'A-': 'rgba(144, 238, 144, 1)',
+        'B': 'rgba(255, 165, 0, 1)',
+        'C': 'rgba(255, 165, 0, 1)',
+        'D': 'rgba(255, 165, 0, 1)',
+        'E': 'rgba(255, 165, 0, 1)',
+        'T': 'rgba(255, 0, 0, 1)',
+        'F': 'rgba(255, 0, 0, 1)',
+        'No HTTPS': 'rgba(255, 0, 0, 1)',
+        'Scan error': 'rgba(128, 128, 128, 1)',
+        'Not scanned': 'rgba(128, 128, 128, 1)'
+    }
+
+    for grade in chartGrades:
+        countsByOrgAndGrade[grade] = []
+        for org in sorted(table.keys()):
+            countsByOrgAndGrade[grade].append(getVal(table[org], grade))
+
+    for grade in chartGrades:
+        printDataSet(grade, backgroundColorForGrade[grade],
+                     hoverBackgroundColorForGrade[grade],
+                     countsByOrgAndGrade[grade])
+
+    print(']};')
+
+
+def printDataSet(label, backgroundColor, hoverBackgroundColor, data):
+    print('{')
+    print('    label: \'' + label + '\',')
+    print('    backgroundColor: \'' + backgroundColor + '\',')
+    print('    hoverBackgroundColor: \'' + hoverBackgroundColor + '\',')
+    print('    borderWidth: 1,')
+    print('    borderColor: \'rgb(255, 255, 255)\',')
+    print('    data: [{0}]'.format(', '.join(str(i) for i in data)) + ',')
+    print('},')
+
+
 def getVal(table, key):
     if key in table:
         return str(table[key])
@@ -543,6 +604,7 @@ def main(argv):
     # Print chart data
     printChartDataSummary(countsSummary)
     printChartDataCountsByOrg(countsByOrg)
+    printChartDataCountsByOrgAndGrade(countsByOrg)
 
 
 if __name__ == '__main__':
