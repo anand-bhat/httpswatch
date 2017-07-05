@@ -2,6 +2,13 @@
 64.mailer.nsdl.co.in
 65.mailer.nsdl.co.in
 66.mailer.nsdl.co.in
+AutoDiscover.nsdl.co.in
+Egov-mag.nsdl.co.in
+Egov-mdm.nsdl.co.in
+Egov-seg.nsdl.co.in
+Legacy.nsdl.co.in
+Webmail.nsdl.co.in
+acgcts19.nsdl.com
 apollo.nsdl.com
 artemis.nsdl.com
 broadside.nsdl.com
@@ -13,6 +20,7 @@ broadside5.nsdl.com
 cbec.nsdl.com
 cradashboard.nsdl.com
 dpmshr.nsdl.com
+eNPS.nsdl.com
 edocs.nsdl.com
 edpm.nsdl.com
 edr-gstpilot.nsdl.co.in

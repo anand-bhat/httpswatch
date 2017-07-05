@@ -21,31 +21,7 @@
           "httpsBehavior": "HTTPS only"
         },
         {
-          "host": "aps.axisbank.com",
-          "httpsBehavior": "HTTPS only"
-        },
-        {
           "host": "campaign.axisbank.com",
-          "httpsBehavior": "Not used for HTTP/ HTTPS"
-        },
-        {
-          "host": "colodb1.axisbank.com",
-          "httpsBehavior": "Not used for HTTP/ HTTPS"
-        },
-        {
-          "host": "colonlb.axisbank.com",
-          "httpsBehavior": "Not used for HTTP/ HTTPS"
-        },
-        {
-          "host": "coloweb1.axisbank.com",
-          "httpsBehavior": "Not used for HTTP/ HTTPS"
-        },
-        {
-          "host": "coloweb2.axisbank.com",
-          "httpsBehavior": "Not used for HTTP/ HTTPS"
-        },
-        {
-          "host": "coloweb3.axisbank.com",
           "httpsBehavior": "Not used for HTTP/ HTTPS"
         },
         {
@@ -72,19 +48,6 @@
           "httpsBehavior": "HTTPS only"
         },
         {
-          "host": "www.hindi.axisbank.com",
-          "hostPurpose": "Home page in hindi"
-        },
-        {
-          "host": "hindi.axisbank.com",
-          "hostPurpose": "Home page in hindi",
-          "httpsBehavior": "HTTP and HTTPS. No redirect. Different content"
-        },
-        {
-          "host": "imagedebitcard.axisbank.com",
-          "httpsBehavior": "Not used for HTTP/ HTTPS"
-        },
-        {
           "host": "loans.axisbank.com",
           "hostPurpose": "Loans",
           "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
@@ -108,51 +71,11 @@
           "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
         },
         {
-          "host": "nri.axisbank.com",
-          "httpsBehavior": "Not used for HTTP/ HTTPS"
-        },
-        {
-          "host": "nsmtpbm.axisbank.com",
-          "httpsBehavior": "Not used for HTTP/ HTTPS"
-        },
-        {
-          "host": "nsmtpbm1.axisbank.com",
-          "httpsBehavior": "Not used for HTTP/ HTTPS"
-        },
-        {
-          "host": "nsmtpbm2.axisbank.com",
-          "httpsBehavior": "Not used for HTTP/ HTTPS"
-        },
-        {
-          "host": "nsmtpbm3.axisbank.com",
-          "httpsBehavior": "Not used for HTTP/ HTTPS"
-        },
-        {
-          "host": "nsmtpbm4.axisbank.com",
-          "httpsBehavior": "Not used for HTTP/ HTTPS"
-        },
-        {
-          "host": "nsmtpbm5.axisbank.com",
-          "httpsBehavior": "Not used for HTTP/ HTTPS"
-        },
-        {
-          "host": "nsmtpin.axisbank.com",
-          "httpsBehavior": "Not used for HTTP/ HTTPS"
-        },
-        {
-          "host": "nsmtpin1.axisbank.com",
-          "httpsBehavior": "Not used for HTTP/ HTTPS"
-        },
-        {
           "host": "nsmtpinpn1.axisbank.com",
           "httpsBehavior": "Not used for HTTP/ HTTPS"
         },
         {
           "host": "nsmtpinpn2.axisbank.com",
-          "httpsBehavior": "Not used for HTTP/ HTTPS"
-        },
-        {
-          "host": "nsmtpoutpn1.axisbank.com",
           "httpsBehavior": "Not used for HTTP/ HTTPS"
         },
         {
@@ -170,16 +93,8 @@
           "httpsBehavior": "Not used for HTTP/ HTTPS"
         },
         {
-          "host": "progress.axisbank.com",
-          "httpsBehavior": "Not used for HTTP/ HTTPS"
-        },
-        {
           "host": "secure.axisbank.com",
           "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
-        },
-        {
-          "host": "smtp.axisbank.com",
-          "httpsBehavior": "Not used for HTTP/ HTTPS"
         },
         {
           "host": "smtpbm.axisbank.com",
@@ -191,18 +106,6 @@
         },
         {
           "host": "smtpds.axisbank.com",
-          "httpsBehavior": "Not used for HTTP/ HTTPS"
-        },
-        {
-          "host": "smtpin.axisbank.com",
-          "httpsBehavior": "Not used for HTTP/ HTTPS"
-        },
-        {
-          "host": "smtpout.axisbank.com",
-          "httpsBehavior": "Not used for HTTP/ HTTPS"
-        },
-        {
-          "host": "srilanka.axisbank.com",
           "httpsBehavior": "Not used for HTTP/ HTTPS"
         },
         {

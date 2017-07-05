@@ -29,7 +29,8 @@
         {
           "host": "careers.netmeds.com",
           "hostPurpose": "Employment portal",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/147"
         },
         {
           "host": "dev.netmeds.com",
@@ -143,7 +144,7 @@
           "host": "ns1.buydrug.in"
         },
         {
-          "host": "ns.2buydrug.in"
+          "host": "ns2.buydrug.in"
         },
         {
           "host": "vps.buydrug.in",
@@ -326,7 +327,8 @@
         },
         {
           "host": "emaila.1mg.com",
-          "httpsBehavior": "Unable to connect over HTTP and HTTPS"
+          "httpsBehavior": "Unable to connect over HTTP and HTTPS",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/93"
         },
         {
           "host": "img.1mg.com",
@@ -479,10 +481,10 @@
           "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS does not show same content as HTTP"
         },
         {
-          "host": "ns1.retailpharmaindia.com",
+          "host": "ns1.retailpharmaindia.com"
         },
         {
-          "host": "ns2.retailpharmaindia.com",
+          "host": "ns2.retailpharmaindia.com"
         }
       ]
     },
@@ -712,7 +714,8 @@
           "host": "doctorportal.easymedico.com"
         },
         {
-          "host": "www.doctorportal.easymedico.com"
+          "host": "www.doctorportal.easymedico.com",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/146"
         },
         {
           "host": "images.easymedico.com"

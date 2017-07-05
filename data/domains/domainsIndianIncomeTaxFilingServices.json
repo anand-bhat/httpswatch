@@ -141,18 +141,6 @@
         },
         {
           "host": "tech.hrblock.in"
-        },
-        {
-          "host": "test.hrblock.in",
-          "hostPurpose": "Testing environment",
-          "httpsBehavior": "HTTP redirected to HTTPS",
-          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/60"
-        },
-        {
-          "host": "ustaxes.hrblock.in",
-          "hostPurpose": "US tax filing from India enquiry form",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works",
-          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/59"
         }
       ]
     },
@@ -521,7 +509,8 @@
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/127"
         },
         {
-          "host": "newjersey.mytaxfiler.com"
+          "host": "newjersey.mytaxfiler.com",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/148"
         },
         {
           "host": "stg.login.mytaxfiler.com",
@@ -579,7 +568,8 @@
         },
         {
           "host": "content.quicko.com",
-          "httpsBehavior": "HTTP redirected to HTTPS"
+          "httpsBehavior": "HTTP redirected to HTTPS",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/145"
         },
         {
           "host": "drive.quicko.com"

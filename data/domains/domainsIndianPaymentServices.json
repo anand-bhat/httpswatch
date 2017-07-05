@@ -3,6 +3,7 @@
   "organizations": [
     {
       "organization": "airpay",
+      "lastScanForSubdomains": "2017-06-05",
       "hosts": [
         {
           "host": "airpay.co.in"
@@ -17,7 +18,13 @@
           "host": "bom.airpay.co.in"
         },
         {
+          "host": "bompos.airpay.co.in"
+        },
+        {
           "host": "ca.airpay.co.in"
+        },
+        {
+          "host": "inventory.airpay.co.in"
         },
         {
           "host": "ma.airpay.co.in"
@@ -41,12 +48,16 @@
           "host": "secure.airpay.co.in"
         },
         {
+          "host": "support.airpay.co.in"
+        },
+        {
           "host": "webmail.airpay.co.in"
         }
       ]
     },
     {
       "organization": "Atom Technologies",
+      "lastScanForSubdomains": "2017-06-05",
       "hosts": [
         {
           "host": "atomtech.in"
@@ -115,6 +126,9 @@
           "host": "prepaid.atomtech.in"
         },
         {
+          "host": "promotions.atomtech.in"
+        },
+        {
           "host": "psa.atomtech.in"
         },
         {
@@ -139,6 +153,7 @@
     },
     {
       "organization": "CCAvenue",
+      "lastScanForSubdomains": "2017-06-05",
       "hosts": [
         {
           "host": "ccavenue.com"
@@ -147,10 +162,25 @@
           "host": "www.ccavenue.com"
         },
         {
+          "host": "1000wishes.ccavenue.com"
+        },
+        {
           "host": "1martianway.ccavenue.com"
         },
         {
+          "host": "1rupeehosting.ccavenue.com"
+        },
+        {
           "host": "adventuregearstore.ccavenue.com"
+        },
+        {
+          "host": "aerocareers.ccavenue.com"
+        },
+        {
+          "host": "akshayafashions.ccavenue.com"
+        },
+        {
+          "host": "akshaykumaronlinestore.ccavenue.com"
         },
         {
           "host": "albatrossflyingsystems.ccavenue.com"
@@ -168,6 +198,9 @@
           "host": "apchristianevents.ccavenue.com"
         },
         {
+          "host": "arcmaxarchitects.ccavenue.com"
+        },
+        {
           "host": "artisanshamlet.ccavenue.com"
         },
         {
@@ -177,19 +210,64 @@
           "host": "ashmanapparels.ccavenue.com"
         },
         {
+          "host": "ashwagandharich.ccavenue.com"
+        },
+        {
+          "host": "aspirepackage.ccavenue.com"
+        },
+        {
+          "host": "astroyog.ccavenue.com"
+        },
+        {
+          "host": "augdigital.ccavenue.com"
+        },
+        {
+          "host": "awkworld.ccavenue.com"
+        },
+        {
           "host": "bakemojo.ccavenue.com"
         },
         {
           "host": "beanstalknleaves.ccavenue.com"
         },
         {
+          "host": "bespl.ccavenue.com"
+        },
+        {
+          "host": "bigprofit.ccavenue.com"
+        },
+        {
           "host": "bsy.ccavenue.com"
+        },
+        {
+          "host": "businesstycoons.ccavenue.com"
         },
         {
           "host": "buyeverything.ccavenue.com"
         },
         {
+          "host": "cabi.ccavenue.com"
+        },
+        {
+          "host": "cetsstore.ccavenue.com"
+        },
+        {
+          "host": "cheaphostingindia.ccavenue.com"
+        },
+        {
+          "host": "chitranjanastro.ccavenue.com"
+        },
+        {
+          "host": "ckrac.ccavenue.com"
+        },
+        {
+          "host": "cmsstores.ccavenue.com"
+        },
+        {
           "host": "coloursofritu.ccavenue.com"
+        },
+        {
+          "host": "confluence.ccavenue.com"
         },
         {
           "host": "consultifrs.ccavenue.com"
@@ -372,6 +450,7 @@
     },
     {
       "organization": "Citrus Pay",
+      "lastScanForSubdomains": "2017-06-05",
       "hosts": [
         {
           "host": "citruspay.com"
@@ -413,6 +492,9 @@
           "host": "blog.citruspay.com"
         },
         {
+          "host": "www.blog.citruspay.com"
+        },
+        {
           "host": "c.citruspay.com"
         },
         {
@@ -425,10 +507,13 @@
           "host": "channels.citruspay.com"
         },
         {
-          "host": "checkout-static.citruspay.com"
+          "host": "checkout.citruspay.com"
         },
         {
-          "host": "checkout.citruspay.com"
+          "host": "checkout-demo.citruspay.com"
+        },
+        {
+          "host": "checkout-static.citruspay.com"
         },
         {
           "host": "citrusapi.citruspay.com"
@@ -461,6 +546,9 @@
           "host": "cubeappapi.citruspay.com"
         },
         {
+          "host": "cubeextra.citruspay.com"
+        },
+        {
           "host": "d.ns.e.citruspay.com"
         },
         {
@@ -488,6 +576,9 @@
           "host": "f.ns.e.citruspay.com"
         },
         {
+          "host": "forums.citruspay.com"
+        },
+        {
           "host": "ftp.citruspay.com"
         },
         {
@@ -504,6 +595,9 @@
         },
         {
           "host": "invoice.citruspay.com"
+        },
+        {
+          "host": "mail.citruspay.com"
         },
         {
           "host": "mars.citruspay.com"
@@ -560,16 +654,19 @@
           "host": "oops.citruspay.com"
         },
         {
+          "host": "pay.citruspay.com"
+        },
+        {
           "host": "power.citruspay.com"
         },
         {
           "host": "poweradmin.citruspay.com"
         },
         {
-          "host": "primus-preprod.citruspay.com"
+          "host": "primus.citruspay.com"
         },
         {
-          "host": "primus.citruspay.com"
+          "host": "primus-preprod.citruspay.com"
         },
         {
           "host": "proximity.citruspay.com"
@@ -578,10 +675,10 @@
           "host": "redmine.citruspay.com"
         },
         {
-          "host": "reports-old.citruspay.com"
+          "host": "reports.citruspay.com"
         },
         {
-          "host": "reports.citruspay.com"
+          "host": "reports-old.citruspay.com"
         },
         {
           "host": "sandbox.citruspay.com"
@@ -590,13 +687,16 @@
           "host": "sandboxadmin.citruspay.com"
         },
         {
+          "host": "sandboxmars.citruspay.com"
+        },
+        {
           "host": "sboxblazenet.citruspay.com"
         },
         {
-          "host": "sboxcheckout-static.citruspay.com"
+          "host": "sboxcheckout.citruspay.com"
         },
         {
-          "host": "sboxcheckout.citruspay.com"
+          "host": "sboxcheckout-static.citruspay.com"
         },
         {
           "host": "sboxcontext.citruspay.com"
@@ -671,13 +771,13 @@
           "host": "testbilladmin.citruspay.com"
         },
         {
+          "host": "upiapp.citruspay.com"
+        },
+        {
           "host": "vault.citruspay.com"
         },
         {
           "host": "wallet.citruspay.com"
-        },
-        {
-          "host": "www.blog.citruspay.com"
         },
         {
           "host": "citruswallet.com"
@@ -689,6 +789,7 @@
     },
     {
       "organization": "DirecPay",
+      "lastScanForSubdomains": "2017-06-05",
       "hosts": [
         {
           "host": "direcpay.com"
@@ -712,6 +813,7 @@
     },
     {
       "organization": "EBS",
+      "lastScanForSubdomains": "2017-06-05",
       "hosts": [
         {
           "host": "ebs.in"
@@ -723,6 +825,9 @@
           "host": "api.secure.ebs.in"
         },
         {
+          "host": "ceaa.ebs.in"
+        },
+        {
           "host": "console.secure.ebs.in"
         },
         {
@@ -732,7 +837,16 @@
           "host": "dev.secure.ebs.in"
         },
         {
+          "host": "eastdemo.ebs.in"
+        },
+        {
+          "host": "efos.ebs.in"
+        },
+        {
           "host": "git.ebs.in"
+        },
+        {
+          "host": "gowsgreenwoods.ebs.in"
         },
         {
           "host": "inapi.secure.ebs.in"
@@ -744,10 +858,16 @@
           "host": "incontroller.secure.ebs.in"
         },
         {
+          "host": "northdemo.ebs.in"
+        },
+        {
           "host": "notification.ebs.in"
         },
         {
           "host": "panela.ebs.in"
+        },
+        {
+          "host": "psca.ebs.in"
         },
         {
           "host": "qa.secure.ebs.in"
@@ -759,18 +879,37 @@
           "host": "redmine.ebs.in"
         },
         {
+          "host": "rna.ebs.in"
+        },
+        {
+          "host": "sarehomes.ebs.in"
+        },
+        {
+          "host": "scoa.ebs.in"
+        },
+        {
           "host": "secure.ebs.in"
+        },
+        {
+          "host": "southdemo.ebs.in"
         },
         {
           "host": "staging.secure.ebs.in"
         },
         {
           "host": "support.ebs.in"
+        },
+        {
+          "host": "ucaoa.ebs.in"
+        },
+        {
+          "host": "westdemo.ebs.in"
         }
       ]
     },
     {
       "organization": "FreeCharge",
+      "lastScanForSubdomains": "2017-06-05",
       "hosts": [
         {
           "host": "freecharge.in"
@@ -779,10 +918,10 @@
           "host": "www.freecharge.in"
         },
         {
-          "host": "account-beta.freecharge.in"
+          "host": "account.freecharge.in"
         },
         {
-          "host": "account.freecharge.in"
+          "host": "account-beta.freecharge.in"
         },
         {
           "host": "admin.freecharge.in"
@@ -801,6 +940,9 @@
         },
         {
           "host": "dev4.dev.freecharge.in"
+        },
+        {
+          "host": "digitalrepublic.freecharge.in"
         },
         {
           "host": "ext-dev1-dev.freecharge.in"
@@ -890,16 +1032,19 @@
           "host": "o4.em.freecharge.com"
         },
         {
+          "host": "offers.freecharge.in"
+        },
+        {
           "host": "onecheck.freecharge.in"
         },
         {
           "host": "opr.freecharge.in"
         },
         {
-          "host": "pay-internal.freecharge.in"
+          "host": "pay.freecharge.in"
         },
         {
-          "host": "pay.freecharge.in"
+          "host": "pay-internal.freecharge.in"
         },
         {
           "host": "paymentschat.freecharge.in"
@@ -909,6 +1054,9 @@
         },
         {
           "host": "s2s.freecharge.in"
+        },
+        {
+          "host": "sdmmnthlymtracker01.freecharge.in"
         },
         {
           "host": "support.freecharge.in"
@@ -935,6 +1083,9 @@
           "host": "mobileapps.freecharge.com"
         },
         {
+          "host": "o4.em.freecharge.com"
+        },
+        {
           "host": "offers.freecharge.com"
         },
         {
@@ -942,11 +1093,15 @@
         },
         {
           "host": "s2s.freecharge.com"
+        },
+        {
+          "host": "vpn-janata.freecharge.com"
         }
       ]
     },
     {
       "organization": "Instamojo",
+      "lastScanForSubdomains": "2017-06-05",
       "hosts": [
         {
           "host": "instamojo.com"
@@ -961,10 +1116,16 @@
           "host": "blog.instamojo.com"
         },
         {
+          "host": "connect.instamojo.com"
+        },
+        {
           "host": "docs.instamojo.com"
         },
         {
           "host": "email.mg.instamojo.com"
+        },
+        {
+          "host": "secure.instamojo.com"
         },
         {
           "host": "staging.instamojo.com"
@@ -979,6 +1140,7 @@
     },
     {
       "organization": "Juspay",
+      "lastScanForSubdomains": "2017-06-05",
       "hosts": [
         {
           "host": "juspay.in"
@@ -994,6 +1156,9 @@
         },
         {
           "host": "apidocs.juspay.in"
+        },
+        {
+          "host": "axisbank-sandbox.juspay.in"
         },
         {
           "host": "beta.expresscheckout.juspay.in"
@@ -1023,10 +1188,10 @@
           "host": "merchant.juspay.in"
         },
         {
-          "host": "paylater-beta.juspay.in"
+          "host": "paylater.juspay.in"
         },
         {
-          "host": "paylater.juspay.in"
+          "host": "paylater-beta.juspay.in"
         },
         {
           "host": "redir1.juspay.in"
@@ -1035,18 +1200,31 @@
           "host": "sandbox.juspay.in"
         },
         {
+          "host": "sso.juspay.in"
+        },
+        {
           "host": "status.juspay.in"
         }
       ]
     },
     {
       "organization": "LazyPay",
+      "lastScanForSubdomains": "2017-06-05",
       "hosts": [
+        {
+          "host": "lazypay.in"
+        },
         {
           "host": "www.lazypay.in"
         },
         {
           "host": "api.lazypay.in"
+        },
+        {
+          "host": "collection.lazypay.in"
+        },
+        {
+          "host": "sbox.lazypay.in"
         },
         {
           "host": "sboxapi.lazypay.in"
@@ -1058,6 +1236,7 @@
     },
     {
       "organization": "MobiKwik",
+      "lastScanForSubdomains": "2017-06-05",
       "hosts": [
         {
           "host": "mobikwik.com"
@@ -1351,12 +1530,16 @@
     },
     {
       "organization": "ngpay",
+      "lastScanForSubdomains": "2017-06-05",
       "hosts": [
         {
           "host": "ngpay.com"
         },
         {
           "host": "www.ngpay.com"
+        },
+        {
+          "host": "external.ngpay.com"
         },
         {
           "host": "preprod.ngpay.com"
@@ -1368,6 +1551,7 @@
     },
     {
       "organization": "Pay1",
+      "lastScanForSubdomains": "2017-06-05",
       "hosts": [
         {
           "host": "pay1.in"
@@ -1394,10 +1578,16 @@
           "host": "ext.pay1.in"
         },
         {
+          "host": "inv.pay1.in"
+        },
+        {
           "host": "panel.pay1.in"
         },
         {
           "host": "partner.pay1.in"
+        },
+        {
+          "host": "recharge.pay1.in"
         },
         {
           "host": "rx.pay1.in"
@@ -1424,6 +1614,9 @@
           "host": "cc.pay1.me"
         },
         {
+          "host": "inv.pay1.me"
+        },
+        {
           "host": "panel.pay1.me"
         },
         {
@@ -1439,6 +1632,7 @@
     },
     {
       "organization": "Paytm",
+      "lastScanForSubdomains": "2017-06-05",
       "hosts": [
         {
           "host": "paytm.com"
@@ -1450,13 +1644,16 @@
           "host": "about.paytm.com"
         },
         {
-          "host": "accounts-uat.paytm.com"
-        },
-        {
           "host": "accounts.paytm.com"
         },
         {
+          "host": "accounts-uat.paytm.com"
+        },
+        {
           "host": "accounts1.paytm.com"
+        },
+        {
+          "host": "akamai-accounts.paytm.com"
         },
         {
           "host": "analytics.paytm.com"
@@ -1465,16 +1662,25 @@
           "host": "apiproxy.paytm.com"
         },
         {
+          "host": "apiproxy-staging.paytm.com"
+        },
+        {
+          "host": "appfaq.paytm.com"
+        },
+        {
           "host": "assets.paytm.com"
         },
         {
           "host": "assetscdn.paytm.com"
         },
         {
-          "host": "beta-assets.paytm.com"
+          "host": "assetscdn1.paytm.com"
         },
         {
           "host": "beta.paytm.com"
+        },
+        {
+          "host": "beta-assets.paytm.com"
         },
         {
           "host": "blog.paytm.com"
@@ -1483,22 +1689,19 @@
           "host": "buservice.saas.paytm.com"
         },
         {
-          "host": "c.paytm.com"
+          "host": "cart.paytm.com"
         },
         {
           "host": "cart-staging.paytm.com"
         },
         {
-          "host": "cart.paytm.com"
-        },
-        {
           "host": "cartapidev.paytm.com"
         },
         {
-          "host": "catalog-staging.paytm.com"
+          "host": "catalog.paytm.com"
         },
         {
-          "host": "catalog.paytm.com"
+          "host": "catalog-staging.paytm.com"
         },
         {
           "host": "catalogadmin.paytm.com"
@@ -1511,9 +1714,6 @@
         },
         {
           "host": "cdn5.paytm.com"
-        },
-        {
-          "host": "chat-staging.paytm.com"
         },
         {
           "host": "chat2-paywith.paytm.com"
@@ -1534,25 +1734,46 @@
           "host": "dev-c2c.paytm.com"
         },
         {
+          "host": "discuss.paytm.com"
+        },
+        {
           "host": "easypay.paytm.com"
         },
         {
           "host": "email.paytm.com"
         },
         {
-          "host": "fulfillment-staging.paytm.com"
+          "host": "entertainmentblog.paytm.com"
+        },
+        {
+          "host": "fs.paytm.com"
         },
         {
           "host": "fulfillment.paytm.com"
         },
         {
-          "host": "gobig-staging.paytm.com"
+          "host": "fulfillment-staging.paytm.com"
         },
         {
           "host": "gobig.paytm.com"
         },
         {
+          "host": "gobig-staging.paytm.com"
+        },
+        {
           "host": "goldengate.paytm.com"
+        },
+        {
+          "host": "goldengate-app.paytm.com"
+        },
+        {
+          "host": "goldengate-paytmapp.paytm.com"
+        },
+        {
+          "host": "goldengate-staging.paytm.com"
+        },
+        {
+          "host": "informatics.paytm.com"
         },
         {
           "host": "kyc.paytm.com"
@@ -1564,7 +1785,13 @@
           "host": "merchant.paytm.com"
         },
         {
+          "host": "monitor.paas.paytm.com"
+        },
+        {
           "host": "mseller.paytm.com"
+        },
+        {
+          "host": "netc.paytm.com"
         },
         {
           "host": "netc-uat.paytm.com"
@@ -1591,6 +1818,9 @@
           "host": "o6.mail.paytm.com"
         },
         {
+          "host": "offer.paytm.com"
+        },
+        {
           "host": "oms-admin.paytm.com"
         },
         {
@@ -1604,6 +1834,12 @@
         },
         {
           "host": "partner.paytm.com"
+        },
+        {
+          "host": "pay.paytm.com"
+        },
+        {
+          "host": "pbapp.paytm.com"
         },
         {
           "host": "persona.paytm.com"
@@ -1636,16 +1872,25 @@
           "host": "shop.paytm.com"
         },
         {
+          "host": "sites.paytm.com"
+        },
+        {
           "host": "sites-staging.paytm.com"
         },
         {
-          "host": "sites.paytm.com"
+          "host": "staging.paytm.com"
         },
         {
           "host": "staging-assets.paytm.com"
         },
         {
-          "host": "staging.paytm.com"
+          "host": "staging-dashboard.paytm.com"
+        },
+        {
+          "host": "thunderbolt.paytm.com"
+        },
+        {
+          "host": "thunderbolt-staging.paytm.com"
         },
         {
           "host": "tickets.paytm.com"
@@ -1657,10 +1902,16 @@
           "host": "tracking.paytm.com"
         },
         {
+          "host": "travel.paytm.com"
+        },
+        {
           "host": "travel-dev.paytm.com"
         },
         {
-          "host": "travel.paytm.com"
+          "host": "travelblog.paytm.com"
+        },
+        {
+          "host": "travelseller.paytm.com"
         },
         {
           "host": "user.paas.paytm.com"
@@ -1670,6 +1921,9 @@
         },
         {
           "host": "walletchat-staging.paytm.com"
+        },
+        {
+          "host": "websms.paytm.com"
         },
         {
           "host": "www.paas.paytm.com"
@@ -1694,6 +1948,9 @@
         },
         {
           "host": "merchant.paytm.in"
+        },
+        {
+          "host": "panel.paytm.in"
         },
         {
           "host": "secure.paytm.in"
@@ -1735,93 +1992,184 @@
           "host": "tracking.paytm.in"
         },
         {
-          "host": "trust-uat.paytm.in"
+          "host": "trust.paytm.in"
         },
         {
-          "host": "trust.paytm.in"
+          "host": "www.trust.paytm.in"
+        },
+        {
+          "host": "trust-offline.paytm.in"
+        },
+        {
+          "host": "trust-offline1.paytm.in"
+        },
+        {
+          "host": "trust-uat.paytm.in"
         },
         {
           "host": "wallet.paytm.in"
         },
         {
-          "host": "www.trust.paytm.in"
+          "host": "wallet-staging.paytm.in"
         }
       ]
     },
     {
       "organization": "PayU",
+      "lastScanForSubdomains": "2017-06-05",
       "hosts": [
+        {
+          "host": "payu.com"
+        },
+        {
+          "host": "www.payu.com"
+        },
         {
           "host": "announcements.payu.com"
         },
         {
-          "host": "apidev.payubiz.in"
+          "host": "appdyna.payu.com"
         },
         {
-          "host": "asi.payumoney.com"
+          "host": "argentina.payu.com"
         },
         {
-          "host": "bankportal.payu.in"
-        },
-        {
-          "host": "beta.sandbox.payu.com"
-        },
-        {
-          "host": "betafittipaldi.payumoney.com"
-        },
-        {
-          "host": "blog.payu.in"
-        },
-        {
-          "host": "blog.payubiz.in"
-        },
-        {
-          "host": "blog.payumoney.com"
-        },
-        {
-          "host": "blogtest.payu.in"
-        },
-        {
-          "host": "careers.payu.in"
-        },
-        {
-          "host": "cbtest.payu.in"
-        },
-        {
-          "host": "chargeback.payu.in"
+          "host": "autodiscover.payu.com"
         },
         {
           "host": "corporate.payu.com"
         },
         {
-          "host": "cthcredacs.payu.in"
+          "host": "www.corporate.payu.com"
         },
         {
-          "host": "dashboard.payu.in"
+          "host": "business.credit.payu.com"
         },
         {
-          "host": "dashboard.payubiz.in"
+          "host": "www.business.credit.payu.com"
         },
         {
-          "host": "demotest.payu.in"
+          "host": "test.business.credit.payu.com"
         },
         {
-          "host": "dev.wallet.payu.com"
-        },
-        {
-          "host": "devcreditcard.payu.in"
-        },
-        {
-          "host": "developer.payu.in"
-        },
-        {
-          "host": "developer.payubiz.in"
+          "host": "www.test.business.credit.payu.com"
         },
         {
           "host": "developers.payu.com"
         },
         {
-          "host": "devfile1.payumoney.com"
+          "host": "mta-all16.info.payu.com"
+        },
+        {
+          "host": "mta-all28.info.payu.com"
+        },
+        {
+          "host": "latinamerica.payu.com"
+        },
+        {
+          "host": "www.latinamerica.payu.com"
+        },
+        {
+          "host": "m.payu.com"
+        },
+        {
+          "host": "www.m.payu.com"
+        },
+        {
+          "host": "maintenance.payu.com"
+        },
+        {
+          "host": "news.payu.com"
+        },
+        {
+          "host": "www.news.payu.com"
+        },
+        {
+          "host": "partners.payu.com"
+        },
+        {
+          "host": "vpn.partners.payu.com"
+        },
+        {
+          "host": "beta.sandbox.payu.com"
+        },
+        {
+          "host": "partners.beta.sandbox.payu.com"
+        },
+        {
+          "host": "secure.payu.com"
+        },
+        {
+          "host": "ipsp.secure.payu.com"
+        },
+        {
+          "host": "m.secure.payu.com"
+        },
+        {
+          "host": "partners.secure.payu.com"
+        },
+        {
+          "host": "vpn.partners.secure.payu.com"
+        },
+        {
+          "host": "rnd.secure.payu.com"
+        },
+        {
+          "host": "test.secure.payu.com"
+        },
+        {
+          "host": "server-push.payu.com"
+        },
+        {
+          "host": "merch-prod.snd.payu.com"
+        },
+        {
+          "host": "secure.snd.payu.com"
+        },
+        {
+          "host": "static.payu.com"
+        },
+        {
+          "host": "survey.payu.com"
+        },
+        {
+          "host": "www.survey.payu.com"
+        },
+        {
+          "host": "wallet.payu.com"
+        },
+        {
+          "host": "dev.wallet.payu.com"
+        },
+        {
+          "host": "stage.wallet.payu.com"
+        },
+        {
+          "host": "test.wallet.payu.com"
+        },
+        {
+          "host": "payubiz.in"
+        },
+        {
+          "host": "www.payubiz.in"
+        },
+        {
+          "host": "apidev.payubiz.in"
+        },
+        {
+          "host": "blog.payubiz.in"
+        },
+        {
+          "host": "test.blog.payubiz.in"
+        },
+        {
+          "host": "dashboard.payubiz.in"
+        },
+        {
+          "host": "developer.payubiz.in"
+        },
+        {
+          "host": "test.developer.payubiz.in"
         },
         {
           "host": "di-txncdn.payubiz.in"
@@ -1833,34 +2181,7 @@
           "host": "extest.payubiz.in"
         },
         {
-          "host": "feedback.payumoney.com"
-        },
-        {
-          "host": "file.payumoney.com"
-        },
-        {
           "host": "fileserver.payubiz.in"
-        },
-        {
-          "host": "fingerprint.payumoney.com"
-        },
-        {
-          "host": "fittipaldi.payumoney.com"
-        },
-        {
-          "host": "fp.payu.in"
-        },
-        {
-          "host": "indiagrowthdrivers.payumoney.com"
-        },
-        {
-          "host": "info.payu.in"
-        },
-        {
-          "host": "insurance.payu.in"
-        },
-        {
-          "host": "integration.payu.in"
         },
         {
           "host": "integration.payubiz.in"
@@ -1875,16 +2196,205 @@
           "host": "integrationdeveloper.payubiz.in"
         },
         {
-          "host": "ipsp.secure.payu.com"
+          "host": "mobileblog.payubiz.in"
         },
         {
-          "host": "latinamerica.payu.com"
+          "host": "mobiledeveloper.payubiz.in"
         },
         {
-          "host": "m.payu.com"
+          "host": "mobiletest.payubiz.in"
         },
         {
-          "host": "m.secure.payu.com"
+          "host": "mobiletxncdn.payubiz.in"
+        },
+        {
+          "host": "monitoring.payubiz.in"
+        },
+        {
+          "host": "mpitest.payubiz.in"
+        },
+        {
+          "host": "pos.payubiz.in"
+        },
+        {
+          "host": "test.payubiz.in"
+        },
+        {
+          "host": "testadmindev.payubiz.in"
+        },
+        {
+          "host": "testapidev.payubiz.in"
+        },
+        {
+          "host": "testblog.payubiz.in"
+        },
+        {
+          "host": "testdeveloper.payubiz.in"
+        },
+        {
+          "host": "testtxncdn.payubiz.in"
+        },
+        {
+          "host": "tvapaymon.payubiz.in"
+        },
+        {
+          "host": "txncdn.payubiz.in"
+        },
+        {
+          "host": "payumoney.com"
+        },
+        {
+          "host": "www.payumoney.com"
+        },
+        {
+          "host": "asi.payumoney.com"
+        },
+        {
+          "host": "betafittipaldi.payumoney.com"
+        },
+        {
+          "host": "blog.payumoney.com"
+        },
+        {
+          "host": "devfile1.payumoney.com"
+        },
+        {
+          "host": "feedback.payumoney.com"
+        },
+        {
+          "host": "file.payumoney.com"
+        },
+        {
+          "host": "fingerprint.payumoney.com"
+        },
+        {
+          "host": "fittipaldi.payumoney.com"
+        },
+        {
+          "host": "indiagrowthdrivers.payumoney.com"
+        },
+        {
+          "host": "media.payumoney.com"
+        },
+        {
+          "host": "mediatest.payumoney.com"
+        },
+        {
+          "host": "merchantfeedback.payumoney.com"
+        },
+        {
+          "host": "mobiledev.payumoney.com"
+        },
+        {
+          "host": "mobiledevfile.payumoney.com"
+        },
+        {
+          "host": "mobiletest.payumoney.com"
+        },
+        {
+          "host": "mobiletestfile.payumoney.com"
+        },
+        {
+          "host": "offers.payumoney.com"
+        },
+        {
+          "host": "pay.payumoney.com"
+        },
+        {
+          "host": "www.pay.payumoney.com"
+        },
+        {
+          "host": "pp5.payumoney.com"
+        },
+        {
+          "host": "ppfile5.payumoney.com"
+        },
+        {
+          "host": "test.payumoney.com"
+        },
+        {
+          "host": "testacs.payumoney.com"
+        },
+        {
+          "host": "testfile.payumoney.com"
+        },
+        {
+          "host": "testpay.payumoney.com"
+        },
+        {
+          "host": "www.testpay.payumoney.com"
+        },
+        {
+          "host": "ux.payumoney.com"
+        },
+        {
+          "host": "uxdev1.payumoney.com"
+        },
+        {
+          "host": "uxtest.payumoney.com"
+        },
+        {
+          "host": "payu.in"
+        },
+        {
+          "host": "www.payu.in"
+        },
+        {
+          "host": "a.payu.in"
+        },
+        {
+          "host": "accounts.payu.in"
+        },
+        {
+          "host": "p9.admin.payu.in"
+        },
+        {
+          "host": "bankportal.payu.in"
+        },
+        {
+          "host": "blog.payu.in"
+        },
+        {
+          "host": "blogtest.payu.in"
+        },
+        {
+          "host": "careers.payu.in"
+        },
+        {
+          "host": "cbtest.payu.in"
+        },
+        {
+          "host": "chargeback.payu.in"
+        },
+        {
+          "host": "qc1.creditcard.payu.in"
+        },
+        {
+          "host": "cthcredacs.payu.in"
+        },
+        {
+          "host": "dashboard.payu.in"
+        },
+        {
+          "host": "demotest.payu.in"
+        },
+        {
+          "host": "devcreditcard.payu.in"
+        },
+        {
+          "host": "developer.payu.in"
+        },
+        {
+          "host": "fp.payu.in"
+        },
+        {
+          "host": "info.payu.in"
+        },
+        {
+          "host": "insurance.payu.in"
+        },
+        {
+          "host": "integration.payu.in"
         },
         {
           "host": "mail01.payu.in"
@@ -1908,214 +2418,67 @@
           "host": "mail08.payu.in"
         },
         {
-          "host": "maintenance.payu.com"
-        },
-        {
-          "host": "media.payumoney.com"
-        },
-        {
-          "host": "mediatest.payumoney.com"
-        },
-        {
-          "host": "merch-prod.snd.payu.com"
-        },
-        {
           "host": "misc.payu.in"
-        },
-        {
-          "host": "mobileblog.payubiz.in"
         },
         {
           "host": "mobiledev.payu.in"
         },
         {
-          "host": "mobiledev.payumoney.com"
-        },
-        {
-          "host": "mobiledeveloper.payubiz.in"
-        },
-        {
-          "host": "mobiledevfile.payumoney.com"
-        },
-        {
           "host": "mobiletest.payu.in"
-        },
-        {
-          "host": "mobiletest.payubiz.in"
-        },
-        {
-          "host": "mobiletest.payumoney.com"
-        },
-        {
-          "host": "mobiletestfile.payumoney.com"
-        },
-        {
-          "host": "mobiletxncdn.payubiz.in"
-        },
-        {
-          "host": "monitoring.payubiz.in"
         },
         {
           "host": "mos.payu.in"
         },
         {
-          "host": "mpitest.payubiz.in"
-        },
-        {
-          "host": "ms.payu.in"
-        },
-        {
-          "host": "mta-all16.info.payu.com"
-        },
-        {
-          "host": "mta-all28.info.payu.com"
-        },
-        {
-          "host": "offers.payumoney.com"
-        },
-        {
-          "host": "p9.admin.payu.in"
-        },
-        {
           "host": "partner.payu.in"
-        },
-        {
-          "host": "partners.beta.sandbox.payu.com"
-        },
-        {
-          "host": "partners.payu.com"
-        },
-        {
-          "host": "partners.secure.payu.com"
-        },
-        {
-          "host": "pay.payumoney.com"
         },
         {
           "host": "payu-ivr.payu.in"
         },
         {
-          "host": "payu.com"
-        },
-        {
-          "host": "payu.in"
-        },
-        {
-          "host": "payubiz.in"
-        },
-        {
-          "host": "payumoney.com"
-        },
-        {
-          "host": "pos.payubiz.in"
-        },
-        {
-          "host": "pp5.payumoney.com"
-        },
-        {
-          "host": "ppfile5.payumoney.com"
-        },
-        {
-          "host": "qc1.creditcard.payu.in"
-        },
-        {
           "host": "qccreditcard.payu.in"
+        },
+        {
+          "host": "redmine.payu.in"
         },
         {
           "host": "reseller.payu.in"
         },
         {
-          "host": "rnd.secure.payu.com"
-        },
-        {
           "host": "sdktest.payu.in"
-        },
-        {
-          "host": "secure.payu.com"
         },
         {
           "host": "secure.payu.in"
         },
         {
-          "host": "secure.snd.payu.com"
-        },
-        {
-          "host": "server-push.payu.com"
-        },
-        {
           "host": "sms.payu.in"
-        },
-        {
-          "host": "stage.wallet.payu.com"
-        },
-        {
-          "host": "static.payu.com"
         },
         {
           "host": "static.payu.in"
         },
         {
-          "host": "survey.payu.com"
+          "host": "syndcollect.payu.in"
         },
         {
-          "host": "test.blog.payubiz.in"
-        },
-        {
-          "host": "test.developer.payubiz.in"
+          "host": "t.payu.in"
         },
         {
           "host": "test.payu.in"
         },
         {
-          "host": "test.payubiz.in"
-        },
-        {
-          "host": "test.payumoney.com"
-        },
-        {
-          "host": "test.secure.payu.com"
-        },
-        {
-          "host": "test.wallet.payu.com"
-        },
-        {
           "host": "testacs.payu.in"
-        },
-        {
-          "host": "testacs.payumoney.com"
         },
         {
           "host": "testacscred.payu.in"
         },
         {
-          "host": "testadmindev.payubiz.in"
-        },
-        {
-          "host": "testapidev.payubiz.in"
-        },
-        {
-          "host": "testblog.payubiz.in"
-        },
-        {
           "host": "testcc1.payu.in"
-        },
-        {
-          "host": "testdeveloper.payubiz.in"
-        },
-        {
-          "host": "testfile.payumoney.com"
-        },
-        {
-          "host": "testpay.payumoney.com"
         },
         {
           "host": "testpayments.payu.in"
         },
         {
           "host": "teststatic.payu.in"
-        },
-        {
-          "host": "testtxncdn.payubiz.in"
         },
         {
           "host": "transflow-info.payu.in"
@@ -2127,66 +2490,13 @@
           "host": "transflow-static.payu.in"
         },
         {
-          "host": "tvapaymon.payubiz.in"
-        },
-        {
-          "host": "txncdn.payubiz.in"
-        },
-        {
-          "host": "ux.payumoney.com"
-        },
-        {
-          "host": "uxdev1.payumoney.com"
-        },
-        {
-          "host": "uxtest.payumoney.com"
-        },
-        {
-          "host": "vpn.partners.payu.com"
-        },
-        {
-          "host": "vpn.partners.secure.payu.com"
-        },
-        {
-          "host": "wallet.payu.com"
-        },
-        {
-          "host": "www.corporate.payu.com"
-        },
-        {
-          "host": "www.developers.payu.com"
-        },
-        {
-          "host": "www.latinamerica.payu.com"
-        },
-        {
-          "host": "www.m.payu.com"
-        },
-        {
-          "host": "www.pay.payumoney.com"
-        },
-        {
-          "host": "www.payu.com"
-        },
-        {
-          "host": "www.payu.in"
-        },
-        {
-          "host": "www.payubiz.in"
-        },
-        {
-          "host": "www.payumoney.com"
-        },
-        {
-          "host": "www.survey.payu.com"
-        },
-        {
-          "host": "www.testpay.payumoney.com"
+          "host": "tsd.payu.in"
         }
       ]
     },
     {
       "organization": "PayZippy",
+      "lastScanForSubdomains": "2017-06-05",
       "hosts": [
         {
           "host": "payzippy.com"
@@ -2204,6 +2514,7 @@
     },
     {
       "organization": "Razorpay",
+      "lastScanForSubdomains": "2017-06-05",
       "hosts": [
         {
           "host": "razorpay.com"
@@ -2213,6 +2524,9 @@
         },
         {
           "host": "api.razorpay.com"
+        },
+        {
+          "host": "betasite.razorpay.com"
         },
         {
           "host": "blade.razorpay.com"
@@ -2236,13 +2550,13 @@
           "host": "email.razorpay.com"
         },
         {
-          "host": "events.razorpay.com"
-        },
-        {
           "host": "ifsc.razorpay.com"
         },
         {
           "host": "redash.razorpay.com"
+        },
+        {
+          "host": "signup.razorpay.com"
         },
         {
           "host": "webinar.razorpay.com"
@@ -2254,6 +2568,7 @@
     },
     {
       "organization": "Zaakpay",
+      "lastScanForSubdomains": "2017-06-05",
       "hosts": [
         {
           "host": "zaakpay.com"
@@ -2280,6 +2595,7 @@
     },
     {
       "organization": "Talkcharge",
+      "lastScanForSubdomains": "2017-06-05",
       "hosts": [
         {
           "host": "talkcharge.com"
