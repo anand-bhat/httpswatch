@@ -261,7 +261,7 @@ $(document).ready(function () {
 					return;
 				}
 
-				var select = $('<select><option value="">No Choice</option></select>')
+				var select = $('<select aria-label="' + $(column.header()).html() + '"><option value="">No Choice</option></select>')
 					.appendTo($(column.footer()).empty())
 					.on('change', function () {
 						var val = $.fn.dataTable.util.escapeRegex($(this).val());
