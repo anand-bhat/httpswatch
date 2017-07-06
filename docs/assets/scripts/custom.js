@@ -38,7 +38,7 @@ Chart.pluginService.register({
 // Formatting function for row details
 function format(row) {
 	'use strict';
-	return '<table><tr><td>SSL Labs report: <a target="_blank" href="https://www.ssllabs.com/ssltest/analyze.html?d=' + row[2] + '&ignoreMismatch=on">' + row[2] + '</a></td></tr></table>';
+	return '<table><tr><td>SSL Labs report: <a href="https://www.ssllabs.com/ssltest/analyze.html?d=' + row[2] + '&ignoreMismatch=on" rel="noopener" target="_blank">' + row[2] + '</a></td></tr></table>';
 }
 
 var gradeRank = {
@@ -194,7 +194,7 @@ $(document).ready(function () {
 					if (type !== 'display') {
 						return data;
 					}
-					return '<div class="grade ' + (gradeClass[data] || 'grade-red') + '"><a target="_blank" class="white" href="https://www.ssllabs.com/ssltest/analyze.html?d=' + row[2] + '&ignoreMismatch=on">' + data + '</a></div>';
+					return '<div class="grade ' + (gradeClass[data] || 'grade-red') + '"><a class="white" href="https://www.ssllabs.com/ssltest/analyze.html?d=' + row[2] + '&ignoreMismatch=on" rel="noopener" target="_blank">' + data + '</a></div>';
 				},
 				targets: 4
 			},
@@ -212,7 +212,7 @@ $(document).ready(function () {
 					if ($.inArray(row[4], gradesNotRequiringReport) !== -1) {
 						return data;
 					}
-					return '<a target="_blank" href="https://github.com/anand-bhat/httpswatch/issues/new">Create</a>';
+					return '<a href="https://github.com/anand-bhat/httpswatch/issues/new" rel="noopener" target="_blank">Create</a>';
 				},
 				targets: 10
 			},
