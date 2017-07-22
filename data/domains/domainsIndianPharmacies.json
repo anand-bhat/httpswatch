@@ -635,22 +635,6 @@
       ]
     },
     {
-      "organization": "Madhu Online Pharmacy",
-      "lastScanForSubdomains": "2017-05-31",
-      "hosts": [
-        {
-          "host": "madhuonlinepharmacy.in",
-          "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP only"
-        },
-        {
-          "host": "www.madhuonlinepharmacy.in",
-          "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP only"
-        }
-      ]
-    },
-    {
       "organization": "India Meds",
       "lastScanForSubdomains": "2017-05-31",
       "hosts": [
@@ -749,22 +733,6 @@
           "host": "webmail.easymedico.com",
           "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works",
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/105"
-        }
-      ]
-    },
-    {
-      "organization": "Dawaaii.com",
-      "lastScanForSubdomains": "2017-05-31",
-      "hosts": [
-        {
-          "host": "www.dawaaii.com",
-          "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS does not show same content as HTTP"
-        },
-        {
-          "host": "dawaaii.com",
-          "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS does not show same content as HTTP"
         }
       ]
     }

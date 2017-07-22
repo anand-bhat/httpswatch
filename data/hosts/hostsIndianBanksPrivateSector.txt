@@ -35,9 +35,9 @@ aof.yesbank.in
 aol.icicibank.com
 app.kotak.com
 appc.kotak.com
+application.axisbank.com
 apply.hdfcbank.com
 apply.kotak.com
-aps.axisbank.com
 aps.hdfcbank.com
 aps.icicibank.com
 apsweb.icicibank.com
@@ -85,11 +85,6 @@ cmsweb.icicibank.com
 collections.hdfcbank.com
 collections.rblbank.com
 colluatmobile.icicibank.com
-colodb1.axisbank.com
-colonlb.axisbank.com
-coloweb1.axisbank.com
-coloweb2.axisbank.com
-coloweb3.axisbank.com
 communication.axisbank.com
 corp.kotak.com
 corporate.hdfcbank.com
@@ -173,7 +168,6 @@ hbchaha20.hdfcbank.com
 hceprod.axisbank.co.in
 hdfcbank.com
 healthcare.federalbank.co.in
-hindi.axisbank.com
 home.icicibank.com
 hydexmail01.icicibank.com
 hydexmail02.icicibank.com
@@ -208,7 +202,6 @@ ilinkddstatus.hdfcbank.com
 ilinkpremium.hdfcbank.com
 ilinkpremiumtest.hdfcbank.com
 ilogin.kvb.co.in
-imagedebitcard.axisbank.com
 imaging.hdfcbank.com
 imgrepository.hdfcbank.com
 imps.hdfcbank.com
@@ -394,7 +387,6 @@ netbanking.yesbank.co.in
 netsafe.hdfcbank.com
 netsafeuat.hdfcbank.com
 new.kotak.com
-nri.axisbank.com
 nri.kotak.com
 nriapply.hdfcbank.com
 nrolap.indusind.com
@@ -402,17 +394,8 @@ ns1.icicibank.com
 ns1.jkbank.in
 ns2.icicibank.com
 ns2.jkbank.in
-nsmtpbm.axisbank.com
-nsmtpbm1.axisbank.com
-nsmtpbm2.axisbank.com
-nsmtpbm3.axisbank.com
-nsmtpbm4.axisbank.com
-nsmtpbm5.axisbank.com
-nsmtpin.axisbank.com
-nsmtpin1.axisbank.com
 nsmtpinpn1.axisbank.com
 nsmtpinpn2.axisbank.com
-nsmtpoutpn1.axisbank.com
 nwdev.hdfcbank.com
 nwquality.hdfcbank.com
 oas.axisbank.com
@@ -444,7 +427,6 @@ prepaidtravel.kotak.com
 privatebank.icicibank.com
 privateequityfund.kotak.com
 privyleague.kotak.com
-progress.axisbank.com
 qamcorp.axisbank.co.in
 quickpay.indusind.com
 rblbank.com
@@ -487,7 +469,6 @@ sibernet.southindianbank.com
 smartbuy.hdfcbank.com
 sme.hdfcbank.com
 sme.icicibank.com
-smtp.axisbank.com
 smtp.indusind.com
 smtp.ratnakarbank.in
 smtp.rblbank.com
@@ -498,14 +479,11 @@ smtp5.indusind.com
 smtpbm.axisbank.com
 smtpbm2.axisbank.com
 smtpds.axisbank.com
-smtpin.axisbank.com
-smtpout.axisbank.com
 southindianbank.com
 spamcheck.indusind.com
 speed.icicibank.com
 speedremit.indusind.com
 speeduat.icicibank.com
-srilanka.axisbank.com
 sso.kotak.com
 stage.yesbank.co.in
 stpbrk.corporate.hdfcbank.com
@@ -611,7 +589,6 @@ www.filesecure.bank.kotak.com
 www.fxlive.kotak.com
 www.fxliveuat.kotak.com
 www.hdfcbank.com
-www.hindi.axisbank.com
 www.icicibank.com
 www.iconnect.co.in
 www.idfcbank.com

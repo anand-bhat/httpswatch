@@ -79,7 +79,6 @@ awkworld.ccavenue.com
 axisbank-sandbox.juspay.in
 b.ns.crm.mobikwik.com
 b.ns.e.citruspay.com
-b.test.wallet.payu.com
 b2c.pay1.in
 b2c.pay1.me
 bakemojo.ccavenue.com
@@ -125,7 +124,6 @@ c.citruspay.com
 c.mx.crm.mobikwik.com
 c.ns.crm.mobikwik.com
 c.ns.e.citruspay.com
-c.paytm.com
 c100.payzippy.com
 ca.airpay.co.in
 cabi.ccavenue.com
@@ -154,7 +152,6 @@ ceaa.ebs.in
 cetsstore.ccavenue.com
 channels.citruspay.com
 chargeback.payu.in
-chat-staging.paytm.com
 chat2-paywith.paytm.com
 cheaphostingindia.ccavenue.com
 checkout-demo.citruspay.com
@@ -250,7 +247,6 @@ emails.mailer.mobikwik.com
 entertainmentblog.paytm.com
 epanditji.ccavenue.com
 esdeal.ccavenue.com
-events.razorpay.com
 ext-dev1-dev.freecharge.in
 ext-dev10-dev.freecharge.in
 ext-dev11-dev.freecharge.in
@@ -424,7 +420,6 @@ monitor.paas.paytm.com
 monitoring.payubiz.in
 mos.payu.in
 mpitest.payubiz.in
-ms.payu.in
 mseller.paytm.com
 mta-all16.info.payu.com
 mta-all28.info.payu.com

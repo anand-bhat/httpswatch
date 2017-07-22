@@ -25,7 +25,6 @@ cdn01.pharmeasy.in
 chat.easymedico.com
 cms.pharmeasy.in
 csc.1mg.com
-dawaaii.com
 dev-api.netmeds.com
 dev.netmeds.com
 dmg.1mg.com
@@ -46,7 +45,6 @@ lt.emaila.1mg.com
 m.netmeds.com
 m.savemymeds.com
 m.saveonmedicals.com
-madhuonlinepharmacy.in
 mail.apollopharmacy.in
 mail.easymedico.com
 mail.medixpres.com
@@ -109,13 +107,11 @@ www.blog.easymedico.com
 www.blog.medideal.in
 www.buydrug.in
 www.chat.easymedico.com
-www.dawaaii.com
 www.doctorportal.easymedico.com
 www.easymedico.com
 www.indiameds.in
 www.jobs.1mg.com
 www.m.saveonmedicals.com
-www.madhuonlinepharmacy.in
 www.mchemist.com
 www.medidart.com
 www.medideal.in

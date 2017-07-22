@@ -17,6 +17,9 @@
           "hostPurpose": "Home page"
         },
         {
+          "host": "application.axisbank.com"
+        },
+        {
           "host": "abr.axisbank.com",
           "httpsBehavior": "HTTPS only"
         },

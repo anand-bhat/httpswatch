@@ -34,6 +34,7 @@ efiler.in
 email.cleartax.in
 email.taxsmile.com
 ereturns.taxmantra.com
+expert.legalraasta.com
 ftp.taxmantra.com
 gateway.taxsmile.com
 hamaratax.com
@@ -44,7 +45,10 @@ helpdesk.taxspanner.com
 houston.mytaxfiler.com
 hrblock.in
 incometaxindiaefiling.gov.in
+itr.legalraasta.com
 latest.cleartds.com
+legalraasta.com
+loan.legalraasta.com
 login.mytaxfiler.com
 m.myitreturn.com
 m.taxshax.com
@@ -69,6 +73,7 @@ origin.taxspanner.com
 prelive.taxsmile.com
 qt-prd-sng-serv-1.quicko.com
 quicko.com
+search.legalraasta.com
 sendy.hrblock.in
 sendy2.hrblock.in
 skorydov.myitreturn.com
@@ -88,6 +93,7 @@ taxshax.com
 taxsmile.com
 taxspanner.com
 taxzippy.com
+tds.legalraasta.com
 tds.taxcloudindia.com
 tech.hrblock.in
 testcms.taxspanner.com
@@ -113,6 +119,7 @@ www.hamaratax.com
 www.help.myitreturn.com
 www.hrblock.in
 www.incometaxindiaefiling.gov.in
+www.legalraasta.com
 www.login.mytaxfiler.com
 www.m.myitreturn.com
 www.makemyreturns.com
