@@ -1,10 +1,13 @@
+"""Creates a hosts file from the domains JSON file."""
+
 import getopt
 import json
 import sys
 
 
 def main(argv):
-    domainsFile = ''
+    """Main function."""
+    domains_file = ''
 
     try:
         opts, args = getopt.getopt(
@@ -17,27 +20,28 @@ def main(argv):
             print('createHostsFile.py -d <domainsJSON>')
             sys.exit()
         elif opt in ('-d', '--domainsfile'):
-            domainsFile = arg
+            domains_file = arg
 
-    if not domainsFile:
+    if not domains_file:
         print('createHostsFile.py: ERROR: Missing parameter --domainsfile')
         sys.exit(2)
 
-    with open(domainsFile, 'r') as myfile:
+    with open(domains_file, 'r') as myfile:
         domains = myfile.read()
 
-    domainsJSON = json.loads(domains)
+    domains_json = json.loads(domains)
 
     hosts = []
 
-    for orgRecord in domainsJSON['organizations']:
-        for hostRecord in orgRecord['hosts']:
-            host = hostRecord.get('host', '')
+    for org_record in domains_json['organizations']:
+        for host_record in org_record['hosts']:
+            host = host_record.get('host', '')
 
             if host != '' and ':' not in host:
                 hosts.append(host)
 
     print('\n'.join(sorted(set(hosts))))
+
 
 if __name__ == '__main__':
     main(sys.argv[1:])

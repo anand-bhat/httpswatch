@@ -54,7 +54,7 @@ IF NOT "%_CREATEHOSTSFILE%"=="true" GOTO end_hosts
 ::MOVE .\data\hosts\hosts%_SCANGROUP%.txt .\data\backups\hosts\hosts%_SCANGROUP%_%_TIMESTAMP%.txt
 IF EXIST .\data\hosts\hosts%_SCANGROUP%.txt CALL "C:\Program Files\WinRAR\winrar.exe" a -ep -afzip .\data\backups\hosts\hosts%_SCANGROUP%_%_TIMESTAMP%.zip .\data\hosts\hosts%_SCANGROUP%.txt
 :: Create hosts list from domains JSON
-CALL PYTHON ./scripts/createHostsFile.py --domainsfile=./data/domains/domains%_SCANGROUP%.json > ./data/hosts/hosts%_SCANGROUP%.txt
+CALL PYTHON ./scripts/create_hosts_file.py --domainsfile=./data/domains/domains%_SCANGROUP%.json > ./data/hosts/hosts%_SCANGROUP%.txt
 :end_hosts
 
 :: Use Fiddler when running behind proxy unless you want to configure proxy for Python and Go
@@ -68,7 +68,7 @@ CALL GO run ./scripts/ssllabs-scan-v3.go --usecache=true --maxage=24 --ignore-mi
 
 :: Create data set for site report
 IF EXIST .\data\dataSets\dataSet%_SCANGROUP%.js CALL "C:\Program Files\WinRAR\winrar.exe" a -ep -afzip .\data\backups\dataSets\dataSet%_SCANGROUP%_%_TIMESTAMP%.zip .\data\dataSets\dataSet%_SCANGROUP%.js
-CALL PYTHON ./scripts/createDataSet.py --domainsfile=./data/domains/domains%_SCANGROUP%.json --ssllabsreportsfile=./data/ssllabsReports/ssllabsReport%_SCANGROUP%.json > ./data/dataSets/dataSet%_SCANGROUP%.js
+CALL PYTHON ./scripts/create_data_set.py --domainsfile=./data/domains/domains%_SCANGROUP%.json --ssllabsreportsfile=./data/ssllabsReports/ssllabsReport%_SCANGROUP%.json > ./data/dataSets/dataSet%_SCANGROUP%.js
 
 @ECHO OFF
 ENDLOCAL
