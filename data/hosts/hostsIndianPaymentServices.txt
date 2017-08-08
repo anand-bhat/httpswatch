@@ -615,8 +615,6 @@ smtpout.citruspay.com
 soniyastore.ccavenue.com
 southdemo.ebs.in
 sslpayment.atomtech.in
-sslv2.citruspay.com
-sslv2admin.citruspay.com
 sso.juspay.in
 stage.wallet.payu.com
 staging-assets.paytm.com
@@ -652,7 +650,6 @@ staticnew3.mobikwik.com
 statis6.mobikwik.com
 status.juspay.in
 stg.citruspay.com
-stgadmin.citruspay.com
 stganalytics.citruspay.com
 stgbillpay.citruspay.com
 stgconsumer.citruspay.com

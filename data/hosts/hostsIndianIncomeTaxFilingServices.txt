@@ -26,7 +26,6 @@ cleartds.com
 cms.taxspanner.com
 content.quicko.com
 cpanel.taxcareindia.com
-cx.hrblock.in
 devlive.myitreturn.com
 downloads.myitreturn.com
 drive.quicko.com

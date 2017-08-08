@@ -138,11 +138,6 @@
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/57"
         },
         {
-          "host": "cx.hrblock.in",
-          "hostPurpose": "Forum (unused)",
-          "httpsBehavior": "HTTP redirected to HTTPS"
-        },
-        {
           "host": "o1.em.hrblock.in",
           "httpsBehavior": "Unable to connect over HTTP and HTTPS"
         },

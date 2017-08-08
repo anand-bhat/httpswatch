@@ -378,7 +378,6 @@ myconnect.axisbank.com
 mymail.axisbank.com
 mymail.federalbank.co.in
 mymoneysso.icicibank.com
-mytraveller.axisbank.com
 nainitalbank.co.in
 netbank.dhanbank.in
 netbanking.hdfcbank.com
@@ -507,8 +506,6 @@ travelcard.axisbank.co.in
 traveler.hdfcbank.com
 traveler2.hdfcbank.com
 traveler3.hdfcbank.com
-traveller.axisbank.com
-traveller1.axisbank.com
 treasury-research.icicibank.com
 uat-etendering.axisbank.co.in
 universeonthemove.icicibank.com

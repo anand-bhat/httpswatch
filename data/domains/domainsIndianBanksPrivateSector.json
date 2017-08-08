@@ -70,10 +70,6 @@
           "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
         },
         {
-          "host": "mytraveller.axisbank.com",
-          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
-        },
-        {
           "host": "nsmtpinpn1.axisbank.com",
           "httpsBehavior": "Not used for HTTP/ HTTPS"
         },
@@ -114,14 +110,6 @@
         {
           "host": "test.axisbank.com",
           "httpsBehavior": "Not used for HTTP/ HTTPS"
-        },
-        {
-          "host": "traveller.axisbank.com",
-          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
-        },
-        {
-          "host": "traveller1.axisbank.com",
-          "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
         },
         {
           "host": "vpn.axisbank.com",

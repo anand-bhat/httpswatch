@@ -714,16 +714,7 @@
           "host": "smtpout.citruspay.com"
         },
         {
-          "host": "sslv2.citruspay.com"
-        },
-        {
-          "host": "sslv2admin.citruspay.com"
-        },
-        {
           "host": "stg.citruspay.com"
-        },
-        {
-          "host": "stgadmin.citruspay.com"
         },
         {
           "host": "stganalytics.citruspay.com"
