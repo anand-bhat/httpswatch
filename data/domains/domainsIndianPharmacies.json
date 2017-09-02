@@ -1,5 +1,5 @@
 {
-  "industry": "Indian pharmacies",
+  "industry": "Indian Pharmacies",
   "organizations": [
     {
       "organization": "NetMeds",
@@ -535,6 +535,9 @@
         {
           "host": "cms.pharmeasy.in",
           "httpsBehavior": "HTTP only"
+        },
+        {
+          "host": "jenkins.pharmeasy.in"
         },
         {
           "host": "share.pharmeasy.in",
