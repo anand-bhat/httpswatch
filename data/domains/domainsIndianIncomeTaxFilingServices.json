@@ -248,31 +248,6 @@
       ]
     },
     {
-      "organization": "Make My Returns",
-      "lastScanForSubdomains": "2017-05-31",
-      "domains": ["makemyreturns.com"],
-      "hosts": [
-        {
-          "host": "makemyreturns.com",
-          "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS downgraded",
-          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/125"
-        },
-        {
-          "host": "www.makemyreturns.com",
-          "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS downgraded",
-          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/123"
-        },
-        {
-          "host": "blog.makemyreturns.com",
-          "hostPurpose": "Blog",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS does not show same content as HTTP",
-          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/124"
-        }
-      ]
-    },
-    {
       "organization": "MyTaxCafe",
       "lastScanForSubdomains": "2017-05-31",
       "domains": ["mytaxcafe.com"],
@@ -645,16 +620,6 @@
           "httpsBehavior": "Unable to connect over HTTP and HTTPS"
         },
         {
-          "host": "gateway.taxsmile.com",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works",
-          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/84"
-        },
-        {
-          "host": "mails.taxsmile.com",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works",
-          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/85"
-        },
-        {
           "host": "prelive.taxsmile.com",
           "hostPurpose": "Testing (has login)",
           "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS does not show same content as HTTP",
@@ -665,15 +630,6 @@
           "hostPurpose": "Support (has login)",
           "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS does not show same content as HTTP",
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/87"
-        },
-        {
-          "host": "tsserver4.taxsmile.com"
-        },
-        {
-          "host": "webmail.taxsmile.com",
-          "hostPurpose": "Mail (has login)",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS does not show same content as HTTP",
-          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/88"
         }
       ]
     },

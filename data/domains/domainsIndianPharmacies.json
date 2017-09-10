@@ -224,52 +224,6 @@
       ]
     },
     {
-      "organization": "SaveMyMeds",
-      "lastScanForSubdomains": "2017-05-31",
-      "hosts": [
-        {
-          "host": "savemymeds.com",
-          "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP and HTTPS redirect to redirect to http://www.savemymeds.com",
-          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/118"
-        },
-        {
-          "host": "www.savemymeds.com",
-          "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works",
-          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/119"
-        },
-        {
-          "host": "api.savemymeds.com",
-          "httpsBehavior": "HTTP only",
-          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/120"
-        },
-        {
-          "host": "blog.savemymeds.com",
-          "hostPurpose": "Blog",
-          "httpsBehavior": "HTTP only",
-          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/121"
-        },
-        {
-          "host": "img.savemymeds.com",
-          "httpsBehavior": "HTTP only",
-          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/122"
-        },
-        {
-          "host": "m.savemymeds.com"
-        },
-        {
-          "host": "mail.savemymeds.com"
-        },
-        {
-          "host": "ns1.savemymeds.com"
-        },
-        {
-          "host": "ns2.savemymeds.com"
-        }
-      ]
-    },
-    {
       "organization": "1mg",
       "lastScanForSubdomains": "2017-05-31",
       "hosts": [

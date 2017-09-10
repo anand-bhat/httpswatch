@@ -6,7 +6,6 @@ api.medixpres.com
 api.myramed.in
 api.netmeds.com
 api.pharmeasy.in
-api.savemymeds.com
 apollopharmacy.in
 app.myramed.in
 articles.1mg.com
@@ -16,7 +15,6 @@ blog.easymedico.com
 blog.medideal.in
 blog.medplusmart.com
 blog.netmeds.com
-blog.savemymeds.com
 buydrug.in
 careers.netmeds.com
 careers.zigy.com
@@ -38,20 +36,17 @@ enewsletter.netmeds.com
 images.easymedico.com
 img-blog.netmeds.com
 img.1mg.com
-img.savemymeds.com
 indiameds.in
 jenkins.pharmeasy.in
 jobs.1mg.com
 lt.emaila.1mg.com
 m.netmeds.com
-m.savemymeds.com
 m.saveonmedicals.com
 mail.apollopharmacy.in
 mail.easymedico.com
 mail.medixpres.com
 mail.medplusmart.com
 mail.ritecure.com
-mail.savemymeds.com
 mail1.zigy.com
 mail2.zigy.com
 mailstats.1mg.com
@@ -67,11 +62,9 @@ notify.netmeds.com
 ns1.buydrug.in
 ns1.indiameds.in
 ns1.retailpharmaindia.com
-ns1.savemymeds.com
 ns2.buydrug.in
 ns2.indiameds.in
 ns2.retailpharmaindia.com
-ns2.savemymeds.com
 o47.mx.1mg.com
 patientportal.easymedico.com
 pharmeasy.in
@@ -82,7 +75,6 @@ retailpharmaindia.com
 ritecure.com
 rt.1mg.com
 rxmedikart.com
-savemymeds.com
 saveonmedicals.com
 share.pharmeasy.in
 spectreapi.1mg.com
@@ -126,7 +118,6 @@ www.practo-order.com
 www.retailpharmaindia.com
 www.ritecure.com
 www.rxmedikart.com
-www.savemymeds.com
 www.saveonmedicals.com
 www.staging.easymedico.com
 www.vps.buydrug.in
