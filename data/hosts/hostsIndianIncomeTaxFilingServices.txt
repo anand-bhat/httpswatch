@@ -8,7 +8,6 @@ aws.taxspanner.com
 beta.taxspanner.com
 blog.cleartax.in
 blog.hrblock.in
-blog.makemyreturns.com
 blog.myitreturn.com
 blog.quicko.com
 blog.taxchanakya.com
@@ -35,7 +34,6 @@ email.taxsmile.com
 ereturns.taxmantra.com
 expert.legalraasta.com
 ftp.taxmantra.com
-gateway.taxsmile.com
 hamaratax.com
 help.cleartax.in
 help.myitreturn.com
@@ -52,8 +50,6 @@ login.mytaxfiler.com
 m.myitreturn.com
 m.taxshax.com
 mail.taxchanakya.com
-mails.taxsmile.com
-makemyreturns.com
 myblock.hrblock.in
 myitreturn.com
 mytaxcafe.com
@@ -97,14 +93,12 @@ tds.taxcloudindia.com
 tech.hrblock.in
 testcms.taxspanner.com
 tracking.taxshax.com
-tsserver4.taxsmile.com
 u804.taxspanner.com
 uat.myitreturn.com
 uatui.myitreturn.com
 updates-1.cleartax.in
 vittetax.com
 web.quicko.com
-webmail.taxsmile.com
 www.auth.myitreturn.com
 www.blog.myitreturn.com
 www.chaireturn.com
@@ -121,7 +115,6 @@ www.incometaxindiaefiling.gov.in
 www.legalraasta.com
 www.login.mytaxfiler.com
 www.m.myitreturn.com
-www.makemyreturns.com
 www.myitreturn.com
 www.mytaxcafe.com
 www.mytaxfiler.com
