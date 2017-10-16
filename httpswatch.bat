@@ -47,6 +47,15 @@ SET _TIMESTAMP=%_yyyy%-%_mm%-%_dd%_%_hour%.%_minute%.%_second%
 :ts_error
 IF "%_TIMESTAMP%"=="" (SET _TIMESTAMP=%date:~10%-%date:~4,2%-%date:~7,2%)
 
+:: Make backup directories
+cd data
+mkdir backups
+cd backups
+mkdir hosts
+mkdir ssllabsReports
+mkdir dataSets
+cd ../..
+
 :: Hosts file
 IF NOT "%_CREATEHOSTSFILE%"=="true" GOTO end_hosts
 @ECHO ON
