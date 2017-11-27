@@ -206,10 +206,6 @@
           "httpsBehavior": "HTTPS only"
         },
         {
-          "host": "mx2.bankofbaroda.co.in",
-          "httpsBehavior": "HTTP only"
-        },
-        {
           "host": "www.bobibanking.com",
           "hostPurpose": "Internet Banking (Personal + Corporate)",
           "httpsBehavior": "HTTP redirected to HTTPS; no HSTS"
@@ -364,44 +360,6 @@
         {
           "host": "mail.mahaconnect.in",
           "httpsBehavior": "Not used for HTTP/ HTTPS"
-        }
-      ]
-    },
-    {
-      "organization": "Bharatiya Mahila Bank",
-      "hosts": [
-        {
-          "host": "www.bmb.co.in",
-          "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP only",
-          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/7"
-        },
-        {
-          "host": "bmb.co.in",
-          "hostPurpose": "Home page"
-        },
-        {
-          "host": "bmbmail.bmb.co.in",
-          "hostPurpose": "Webmail",
-          "httpsBehavior": "HTTP and HTTPS. No redirect. HTTPS serving different content"
-        },
-        {
-          "host": "mail.bmb.co.in",
-          "httpsBehavior": "HTTP and HTTPS. No redirect"
-        },
-        {
-          "host": "webmail.bmb.co.in",
-          "httpsBehavior": "Not used for HTTP/ HTTPS"
-        },
-        {
-          "host": "www.bmbsmartbanking.co.in",
-          "hostPurpose": "Internet Banking (Personal + Corporate)"
-        },
-        {
-          "host": "bmbsmartbanking.co.in",
-          "hostPurpose": "Internet Banking (Personal + Corporate)",
-          "httpsBehavior": "HTTPS only",
-          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/1"
         }
       ]
     },
@@ -1639,9 +1597,6 @@
         },
         {
           "host": "pfms.syndicatebank.in"
-        },
-        {
-          "host": "syndaadhar.syndicatebank.in"
         },
         {
           "host": "syndprotect.syndicatebank.in"

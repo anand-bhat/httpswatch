@@ -406,11 +406,6 @@
           "httpsBehavior": "HTTP only"
         },
         {
-          "host": "blog.taxchanakya.com",
-          "hostPurpose": "Blog",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
-        },
-        {
           "host": "mail.taxchanakya.com",
           "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS does not show same content as HTTP"
         }
@@ -451,12 +446,6 @@
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/41"
         },
         {
-          "host": "alpha.taxspanner.com",
-          "hostPurpose": "Testing environment (has login)",
-          "httpsBehavior": "HTTP redirected to HTTPS",
-          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/44"
-        },
-        {
           "host": "analytics.taxspanner.com",
           "hostPurpose": "Analytics (has login)",
           "httpsBehavior": "HTTP redirected to HTTPS",
@@ -488,11 +477,6 @@
           "host": "chat.taxspanner.com"
         },
         {
-          "host": "cms.taxspanner.com",
-          "hostPurpose": "CMS (has login)",
-          "httpsBehavior": "HTTP redirected to HTTPS"
-        },
-        {
           "host": "helpdesk.taxspanner.com"
         },
         {
@@ -507,11 +491,6 @@
         {
           "host": "testcms.taxspanner.com",
           "httpsBehavior": "Unable to connect over HTTP and HTTPS"
-        },
-        {
-          "host": "u804.taxspanner.com",
-          "httpsBehavior": "HTTP redirected to https://grantspayment.com; HTTPS works but did not redirect",
-          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/48"
         }
       ]
     },

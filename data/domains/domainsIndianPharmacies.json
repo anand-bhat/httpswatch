@@ -120,7 +120,8 @@
         {
           "host": "mail.apollopharmacy.in",
           "hostPurpose": "Mail",
-          "httpsBehavior": "HTTP only"
+          "httpsBehavior": "HTTP only",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/158"
         }
       ]
     },
@@ -141,10 +142,12 @@
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/69"
         },
         {
-          "host": "ns1.buydrug.in"
+          "host": "ns1.buydrug.in",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/159"
         },
         {
-          "host": "ns2.buydrug.in"
+          "host": "ns2.buydrug.in",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/160"
         },
         {
           "host": "vps.buydrug.in",
@@ -293,12 +296,6 @@
           "hostPurpose": "Employment portal",
           "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works",
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/64"
-        },
-        {
-          "host": "www.jobs.1mg.com",
-          "hostPurpose": "Employment portal",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works",
-          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/65"
         },
         {
           "host": "lt.emaila.1mg.com",
@@ -504,9 +501,6 @@
         {
           "host": "user.pharmeasy.in",
           "httpsBehavior": "HTTP only"
-        },
-        {
-          "host": "web.staging.pharmeasy.in"
         }
       ]
     },

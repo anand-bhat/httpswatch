@@ -92,7 +92,6 @@ test.myramed.in
 user.pharmeasy.in
 vps.buydrug.in
 web.myramed.in
-web.staging.pharmeasy.in
 webmail.easymedico.com
 www.1mg.com
 www.apollopharmacy.in
@@ -103,7 +102,6 @@ www.chat.easymedico.com
 www.doctorportal.easymedico.com
 www.easymedico.com
 www.indiameds.in
-www.jobs.1mg.com
 www.m.saveonmedicals.com
 www.mchemist.com
 www.medidart.com

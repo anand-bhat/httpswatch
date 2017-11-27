@@ -1,5 +1,4 @@
 admin.taxsmile.com
-alpha.taxspanner.com
 analytics.taxspanner.com
 app.quicko.com
 austin.mytaxfiler.com
@@ -10,7 +9,6 @@ blog.cleartax.in
 blog.hrblock.in
 blog.myitreturn.com
 blog.quicko.com
-blog.taxchanakya.com
 blog.taxsmile.com
 blog.taxspanner.com
 blogs.taxshax.com
@@ -22,7 +20,6 @@ chat.myitreturn.com
 chat.taxspanner.com
 cleartax.in
 cleartds.com
-cms.taxspanner.com
 content.quicko.com
 cpanel.taxcareindia.com
 devlive.myitreturn.com
@@ -93,7 +90,6 @@ tds.taxcloudindia.com
 tech.hrblock.in
 testcms.taxspanner.com
 tracking.taxshax.com
-u804.taxspanner.com
 uat.myitreturn.com
 uatui.myitreturn.com
 updates-1.cleartax.in
