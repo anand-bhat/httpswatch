@@ -168,6 +168,7 @@ $(document).ready(function () {
 			{title: '[F] Vulnerable to POODLE (TLS)', className: 'center'},
 			{title: '[F] Vulnerable to DROWN', className: 'center'},
 			{title: '[F] Vulnerable to Ticketbleed', className: 'center'},
+			{title: '[F] Vulnerable to ROBOT', className: 'center'},
 			{title: '[F] Supports SSLv2', className: 'center'},
 			{title: '[F] Supports Anonymous suites', className: 'center'},
 			{title: '[F] Only supports RC4 suites', className: 'center'},
@@ -235,14 +236,14 @@ $(document).ready(function () {
 					}
 					return '<div class="' + cellClass + '">' + data + '</div>';
 				},
-				targets: [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]
+				targets: [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37]
 			},
 			{
 				// Add title to cells
 				createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
 					$(cell).prop('title', 'Organization: ' + rowData[1] + '\r\nHost: ' + rowData[2] + '\r\nIP Address: ' + rowData[3] + '\r\nSSL Labs Grade: ' + rowData[4]);
 				},
-				targets: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]
+				targets: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37]
 			},
 			{type: 'enumgrade', targets: 4},
 			{visible: false, targets: [0, 3, 5, 6, 7, 8, 9, 10]}
