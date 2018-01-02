@@ -23,9 +23,6 @@ bankofmaharashtra.in
 barodaeacademy.bankofbaroda.co.in
 barodanetacademy.bankofbaroda.co.in
 bis.denabank.co.in
-bmb.co.in
-bmbmail.bmb.co.in
-bmbsmartbanking.co.in
 bobibanking.com
 boieazypay.bankofindia.com
 canarabank.com
@@ -181,7 +178,6 @@ mab.sbi.co.in
 mahaconnect.in
 mahakiosk.bankofmaharashtra.in
 mail.bankofbaroda.co.in
-mail.bmb.co.in
 mail.idbi.com
 mail.mahaconnect.in
 mail.obcindia.co.in
@@ -235,7 +231,6 @@ mx1.sbi.co.in
 mx10.sbi.co.in
 mx11.sbi.co.in
 mx12.sbi.co.in
-mx2.bankofbaroda.co.in
 mx2.sbi.co.in
 mx3.sbi.co.in
 mx4.sbi.co.in
@@ -348,7 +343,6 @@ starconnectcbs.bankofindia.com
 statebank.com
 statebankoftravancore.com
 stmclu01.sbi.co.in
-syndaadhar.syndicatebank.in
 syndicatebank.in
 syndonline.in
 syndprotect.syndicatebank.in
@@ -366,7 +360,6 @@ vc.denabank.co.in
 vcse.vc.denabank.co.in
 vijayabank.com
 vijaypath.sbi.co.in
-webmail.bmb.co.in
 webmail.denabank.co.in
 webmail.idbi.co.in
 webmail.idbiintech.com
@@ -386,8 +379,6 @@ www.bankofbaroda.co.in
 www.bankofindia.co.in
 www.bankofindia.com
 www.bankofmaharashtra.in
-www.bmb.co.in
-www.bmbsmartbanking.co.in
 www.bobibanking.com
 www.canarabank.com
 www.canarabank.in

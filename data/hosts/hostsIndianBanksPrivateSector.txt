@@ -31,7 +31,6 @@ allpay.axisbank.co.in
 analytics.axisbank.co.in
 and-prx-005.bank.kotak.com
 antispam.bandhanbank.com
-aof.yesbank.in
 aol.icicibank.com
 app.kotak.com
 appc.kotak.com
@@ -356,10 +355,8 @@ mofpi.hdfcbank.com
 moneyclick.karnatakabank.co.in
 mpay.icicibank.com
 mpayuat.icicibank.com
-mprepaid.icicibank.com
 msaleslive.axisbank.co.in
 msme.ktkbank.com
-mta.retail.icicibank.com
 mtp.axisbank.co.in
 muat.rblbank.com
 mutualfund.kotak.com
@@ -416,7 +413,6 @@ pragati.axisbank.co.in
 preownedgaadi.axisbank.com
 prepaid.axisbank.com
 prepaid.hdfcbank.com
-prepaid.icicibank.com
 prepaid.indusind.com
 prepaid.kvb.co.in
 prepaid.tmbnet.in
@@ -496,16 +492,12 @@ stpfcc.uat.enetbanking.hdfcbank.com
 survey.indusind.com
 synch.icicibank.com
 talentacquisition.yesbank.in
-test.axisbank.com
 testca.hdfcbank.com
 testmailer.hdfcbank.com
 tmb.in
 tmbnet.in
 tradefinance.hdfcbank.com
 travelcard.axisbank.co.in
-traveler.hdfcbank.com
-traveler2.hdfcbank.com
-traveler3.hdfcbank.com
 treasury-research.icicibank.com
 uat-etendering.axisbank.co.in
 universeonthemove.icicibank.com

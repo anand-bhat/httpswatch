@@ -598,12 +598,6 @@
           "host": "www.indiameds.in",
           "hostPurpose": "Home page",
           "httpsBehavior": "HTTP redirected to HTTPS"
-        },
-        {
-          "host": "ns1.indiameds.in"
-        },
-        {
-          "host": "ns2.indiameds.in"
         }
       ]
     },

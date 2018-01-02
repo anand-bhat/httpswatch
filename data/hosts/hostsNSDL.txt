@@ -8,7 +8,6 @@ Egov-mdm.nsdl.co.in
 Egov-seg.nsdl.co.in
 Legacy.nsdl.co.in
 Webmail.nsdl.co.in
-acgcts19.nsdl.com
 apollo.nsdl.com
 artemis.nsdl.com
 broadside.nsdl.com

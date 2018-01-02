@@ -528,9 +528,6 @@
           "host": "bcpdp1.hdfcbank.com"
         },
         {
-          "host": "bcpdp2.hdfcbank.com"
-        },
-        {
           "host": "ca.hdfcbank.com"
         },
         {
@@ -552,9 +549,6 @@
           "host": "corpssl.hdfcbank.com"
         },
         {
-          "host": "dividend.hdfcbank.com"
-        },
-        {
           "host": "dncdedupe.hdfcbank.com"
         },
         {
@@ -568,9 +562,6 @@
         },
         {
           "host": "etreasury.hdfcbank.com"
-        },
-        {
-          "host": "fesipo.hdfcbank.com"
         },
         {
           "host": "flexatsup.hdfcbank.com"
@@ -678,9 +669,6 @@
           "host": "mailer.hdfcbank.com"
         },
         {
-          "host": "mdcs.hdfcbank.com"
-        },
-        {
           "host": "mobilebanking.hdfcbank.com"
         },
         {
@@ -717,9 +705,6 @@
         },
         {
           "host": "offers.smartbuy.hdfcbank.com"
-        },
-        {
-          "host": "oneview.hdfcbank.com"
         },
         {
           "host": "onlineccredemption.hdfcbank.com"
@@ -946,16 +931,10 @@
           "host": "dnssecba.icicibank.com"
         },
         {
-          "host": "dofw.icicibank.com"
-        },
-        {
           "host": "dreamdeposits-sso.icicibank.com:8443"
         },
         {
           "host": "eazypay.icicibank.com"
-        },
-        {
-          "host": "ebusiness.icicibank.com"
         },
         {
           "host": "esos.icicibank.com"
