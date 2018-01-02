@@ -14,16 +14,16 @@ The code (and content) for the site rests within the `/docs` folder.
 | Name | Version | Website |
 | ----------- | ---- | ----------- |
 | jQuery | 3.2.1 | https://jquery.com |
-| Bootstrap | 3.3.7 | https://getbootstrap.com |
-| jQuery DataTables | 1.10.15 | https://datatables.net |
-| FixedHeader extension for jQuery DataTables | 3.1.2 | https://datatables.net/extensions/fixedheader/ |
+| Bootstrap | 4.0.0 Beta 2 | https://getbootstrap.com |
+| jQuery DataTables | 1.10.16 | https://datatables.net |
+| FixedHeader extension for jQuery DataTables | 3.1.3 | https://datatables.net/extensions/fixedheader/ |
 | Chart.js | 2.6.0 | http://www.chartjs.org/ |
 
 ## Components used for backend scripts
 
 | Name      | Version | Website |
 | ----------- | ---- | ----------- |
-| Python | 3.6.1 | https://www.python.org/|
-| Go | 1.8.3 | https://golang.org |
+| Python | 3.6.4 | https://www.python.org/|
+| Go | 1.9.2 | https://golang.org |
 | Official SSL Labs server test Go script (ssllabs-scan) | 1.5.0 | https://github.com/ssllabs/ssllabs-scan/tree/master |
 | Sublist3r | 1.0 | https://github.com/aboul3la/Sublist3r |
