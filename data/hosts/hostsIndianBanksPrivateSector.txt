@@ -51,7 +51,6 @@ bandhanbankonline.com
 bank-branch.kotak.com
 bank.kotak.com
 bcpdp1.hdfcbank.com
-bcpdp2.hdfcbank.com
 beta.tmb.in
 bib.dcbbank.com
 branch.yesbank.in
@@ -99,12 +98,10 @@ dbt.icicibank.com
 dhanbank.com
 dhanbank.in
 directremit.axisbank.co.in
-dividend.hdfcbank.com
 dnc.icicibank.com
 dncdedupe.hdfcbank.com
 dns1.indusind.com
 dnssecba.icicibank.com
-dofw.icicibank.com
 doingmybit.kotak.com
 dralerts1.kotak.com
 dralerts2.kotak.com
@@ -116,7 +113,6 @@ drsmtpout.axisbank.com
 easypay.axisbank.co.in
 eazypay.icicibank.com
 ebankingingvysya.kotak.com
-ebusiness.icicibank.com
 edgerewards.axisbank.com
 einsurance.kotak.com
 email.indusind.com
@@ -136,7 +132,6 @@ fedcampus.federalbank.co.in
 federalbank.co.in
 fedfast.federalbank.co.in
 fednetbank.com
-fesipo.hdfcbank.com
 fi.jkbank.net
 filesecure.bank.kotak.com
 financialplanner.dcbbank.com
@@ -324,7 +319,6 @@ mas.icicibank.com
 mb.dcbbank.com
 mb.rblbank.com
 mb.uat.kotak.com
-mdcs.hdfcbank.com
 mlrly.mail.yesbank.in
 mlrly1.mail.yesbank.in
 mlrly2.mail.yesbank.in
@@ -396,7 +390,6 @@ nwdev.hdfcbank.com
 nwquality.hdfcbank.com
 oas.axisbank.com
 offers.smartbuy.hdfcbank.com
-oneview.hdfcbank.com
 online.csb.co.in
 onlineccredemption.hdfcbank.com
 onlinecub.net

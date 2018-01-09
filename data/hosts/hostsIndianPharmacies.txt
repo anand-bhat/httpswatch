@@ -60,10 +60,8 @@ myramed.in
 netmeds.com
 notify.netmeds.com
 ns1.buydrug.in
-ns1.indiameds.in
 ns1.retailpharmaindia.com
 ns2.buydrug.in
-ns2.indiameds.in
 ns2.retailpharmaindia.com
 o47.mx.1mg.com
 patientportal.easymedico.com
