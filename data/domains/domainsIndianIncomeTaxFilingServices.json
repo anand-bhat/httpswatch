@@ -342,18 +342,8 @@
           "host": "app.quicko.com"
         },
         {
-          "host": "blog.quicko.com",
-          "hostPurpose": "Blog",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS does not show same content as HTTP"
-        },
-        {
           "host": "cdn.quicko.com",
           "httpsBehavior": "HTTP redirected to HTTPS"
-        },
-        {
-          "host": "content.quicko.com",
-          "httpsBehavior": "HTTP redirected to HTTPS",
-          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/145"
         },
         {
           "host": "drive.quicko.com"
@@ -495,23 +485,6 @@
       ]
     },
     {
-      "organization": "TaxZippy",
-      "lastScanForSubdomains": "2017-05-31",
-      "domains": ["taxzippy.com"],
-      "hosts": [
-        {
-          "host": "taxzippy.com",
-          "hostPurpose": "Home page (has login)",
-          "httpsBehavior": "HTTP redirected to HTTPS"
-        },
-        {
-          "host": "www.taxzippy.com",
-          "hostPurpose": "Home page (has login)",
-          "httpsBehavior": "HTTP redirected to HTTPS"
-        }
-      ]
-    },
-    {
       "organization": "Taxmantra",
       "lastScanForSubdomains": "2017-05-31",
       "domains": ["taxmantra.com"],
@@ -609,23 +582,6 @@
           "hostPurpose": "Support (has login)",
           "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS does not show same content as HTTP",
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/87"
-        }
-      ]
-    },
-    {
-      "organization": "VitteTax",
-      "lastScanForSubdomains": "2017-05-31",
-      "domains": ["vittetax.com"],
-      "hosts": [
-        {
-          "host": "vittetax.com",
-          "hostPurpose": "Home page (has login)",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
-        },
-        {
-          "host": "www.vittetax.com",
-          "hostPurpose": "Home page (has login)",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works"
         }
       ]
     },

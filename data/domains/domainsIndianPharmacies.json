@@ -198,35 +198,6 @@
       ]
     },
     {
-      "organization": "Zigy",
-      "lastScanForSubdomains": "2017-05-31",
-      "hosts": [
-        {
-          "host": "zigy.com",
-          "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP redirected to HTTPS"
-        },
-        {
-          "host": "www.zigy.com",
-          "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP redirected to HTTPS"
-        },
-        {
-          "host": "careers.zigy.com",
-          "hostPurpose": "Employment portal",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS does not show same content as HTTP"
-        },
-        {
-          "host": "mail1.zigy.com",
-          "httpsBehavior": "Unable to connect over HTTP and HTTPS"
-        },
-        {
-          "host": "mail2.zigy.com",
-          "httpsBehavior": "Unable to connect over HTTP and HTTPS"
-        }
-      ]
-    },
-    {
       "organization": "1mg",
       "lastScanForSubdomains": "2017-05-31",
       "hosts": [
@@ -414,28 +385,6 @@
           "host": "mail.ritecure.com",
           "hostPurpose": "Home page",
           "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS does not show same content as HTTP"
-        }
-      ]
-    },
-    {
-      "organization": "Retail Pharma India",
-      "lastScanForSubdomains": "2017-05-31",
-      "hosts": [
-        {
-          "host": "retailpharmaindia.com",
-          "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS does not show same content as HTTP"
-        },
-        {
-          "host": "www.retailpharmaindia.com",
-          "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS does not show same content as HTTP"
-        },
-        {
-          "host": "ns1.retailpharmaindia.com"
-        },
-        {
-          "host": "ns2.retailpharmaindia.com"
         }
       ]
     },

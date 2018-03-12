@@ -8,7 +8,6 @@ beta.taxspanner.com
 blog.cleartax.in
 blog.hrblock.in
 blog.myitreturn.com
-blog.quicko.com
 blog.taxsmile.com
 blog.taxspanner.com
 blogs.taxshax.com
@@ -20,7 +19,6 @@ chat.myitreturn.com
 chat.taxspanner.com
 cleartax.in
 cleartds.com
-content.quicko.com
 cpanel.taxcareindia.com
 devlive.myitreturn.com
 downloads.myitreturn.com
@@ -84,7 +82,6 @@ taxraahi.com
 taxshax.com
 taxsmile.com
 taxspanner.com
-taxzippy.com
 tds.legalraasta.com
 tds.taxcloudindia.com
 tech.hrblock.in
@@ -93,7 +90,6 @@ tracking.taxshax.com
 uat.myitreturn.com
 uatui.myitreturn.com
 updates-1.cleartax.in
-vittetax.com
 web.quicko.com
 www.auth.myitreturn.com
 www.blog.myitreturn.com
@@ -125,7 +121,5 @@ www.taxraahi.com
 www.taxshax.com
 www.taxsmile.com
 www.taxspanner.com
-www.taxzippy.com
 www.uat.myitreturn.com
 www.uatui.myitreturn.com
-www.vittetax.com

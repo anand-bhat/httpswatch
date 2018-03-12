@@ -17,7 +17,6 @@ blog.medplusmart.com
 blog.netmeds.com
 buydrug.in
 careers.netmeds.com
-careers.zigy.com
 cdn.saveonmedicals.com
 cdn01.pharmeasy.in
 chat.easymedico.com
@@ -47,8 +46,6 @@ mail.easymedico.com
 mail.medixpres.com
 mail.medplusmart.com
 mail.ritecure.com
-mail1.zigy.com
-mail2.zigy.com
 mailstats.1mg.com
 mchemist.com
 medidart.com
@@ -60,16 +57,13 @@ myramed.in
 netmeds.com
 notify.netmeds.com
 ns1.buydrug.in
-ns1.retailpharmaindia.com
 ns2.buydrug.in
-ns2.retailpharmaindia.com
 o47.mx.1mg.com
 patientportal.easymedico.com
 pharmeasy.in
 ppa.1mg.com
 practo-order.com
 r.1mg.com
-retailpharmaindia.com
 ritecure.com
 rt.1mg.com
 rxmedikart.com
@@ -111,11 +105,8 @@ www.netmeds.com
 www.patientportal.easymedico.com
 www.pharmeasy.in
 www.practo-order.com
-www.retailpharmaindia.com
 www.ritecure.com
 www.rxmedikart.com
 www.saveonmedicals.com
 www.staging.easymedico.com
 www.vps.buydrug.in
-www.zigy.com
-zigy.com
