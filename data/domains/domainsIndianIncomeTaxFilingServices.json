@@ -148,11 +148,6 @@
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/58"
         },
         {
-          "host": "sendy.hrblock.in",
-          "hostPurpose": "Login",
-          "httpsBehavior": "HTTP only"
-        },
-        {
           "host": "sendy2.hrblock.in",
           "hostPurpose": "Login",
           "httpsBehavior": "HTTP only"
@@ -455,7 +450,8 @@
         {
           "host": "blog.taxspanner.com",
           "hostPurpose": "Blog",
-          "httpsBehavior": "HTTP redirected to HTTPS"
+          "httpsBehavior": "HTTP redirected to HTTPS",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/166"
         },
         {
           "host": "bugz.taxspanner.com",
@@ -464,7 +460,8 @@
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/47"
         },
         {
-          "host": "chat.taxspanner.com"
+          "host": "chat.taxspanner.com",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/165"
         },
         {
           "host": "helpdesk.taxspanner.com"

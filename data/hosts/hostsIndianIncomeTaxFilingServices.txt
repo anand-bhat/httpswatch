@@ -64,7 +64,6 @@ prelive.taxsmile.com
 qt-prd-sng-serv-1.quicko.com
 quicko.com
 search.legalraasta.com
-sendy.hrblock.in
 sendy2.hrblock.in
 skorydov.myitreturn.com
 stg.login.mytaxfiler.com

@@ -72,10 +72,8 @@ e-gyan.andhrabank.in
 ebank.unitedbankofindia.com
 econnect.allahabadbank.in
 elearning.obcindia.co.in
-email1.idbibank.com
 email2.idbibank.com
 email3.idbibank.com
-email4.idbibank.com
 email5.idbibank.com
 email6.idbibank.com
 email7.idbibank.com

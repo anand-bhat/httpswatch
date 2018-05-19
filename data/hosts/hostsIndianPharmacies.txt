@@ -10,7 +10,6 @@ apollopharmacy.in
 app.myramed.in
 articles.1mg.com
 attachments.pharmeasy.in
-blog.1mg.com
 blog.easymedico.com
 blog.medideal.in
 blog.medplusmart.com
@@ -33,7 +32,6 @@ email.newsletter.1mg.com
 emaila.1mg.com
 enewsletter.netmeds.com
 images.easymedico.com
-img-blog.netmeds.com
 img.1mg.com
 indiameds.in
 jenkins.pharmeasy.in

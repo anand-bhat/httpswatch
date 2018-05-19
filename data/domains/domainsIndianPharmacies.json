@@ -8,7 +8,8 @@
         {
           "host": "netmeds.com",
           "hostPurpose": "Home page",
-          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS downgraded to HTTP"
+          "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS downgraded to HTTP",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/164"
         },
         {
           "host": "www.netmeds.com",
@@ -47,11 +48,6 @@
           "host": "enewsletter.netmeds.com",
           "httpsBehavior": "HTTP does not redirect to HTTPS; HTTPS works",
           "issueReport": "https://github.com/anand-bhat/httpswatch/issues/115"
-        },
-        {
-          "host": "img-blog.netmeds.com",
-          "httpsBehavior": "HTTP only",
-          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/117"
         },
         {
           "host": "m.netmeds.com",
@@ -180,10 +176,11 @@
         {
           "host": "blog.medplusmart.com",
           "hostPurpose": "Blog",
-          "httpsBehavior": "HTTP only"
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/162"
         },
         {
-          "host": "mail.medplusmart.com"
+          "host": "mail.medplusmart.com",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/163"
         },
         {
           "host": "static1.medplusmart.com",
@@ -230,9 +227,6 @@
           "host": "articles.1mg.com",
           "hostPurpose": "Blog",
           "httpsBehavior": "HTTP redirected to HTTPS"
-        },
-        {
-          "host": "blog.1mg.com"
         },
         {
           "host": "csc.1mg.com"
