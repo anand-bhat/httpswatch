@@ -38,7 +38,7 @@ Chart.pluginService.register({
 // Formatting function for row details
 function format(row) {
 	'use strict';
-	return '<table><tr><td>SSL Labs report: <a href="https://www.ssllabs.com/ssltest/analyze.html?d=' + row[2] + '&ignoreMismatch=on" rel="noopener" target="_blank">' + row[2] + '</a></td></tr></table>';
+	return '<table><tr><td>SSL Labs report: <a href="https://www.ssllabs.com/ssltest/analyze.html?d=' + row[2] + '&ignoreMismatch=on" rel="noopener nofollow" target="_blank">' + row[2] + '</a></td></tr></table>';
 }
 
 var gradeRank = {
@@ -76,6 +76,36 @@ var gradeClass = {
 	'Could not connect': 'grade-gray',
 	'Not scanned': 'grade-gray',
 	'Unknown domain': 'grade-gray'
+};
+
+var githubLabels = {
+	'[F] Vulnerable to Heartbleed': '[F] Heartbleed',
+	'[F] Vulnerable to CVE-2014-0224': '[F] CVE-2014-0224',
+	'[F] Vulnerable to CVE-2016-2107': '[F] CVE-2016-2107',
+	'[F] Vulnerable to FREAK': '[F] FREAK',
+	'[F] Vulnerable to Logjam': '[F] Logjam',
+	'[F] Vulnerable to POODLE (TLS)': '[F] POODLE (TLS)',
+	'[F] Vulnerable to DROWN': '[F] DROWN',
+	'[F] Vulnerable to Ticketbleed': '[F] Ticketbleed',
+	'[F] Vulnerable to ROBOT': '[F] ROBOT',
+	'[F] Supports SSLv2': '[F] SSLv2',
+	'[F] Supports Anonymous suites': '[F] Anon suites',
+	'[F] Only supports RC4 suites': '[F] RC4 only',
+	'[F] Supports Insecure renegotiation': '[F] Insecure Renegotiation',
+	'[F] No support for TLS': '[F] SSL only',
+	'[F] Supports insecure cipher suites': '[F] Insecure suites',
+	'[T] Untrusted certificate': '[T] Not trusted',
+	'[C] Vulnerable to POODLE (SSLv3)': '[C] POODLE (SSL)',
+	'[C] Lacks support for TLSv1.2': '[C] No TLS1.2',
+	'[C] Uses RC4 with modern protocols': '[C] RC4 with modern',
+	'[C] Uses 3DES with modern protocols': '[C] Short block cipher with modern',
+	'[B] Supports RC4': '[B] RC4',
+	'[B] Supports SSLv3': '[B] SSLv3',
+	'[B] Uses weak DH': '[B] Weak DH',
+	'[B] Has incomplete chain': '[B] Incomplete chain',
+	'[B] Has weak private key': '[B] Weak private key',
+	'[B] Lacks Forward Secrecy': '[B] No FS',
+	'[A-] Lacks Secure Renegotiation': '[A-] No Secure Renegotiation'
 };
 
 var gradesNotRequiringReport = ['A', 'A-', 'A+', 'Could not connect', 'Scan error', 'Not scanned', 'Unknown domain'];
@@ -185,7 +215,7 @@ $(document).ready(function () {
 			{title: '[B] Uses weak DH', className: 'center'},
 			{title: '[B] Has incomplete chain', className: 'center'},
 			{title: '[B] Has weak private key', className: 'center'},
-			{title: '[A-] Lacks Forward Secrecy', className: 'center'},
+			{title: '[B] Lacks Forward Secrecy', className: 'center'},
 			{title: '[A-] Lacks Secure Renegotiation', className: 'center'}
 		],
 		columnDefs: [
@@ -195,7 +225,7 @@ $(document).ready(function () {
 					if (type !== 'display') {
 						return data;
 					}
-					return '<div class="grade ' + (gradeClass[data] || 'grade-red') + '"><a class="white" href="https://www.ssllabs.com/ssltest/analyze.html?d=' + row[2] + '&ignoreMismatch=on" rel="noopener" target="_blank">' + data + '</a></div>';
+					return '<div class="grade ' + (gradeClass[data] || 'grade-red') + '"><a class="white" href="https://www.ssllabs.com/ssltest/analyze.html?d=' + row[2] + '&ignoreMismatch=on" rel="noopener nofollow" target="_blank">' + data + '</a></div>';
 				},
 				targets: 4
 			},
@@ -213,7 +243,48 @@ $(document).ready(function () {
 					if ($.inArray(row[4], gradesNotRequiringReport) !== -1) {
 						return data;
 					}
-					return '<a href="https://github.com/anand-bhat/httpswatch/issues/new" rel="noopener" target="_blank">Create</a>';
+
+					var title = row[2];
+					var body = 'Organization: ' + row[1] + '\nType: ' + row[7] + '\n\nHost: ' + row[2];
+					if (row[8] !== '?') {
+						body = body + '\nFunction: ' + row[8];
+					}
+
+					body = body + '\n\nhttps://www.ssllabs.com/ssltest/analyze.html?d=' + row[2] + '&ignoreMismatch=on'
+					body = body + '\n\nGrade: ' + row[4] + '\n\nIssues:';
+
+					var count = 1;
+					var api = new $.fn.dataTable.Api(meta.settings);
+					var labels = [];
+					for (var index = 11; index <= 37; index++) {
+						if (row[index] === 'Yes') {
+							var issue = $(api.column(index).header()).html();
+							body = body + '\n' + count + '. ' + issue;
+							count = count + 1;
+							labels.push(githubLabels[issue]);
+						}
+					}
+
+					// Add grade to label
+					if (row[4].startsWith('T')) {
+						labels.push('T');
+					} else {
+						labels.push(row[4]);
+					}
+
+					// Add org
+					labels.push('[' + row[7] + '] ' + row[1]);
+
+					var labelsText = '';
+					for (index = 0; index < labels.length; index++) {
+						labelsText += '&labels[]=' + encodeURIComponent(labels[index]);
+					}
+
+					//githubMilestones;
+					var milestone = row[7];
+
+					var details = '?title=' + encodeURIComponent(title) + '&body=' + encodeURIComponent(body) + labelsText + '&milestone=' + encodeURIComponent(milestone);
+					return '<a href="https://github.com/anand-bhat/httpswatch/issues/new' + details + '" rel="noopener" target="_blank">Create</a>';
 				},
 				targets: 10
 			},
