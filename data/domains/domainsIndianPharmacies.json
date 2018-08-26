@@ -288,7 +288,8 @@
           "host": "rt.1mg.com"
         },
         {
-          "host": "spectreapi.1mg.com"
+          "host": "spectreapi.1mg.com",
+          "issueReport": "https://github.com/anand-bhat/httpswatch/issues/167"
         },
         {
           "host": "sso.1mg.com"
