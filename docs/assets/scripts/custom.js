@@ -107,6 +107,7 @@ var githubLabels = {
 	'[B] Has incomplete chain': '[B] Incomplete chain',
 	'[B] Has weak private key': '[B] Weak private key',
 	'[B] Lacks Forward Secrecy': '[B] No FS',
+	'[B] Lacks support for AEAD cipher suites': '[B] Lacks AEAD',
 	'[A-] Lacks Secure Renegotiation': '[A-] No Secure Renegotiation'
 };
 
@@ -218,6 +219,7 @@ $(document).ready(function () {
 			{title: '[B] Has incomplete chain', className: 'center'},
 			{title: '[B] Has weak private key', className: 'center'},
 			{title: '[B] Lacks Forward Secrecy', className: 'center'},
+			{title: '[B] Lacks support for AEAD cipher suites', className: 'center'},
 			{title: '[A-] Lacks Secure Renegotiation', className: 'center'}
 		],
 		columnDefs: [
@@ -258,7 +260,7 @@ $(document).ready(function () {
 					var count = 1;
 					var api = new $.fn.dataTable.Api(meta.settings);
 					var labels = [];
-					for (var index = 11; index <= 37; index++) {
+					for (var index = 11; index <= 38; index++) {
 						if (row[index] === 'Yes') {
 							var issue = $(api.column(index).header()).html();
 							body = body + '\n' + count + '. ' + issue;
@@ -309,14 +311,14 @@ $(document).ready(function () {
 					}
 					return '<div class="' + cellClass + '">' + data + '</div>';
 				},
-				targets: [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37]
+				targets: [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38]
 			},
 			{
 				// Add title to cells
 				createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
 					$(cell).prop('title', 'Organization: ' + rowData[1] + '\r\nHost: ' + rowData[2] + '\r\nIP Address: ' + rowData[3] + '\r\nSSL Labs Grade: ' + rowData[4]);
 				},
-				targets: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37]
+				targets: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38]
 			},
 			{type: 'enumgrade', targets: 4},
 			{visible: false, targets: [0, 3, 5, 6, 7, 8, 9, 10]}

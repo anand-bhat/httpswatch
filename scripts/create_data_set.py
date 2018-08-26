@@ -86,7 +86,7 @@ def main(argv):
                                issue_report, '-', '-', '-', '-', '-', '-', '-',
                                '-', '-', '-', '-', '-', '-', '-', '-', '-',
                                '-', '-', '-', '-', '-', '-', '-', '-', '-',
-                               '-', '-']
+                               '-', '-', '-']
             print(data_set_values, ',')
 
             # Update chart data
@@ -194,6 +194,11 @@ def main(argv):
             # Determine if site has weak private key
             weak_private_key = value_if_graded(
                 grade, boolean_to_yes_no(cert_key_strength <= 1024))
+
+            # Determine if site does not support AEAD cipher suites
+            lacks_aead = value_if_graded(
+                grade, boolean_to_yes_no(
+                    not endpoint['details'].get('supportsAead', True)))
 
             # Protocol analysis - Check for SSL2.0, SSL3.0, lack of TLS, TLS1.2
             sslv2 = False
@@ -319,7 +324,7 @@ def main(argv):
                                weak_ciphers, trust_issues, poodle, notlsv12,
                                rc4_with_modern, sweet32, supports_rc4, sslv3,
                                weak_dh, incomplete_chain, weak_private_key,
-                               lacks_fs, lacks_secure_renegotiation]
+                               lacks_fs, lacks_aead, lacks_secure_renegotiation]
             print(data_set_values, ',')
 
             # Update chart data
@@ -349,7 +354,7 @@ def main(argv):
                                https_behavior, issue_report, '-', '-', '-',
                                '-', '-', '-', '-', '-', '-', '-', '-', '-',
                                '-', '-', '-', '-', '-', '-', '-', '-', '-',
-                               '-', '-', '-', '-', '-', '-']
+                               '-', '-', '-', '-', '-', '-', '-']
             print(data_set_values, ',')
 
             # Update chart data
