@@ -22,7 +22,9 @@ Chart.pluginService.register({
 	beforeUpdate: function(chartInstance, pluginOptions) {
 		var datasets = chartInstance.data.datasets;
 		var allData = datasets.map(function(dataset) { return dataset.data; });
-		chartInstance.data.originalData = allData;
+		if (typeof chartInstance.data.originalData  === 'undefined') {
+			chartInstance.data.originalData = allData;
+		}
 
 		var totals = Array.apply(null, new Array(allData[0].length)).map(function(el, i) {
 			return allData.reduce(function(sum, data) { return sum + data[i]; }, 0);
