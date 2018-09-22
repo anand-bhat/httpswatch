@@ -165,6 +165,7 @@ $(document).ready(function () {
 	var table = $('#httpsdata').DataTable({
 		dom: 'Bfrtip',
 		buttons: [
+			'pageLength',
 			'copyHtml5',
 			'excelHtml5',
 			'csvHtml5'
@@ -294,7 +295,7 @@ $(document).ready(function () {
 					var milestone = row[7];
 
 					var details = '?title=' + encodeURIComponent(title) + '&body=' + encodeURIComponent(body) + labelsText + '&milestone=' + encodeURIComponent(milestone);
-					return '<a href="https://github.com/anand-bhat/httpswatch/issues/new' + details + '" rel="noopener" target="_blank">Create</a>';
+					return '<a href="https://github.com/anand-bhat/httpswatch/issues/new' + details + '" rel="noopener nofollow" target="_blank">Create</a>';
 				},
 				targets: 10
 			},
